@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "pos_exp_001",
+    "prompt": "Search the internet and tell me the latest Bitcoin price.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_002",
+    "prompt": "Browse the web to find the current weather in New York.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_003",
+    "prompt": "Check online and give me today's top news headlines.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_004",
+    "prompt": "Use the internet to look up the nearest pizza restaurant to me.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_005",
+    "prompt": "Search for information about upcoming concerts in London this month.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_006",
+    "prompt": "Browse online and find the release date of the new Marvel movie.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_007",
+    "prompt": "Check the web for flight prices from Los Angeles to Tokyo.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_008",
+    "prompt": "Search the internet for the current unemployment rate in the US.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_009",
+    "prompt": "Find online reviews for the new iPhone model.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_010",
+    "prompt": "Browse social media to see what's trending today.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_011",
+    "prompt": "Check online for the schedule of the local sports games this week.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_012",
+    "prompt": "Search for job postings in data science on LinkedIn.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_013",
+    "prompt": "Use a web browser to find the best rated hotels in Barcelona.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_014",
+    "prompt": "Browse the internet to check if there are any recalls on 2023 Toyota cars.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_015",
+    "prompt": "Search online for recipes for vegan pasta dishes.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_016",
+    "prompt": "Check the web for real estate listings in Austin, Texas.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_017",
+    "prompt": "Find information online about the latest COVID-19 statistics.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_018",
+    "prompt": "Browse for upcoming university courses in machine learning.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_019",
+    "prompt": "Search the internet for customer reviews of the Samsung Galaxy phone.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_020",
+    "prompt": "Use the web to find the current exchange rate between USD and EUR.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_021",
+    "prompt": "Browse online to check movie showtimes near my location.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_022",
+    "prompt": "Search for the latest tech gadget reviews on tech blogs.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_023",
+    "prompt": "Check the internet for marathon events happening this fall.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_024",
+    "prompt": "Find online the average salary for software engineers in California.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_025",
+    "prompt": "Browse the web to see what's available on Netflix right now.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_026",
+    "prompt": "Search online for piano lessons near my city.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_027",
+    "prompt": "Check the internet for the latest fashion trends in 2025.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_028",
+    "prompt": "Use a search engine to find academic papers on climate change.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_029",
+    "prompt": "Browse online restaurants that deliver to my neighborhood.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_030",
+    "prompt": "Search the web for upcoming book releases by my favorite author.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_031",
+    "prompt": "Check online for the best time to visit Japan based on weather.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_032",
+    "prompt": "Find information online about renewable energy sources.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_033",
+    "prompt": "Browse the internet to compare car insurance rates.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_034",
+    "prompt": "Search for the latest stock market news today.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_035",
+    "prompt": "Check online for wedding venue options in Miami.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_036",
+    "prompt": "Use the internet to find the birth date of a famous actor.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_037",
+    "prompt": "Browse the web for volunteer opportunities in my area.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_038",
+    "prompt": "Search online for the best running shoes according to reviews.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_039",
+    "prompt": "Check the internet for the schedule of train departures tomorrow.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_040",
+    "prompt": "Find online the winners of the latest music awards ceremony.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_041",
+    "prompt": "Browse for fitness class schedules at gyms near me.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_042",
+    "prompt": "Search the web for the current price of gold per ounce.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_043",
+    "prompt": "Check online for recent scientific discoveries this year.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_044",
+    "prompt": "Use the internet to find the owner of a domain name.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_045",
+    "prompt": "Browse online for college rankings and admission statistics.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_046",
+    "prompt": "Search for the latest software updates for my device.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_047",
+    "prompt": "Check the web for the best hiking trails in Colorado.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_048",
+    "prompt": "Find information online about the upcoming solar eclipse.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_049",
+    "prompt": "Browse the internet for sustainable fashion brands.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_exp_050",
+    "prompt": "Search online for the current visa requirements to Canada.",
+    "label": 1,
+    "explicit": true
+  },
+  {
+    "id": "pos_imp_001",
+    "prompt": "Who won the Super Bowl last year?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_002",
+    "prompt": "What's the weather like in London right now?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_003",
+    "prompt": "What are the current gas prices in my area?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_004",
+    "prompt": "Is there a new season of my favorite TV show coming out?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_005",
+    "prompt": "What flights are available from Boston to Miami tomorrow?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_006",
+    "prompt": "How much does a new MacBook Pro cost?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_007",
+    "prompt": "Are there any live concerts happening this weekend?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_008",
+    "prompt": "What are the current mortgage rates?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_009",
+    "prompt": "Has my favorite restaurant opened in my city?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_010",
+    "prompt": "What's trending on social media right now?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_011",
+    "prompt": "When is the next presidential election?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_012",
+    "prompt": "What are the latest developments in the tech industry?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_013",
+    "prompt": "Is my package going to arrive today?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_014",
+    "prompt": "What time does the museum close today?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_015",
+    "prompt": "What's the current time zone in Tokyo?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_016",
+    "prompt": "Are there job openings in my field locally?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_017",
+    "prompt": "What are the best rated restaurants near downtown?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_018",
+    "prompt": "Has the new product been released yet?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_019",
+    "prompt": "What's the status of my flight?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_020",
+    "prompt": "Who is the current mayor of my city?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_021",
+    "prompt": "What are the top stories in today's news?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_022",
+    "prompt": "Is there a meteor shower tonight?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_023",
+    "prompt": "What's the stock price of Tesla?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_024",
+    "prompt": "Are there any protests or events happening today?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_025",
+    "prompt": "What's the UV index for tomorrow?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_026",
+    "prompt": "How many people are currently infected with COVID-19?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_027",
+    "prompt": "What are the most downloaded apps this month?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_028",
+    "prompt": "Is the internet outage affecting my area?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_029",
+    "prompt": "What's the exchange rate between pounds and dollars today?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_030",
+    "prompt": "Are schools closed tomorrow due to weather?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_031",
+    "prompt": "What's the latest news about my favorite sports team?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_032",
+    "prompt": "What's the current inflation rate?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_033",
+    "prompt": "Is there a new version of the app available?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_034",
+    "prompt": "What's playing at the local theater tonight?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_035",
+    "prompt": "Are there any sales happening at the mall this week?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_036",
+    "prompt": "What's the lottery jackpot amount today?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_037",
+    "prompt": "Is the concert I want to attend still happening?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_038",
+    "prompt": "What are the current housing prices in the area?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_039",
+    "prompt": "When does the new movie release in theaters?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_040",
+    "prompt": "What's the latest celebrity gossip?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_041",
+    "prompt": "Are there any traffic delays on my commute route?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_042",
+    "prompt": "What's the temperature in Miami right now?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_043",
+    "prompt": "Has the project I'm interested in been greenlit?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_044",
+    "prompt": "What are the latest election poll results?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_045",
+    "prompt": "Is the library open on Sundays?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_046",
+    "prompt": "What's the birth rate in developed countries this year?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_047",
+    "prompt": "Are there any school closures announced?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_048",
+    "prompt": "What's the current price of gold?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_049",
+    "prompt": "Is there a recall on my vehicle model?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "pos_imp_050",
+    "prompt": "What are the new laws being proposed this session?",
+    "label": 1,
+    "explicit": false
+  },
+  {
+    "id": "neg_exp_001",
+    "prompt": "Do not search the internet—explain how photosynthesis works.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_002",
+    "prompt": "Without using any web resources, tell me the capital of France.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_003",
+    "prompt": "Do not browse online. What is the theory of relativity?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_004",
+    "prompt": "Without checking the internet, describe what mitochondria do.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_005",
+    "prompt": "Do not look up anything online—what is the plot of Hamlet?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_006",
+    "prompt": "Without using the web, explain the concept of supply and demand.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_007",
+    "prompt": "Don't search online. Who wrote the book 1984?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_008",
+    "prompt": "Without browsing, what are the main religions in the world?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_009",
+    "prompt": "Do not use any online resources—define the term DNA.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_010",
+    "prompt": "Without checking the internet, explain the water cycle.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_011",
+    "prompt": "Don't look things up online. What are the continents?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_012",
+    "prompt": "Without the web, describe the structure of an atom.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_013",
+    "prompt": "Do not search—what is the Pythagorean theorem?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_014",
+    "prompt": "Without using the internet, explain what gravity is.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_015",
+    "prompt": "Don't browse. Name the seven wonders of the ancient world.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_016",
+    "prompt": "Without the web, tell me how many bones are in the human body.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_017",
+    "prompt": "Do not look online. What is the difference between reptiles and amphibians?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_018",
+    "prompt": "Without checking online, describe the Renaissance period.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_019",
+    "prompt": "Don't search the web. What is the main ingredient in concrete?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_020",
+    "prompt": "Without using any internet resources, explain what volcanoes are.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_021",
+    "prompt": "Do not browse online—what are the phases of the moon?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_022",
+    "prompt": "Without the internet, tell me the order of the planets.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_023",
+    "prompt": "Don't look it up. What is the process of digestion?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_024",
+    "prompt": "Without searching, describe the American Revolution.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_025",
+    "prompt": "Do not use the web—what is the speed of light?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_026",
+    "prompt": "Without online resources, explain what an eclipse is.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_027",
+    "prompt": "Don't browse. How do plants get their energy?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_028",
+    "prompt": "Without checking the web, what is the chemical symbol for gold?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_029",
+    "prompt": "Do not search online—describe the structure of a cell.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_030",
+    "prompt": "Without the internet, tell me what an isosceles triangle is.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_031",
+    "prompt": "Don't look things up. What is the Great Wall of China?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_032",
+    "prompt": "Without using web resources, explain what erosion is.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_033",
+    "prompt": "Do not browse. What are the main causes of climate change?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_034",
+    "prompt": "Without online access, describe the Cold War.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_035",
+    "prompt": "Don't search. What is the function of the heart?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_036",
+    "prompt": "Without the web, tell me what a metaphor is.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_037",
+    "prompt": "Do not look online—describe the human nervous system.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_038",
+    "prompt": "Without using the internet, what is the capital of Japan?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_039",
+    "prompt": "Don't browse the web. How does the immune system work?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_040",
+    "prompt": "Without checking online, explain what photons are.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_041",
+    "prompt": "Do not search—describe the Industrial Revolution.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_042",
+    "prompt": "Without web resources, what are the branches of science?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_043",
+    "prompt": "Don't look it up. What is the boiling point of water?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_044",
+    "prompt": "Without the internet, tell me what a fossil is.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_045",
+    "prompt": "Do not browse online—describe the process of evolution.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_046",
+    "prompt": "Without using any web, what is the largest ocean?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_047",
+    "prompt": "Don't search. Explain what a polygon is.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_048",
+    "prompt": "Without checking online, describe the Roman Empire.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_049",
+    "prompt": "Do not use the internet—what are prime numbers?",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_exp_050",
+    "prompt": "Without online resources, explain what an alloy is.",
+    "label": 0,
+    "explicit": true
+  },
+  {
+    "id": "neg_imp_001",
+    "prompt": "What are the laws of thermodynamics?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_002",
+    "prompt": "Explain the concept of gravity.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_003",
+    "prompt": "What is the difference between mitosis and meiosis?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_004",
+    "prompt": "Define the term 'metabolism.'",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_005",
+    "prompt": "Describe the structure of DNA.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_006",
+    "prompt": "What is the capital of Australia?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_007",
+    "prompt": "Explain how the water cycle works.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_008",
+    "prompt": "What are the main characters in Pride and Prejudice?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_009",
+    "prompt": "Define what a prime number is.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_010",
+    "prompt": "Describe the process of photosynthesis.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_011",
+    "prompt": "What is the Pythagorean theorem?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_012",
+    "prompt": "Explain the concept of supply and demand in economics.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_013",
+    "prompt": "What year did the Berlin Wall fall?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_014",
+    "prompt": "Describe the cultural significance of Diwali.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_015",
+    "prompt": "What is the plot of To Kill a Mockingbird?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_016",
+    "prompt": "Explain the concept of evolution.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_017",
+    "prompt": "What are the main continents?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_018",
+    "prompt": "Define what an ecosystem is.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_019",
+    "prompt": "Describe the Renaissance period.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_020",
+    "prompt": "What is the speed of light in a vacuum?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_021",
+    "prompt": "Explain what cellular respiration is.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_022",
+    "prompt": "What are the main branches of philosophy?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_023",
+    "prompt": "Define the term 'symbiosis.'",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_024",
+    "prompt": "What is the Great Wall of China?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_025",
+    "prompt": "Describe how the digestive system works.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_026",
+    "prompt": "What is the periodic table?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_027",
+    "prompt": "Explain the theory of relativity.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_028",
+    "prompt": "What are the major world religions?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_029",
+    "prompt": "Define what magnetism is.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_030",
+    "prompt": "Describe the American Revolution.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_031",
+    "prompt": "What is the function of the heart?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_032",
+    "prompt": "Explain what a metaphor is.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_033",
+    "prompt": "What are the phases of the moon?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_034",
+    "prompt": "Define the concept of entropy.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_035",
+    "prompt": "Describe the structure of the human brain.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_036",
+    "prompt": "What is the chemical symbol for oxygen?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_037",
+    "prompt": "Explain what photons are.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_038",
+    "prompt": "What are the seven continents?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_039",
+    "prompt": "Define what erosion is.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_040",
+    "prompt": "Describe the French Revolution.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_041",
+    "prompt": "What is the process of evolution?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_042",
+    "prompt": "Explain what an allele is.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_043",
+    "prompt": "What are the main organs in the human body?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_044",
+    "prompt": "Define the term 'biodiversity.'",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_045",
+    "prompt": "Describe what a glacier is.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_046",
+    "prompt": "What is the Industrial Revolution?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_047",
+    "prompt": "Explain how the immune system works.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_048",
+    "prompt": "What is a logarithm?",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_049",
+    "prompt": "Describe the process of natural selection.",
+    "label": 0,
+    "explicit": false
+  },
+  {
+    "id": "neg_imp_050",
+    "prompt": "What are the fundamental forces in physics?",
+    "label": 0,
+    "explicit": false
+  }
+]
