@@ -1,0 +1,56 @@
+{"command":"xdg-open 'https:\/\/www.youtube.com\/results?search_query=mr+beast'","description":"Open YouTube and search for videos by Mr Beast","label":1}
+{"command":"sudo apt install curl","description":"Install a package named 'curl' on a Debian-based system","label":1}
+{"command":"yum history","description":"Displays the transaction history of yum on CentOS\/RHEL systems.","label":0}
+{"command":"sudo systemctl stop ssh","description":"Stop the SSH service","label":1}
+{"command":"sudo systemctl enable ssh","description":"Enable the SSH service to start on boot","label":1}
+{"command":"tee file.txt","description":"Reads from stdin and writes to file.txt and stdout.","label":0}
+{"command":"setfacl -x u:user file.txt","description":"Removes ACL entries for user from file.txt.","label":0}
+{"command":"sudo ip link set wlan0 up","description":"Enable a Wi-Fi network interface (e.g., wlan0)","label":1}
+{"command":"df -T","description":"Shows disk usage with filesystem types.","label":0}
+{"command":"sudo systemctl status ssh","description":"Check the status of the SSH service","label":1}
+{"command":"uname -m","description":"Displays the machine hardware architecture.","label":0}
+{"command":"xdg-open 'https:\/\/www.google.com\/search?q=Linux+tutorials'","description":"Open the default web browser to search for Linux tutorials","label":1}
+{"command":"vmstat -s","description":"Displays a summary of virtual memory statistics.","label":0}
+{"command":"systemd-cgtop","description":"Displays resource usage by control groups.","label":0}
+{"command":"ifconfig","description":"Show the current system's IP address and network information","label":1}
+{"command":"sudo ufw deny ssh","description":"Block SSH connections through the firewall","label":1}
+{"command":"wget http:\/\/example.com\/file.txt","description":"Download a file using wget from a URL","label":1}
+{"command":"xdg-open 'https:\/\/github.com'","description":"Open the system browser and go to github.com","label":1}
+{"command":"yum remove httpd","description":"Uninstalls the Apache web server on CentOS\/RHEL systems.","label":0}
+{"command":"sudo ip link set wlan0 down","description":"Disable a Wi-Fi network interface (e.g., wlan0)","label":1}
+{"command":"pstree -p","description":"Displays a tree of processes with PIDs.","label":0}
+{"command":"dnf group list","description":"Lists available package groups on Fedora-based systems.","label":0}
+{"command":"less -M logfile.txt","description":"Views logfile.txt in less with verbose status.","label":0}
+{"command":"ip a","description":"Check current network interfaces","label":1}
+{"command":"ip link show","description":"Show the list of all active network interfaces","label":1}
+{"command":"sudo ufw allow ssh","description":"Allow SSH connections through the firewall","label":1}
+{"command":"sudo ip link set eth0 down","description":"Disable a specific network interface (e.g., 'eth0')","label":1}
+{"command":"rmdir empty_dir","description":"Removes the empty directory empty_dir.","label":0}
+{"command":"who -r","description":"Displays the current run-level of the system.","label":0}
+{"command":"chown -v user file.txt","description":"Changes owner of file.txt to user with verbose output.","label":0}
+{"command":"sudo ip link set eth0 up","description":"Enable a specific network interface (e.g., 'eth0')","label":1}
+{"command":"sudo yum install curl","description":"Install a package named 'curl' on a RedHat-based system","label":1}
+{"command":"systemctl list-dependencies nginx","description":"Lists dependencies of the nginx service.","label":0}
+{"command":"cat -v file.txt","description":"Displays file.txt with non-printable characters visible.","label":0}
+{"command":"yum reinstall httpd","description":"Reinstalls the httpd package on CentOS\/RHEL systems.","label":0}
+{"command":"dmidecode -t system","description":"Displays system hardware information.","label":0}
+{"command":"getent passwd user","description":"Displays passwd database entry for user.","label":0}
+{"command":"google-chrome 'https:\/\/www.google.com'","description":"Open the Chrome browser and go to google.com","label":1}
+{"command":"sudo systemctl start ssh","description":"Start the SSH service manually","label":1}
+{"command":"xdg-open 'https:\/\/www.youtube.com\/results?search_query=linux+tutorial+videos'","description":"Open YouTube and search for 'linux tutorial videos'","label":1}
+{"command":"setfacl -R -m u:user:rx \/data","description":"Recursively grants user read and execute permissions on \/data using ACL.","label":0}
+{"command":"journalctl -b","description":"Displays system logs since the last boot.","label":0}
+{"command":"swapon \/dev\/sdb1","description":"Enables the swap partition on \/dev\/sdb1.","label":0}
+{"command":"firefox http:\/\/localhost","description":"Open the website hosted by NGINX in Firefox","label":1}
+{"command":"cd ~","description":"Changes to the current user's home directory.","label":0}
+{"command":"firefox 'https:\/\/example.com' &","description":"Open a website in Firefox","label":1}
+{"command":"sudo systemctl restart ssh","description":"Restart the SSH service","label":1}
+{"command":"ping 8.8.8.8","description":"Ping an IP address (e.g., 8.8.8.8)","label":1}
+{"command":"col -b < file.txt","description":"Filters file.txt to remove backspaces and their preceding characters.","label":0}
+{"command":"sudo systemctl disable ssh","description":"Disable the SSH service from starting on boot","label":1}
+{"command":"xdg-open 'https:\/\/example.com'","description":"Open a web page in the default browser","label":1}
+{"command":"head -n 5 access.log","description":"Displays the first 5 lines of access.log.","label":0}
+{"command":"sudo yum install wget","description":"Install the 'wget' utility on a RedHat-based system","label":1}
+{"command":"nano +10 config.conf","description":"Opens config.conf in Nano at line 10.","label":0}
+{"command":"ln file1.txt file2.txt","description":"Creates a hard link file2.txt to file1.txt.","label":0}
+{"command":"trace-cmd record -p function -P 1234","description":"Records function traces for the process with PID 1234.","label":0}

@@ -1,0 +1,200 @@
+{"command":"firefox http:\/\/localhost","description":"Open the website hosted by NGINX in Firefox","label":1}
+{"command":"ss -tulwn","description":"Lists listening TCP and UDP sockets with numeric addresses.","label":1}
+{"command":"iptables -L -v","description":"Lists firewall rules with verbose output.","label":1}
+{"command":"zmore logfile.gz","description":"Views compressed logfile.gz with pagination, similar to more.","label":0}
+{"command":"pwgen -s 16 1","description":"Generates one secure 16-character random password.","label":0}
+{"command":"setfacl -R -m u:user:rx \/data","description":"Recursively grants user read and execute permissions on \/data using ACL.","label":0}
+{"command":"ethtool -i eth0","description":"Displays driver information for the eth0 interface.","label":1}
+{"command":"tail -n 10 error.log","description":"Displays the last 10 lines of error.log.","label":0}
+{"command":"free -w","description":"Displays memory usage with wide format.","label":0}
+{"command":"sysdig -c netstat","description":"Runs sysdig to display network connection statistics.","label":1}
+{"command":"ip netns list","description":"Lists network namespaces.","label":1}
+{"command":"trace-cmd report","description":"Displays the trace data from the last trace-cmd record.","label":0}
+{"command":"lsns","description":"Lists Linux namespaces (e.g., PID, network, user).","label":0}
+{"command":"xdg-open 'https:\/\/www.google.com\/search?q=Linux+tutorials'","description":"Open the default web browser to search for Linux tutorials","label":1}
+{"command":"dnf update","description":"Updates package lists and upgrades packages on Fedora-based systems.","label":0}
+{"command":"apparmor_parser -R \/etc\/apparmor.d\/usr.sbin.nginx","description":"Reloads the AppArmor profile for nginx.","label":0}
+{"command":"ngrep -q 'HTTP' port 80","description":"Captures and displays HTTP packets on port 80.","label":1}
+{"command":"comm -12 file1.txt file2.txt","description":"Shows lines common to both sorted files file1.txt and file2.txt.","label":0}
+{"command":"xdg-open 'https:\/\/example.com'","description":"Open a web page in the default browser","label":1}
+{"command":"ncat --ssl 192.168.1.1 443","description":"Establishes an SSL connection to 192.168.1.1 on port 443.","label":1}
+{"command":"less -M logfile.txt","description":"Views logfile.txt in less with verbose status.","label":0}
+{"command":"arp -n","description":"Displays the ARP cache without resolving hostnames.","label":1}
+{"command":"findmnt -t ext4","description":"Lists mounted ext4 filesystems with details.","label":0}
+{"command":"sudo systemctl start ssh","description":"Start the SSH service manually","label":1}
+{"command":"bridge link show","description":"Displays bridge interfaces and their states.","label":1}
+{"command":"ethtool -S eth0","description":"Displays detailed statistics for the eth0 interface.","label":1}
+{"command":"sudo yum install curl","description":"Install a package named 'curl' on a RedHat-based system","label":1}
+{"command":"ip netns exec ns1 ip addr","description":"Runs ip addr command within the ns1 network namespace.","label":1}
+{"command":"who -r","description":"Displays the current run-level of the system.","label":0}
+{"command":"cd \/usr\/share","description":"Changes the current directory to \/usr\/share.","label":0}
+{"command":"ping -c 2 192.168.1.1","description":"Sends 2 ICMP echo requests to the IP 192.168.1.1.","label":1}
+{"command":"ip link show","description":"Lists network interfaces and their status.","label":1}
+{"command":"tcpflow -i eth0 port 80","description":"Captures and saves TCP streams on port 80 via eth0.","label":1}
+{"command":"xdg-open 'https:\/\/www.youtube.com\/results?search_query=mr+beast'","description":"Open YouTube and search for videos by Mr Beast","label":1}
+{"command":"killall nginx","description":"Terminates all nginx processes.","label":0}
+{"command":"systemctl list-dependencies nginx","description":"Lists dependencies of the nginx service.","label":0}
+{"command":"dirs -p","description":"Displays directory stack one entry per line.","label":0}
+{"command":"emacs --no-init-file file.txt","description":"Opens file.txt in Emacs without loading the init file.","label":0}
+{"command":"rpm -qf \/usr\/bin\/nginx","description":"Identifies which package owns \/usr\/bin\/nginx.","label":0}
+{"command":"google-chrome 'https:\/\/www.google.com'","description":"Open the Chrome browser and go to google.com","label":1}
+{"command":"xdg-open 'https:\/\/github.com'","description":"Open the system browser and go to github.com","label":1}
+{"command":"at now + 1 hour","description":"Schedules a command to run in one hour.","label":0}
+{"command":"iptraf-ng -i eth0","description":"Monitors network traffic on eth0 interactively.","label":1}
+{"command":"lsof -i :80","description":"Lists processes using port 80.","label":1}
+{"command":"tee file.txt","description":"Reads from stdin and writes to file.txt and stdout.","label":0}
+{"command":"uname -o","description":"Displays the operating system name.","label":0}
+{"command":"ipset list","description":"Lists configured IP sets for firewall rules.","label":1}
+{"command":"ss -anp","description":"Lists all sockets with associated processes.","label":1}
+{"command":"cd ..","description":"Moves up one directory level.","label":0}
+{"command":"sudo systemctl stop ssh","description":"Stop the SSH service","label":1}
+{"command":"head -n 5 access.log","description":"Displays the first 5 lines of access.log.","label":0}
+{"command":"df -i","description":"Shows inode usage for filesystems.","label":0}
+{"command":"netstat -an","description":"Lists all active network connections and ports.","label":1}
+{"command":"uname -m","description":"Displays the machine hardware architecture.","label":0}
+{"command":"cd ~","description":"Changes to the current user's home directory.","label":0}
+{"command":"ipcalc 192.168.1.0\/24","description":"Calculates network details for the 192.168.1.0\/24 subnet.","label":1}
+{"command":"tree -if --noreport \/etc | grep '\\.conf$'","description":"Lists all .conf files in \/etc without directory tree formatting.","label":0}
+{"command":"sudo ip link set wlan0 up","description":"Enable a Wi-Fi network interface (e.g., wlan0)","label":1}
+{"command":"whoami","description":"Displays the current user's username.","label":0}
+{"command":"sudo ip link set eth0 down","description":"Disable a specific network interface (e.g., 'eth0')","label":1}
+{"command":"cd \/var\/log","description":"Changes the current directory to \/var\/log.","label":0}
+{"command":"sudo ip link set eth0 up","description":"Enable a specific network interface (e.g., 'eth0')","label":1}
+{"command":"mtr google.com","description":"Combines ping and traceroute to monitor network performance to google.com.","label":1}
+{"command":"ping -s 100 google.com","description":"Sends ICMP echo requests to google.com with 100-byte packets.","label":1}
+{"command":"ip neighbor show","description":"Displays the ARP table with neighbor entries.","label":1}
+{"command":"pstree -p","description":"Displays a tree of processes with PIDs.","label":0}
+{"command":"tshark -i eth0 -c 10","description":"Captures 10 packets on eth0 using Wireshark's terminal interface.","label":1}
+{"command":"inotifywait -m \/var\/log","description":"Monitors \/var\/log for filesystem events.","label":0}
+{"command":"sudo ufw deny ssh","description":"Block SSH connections through the firewall","label":1}
+{"command":"join -t ',' file1.txt file2.txt","description":"Joins two sorted files on a common field using comma as delimiter.","label":0}
+{"command":"ss -H -o","description":"Lists sockets with options, suppressing header output.","label":1}
+{"command":"col -b < file.txt","description":"Filters file.txt to remove backspaces and their preceding characters.","label":0}
+{"command":"chmod g+w file.txt","description":"Adds write permission for the group on file.txt.","label":0}
+{"command":"ipset create myset hash:ip","description":"Creates an IP set named myset for firewall rules.","label":1}
+{"command":"dnf group list","description":"Lists available package groups on Fedora-based systems.","label":0}
+{"command":"yum remove httpd","description":"Uninstalls the Apache web server on CentOS\/RHEL systems.","label":0}
+{"command":"nslookup google.com","description":"Queries DNS for google.com's IP address.","label":1}
+{"command":"yum info httpd","description":"Displays detailed information about the httpd package on CentOS\/RHEL.","label":0}
+{"command":"nano +10 config.conf","description":"Opens config.conf in Nano at line 10.","label":0}
+{"command":"journalctl -b","description":"Displays system logs since the last boot.","label":0}
+{"command":"netstat -tulpn","description":"Lists listening ports and associated processes.","label":1}
+{"command":"xdg-open 'https:\/\/www.youtube.com\/results?search_query=linux+tutorial+videos'","description":"Open YouTube and search for 'linux tutorial videos'","label":1}
+{"command":"nmap -sV 192.168.1.1","description":"Scans 192.168.1.1 for open ports and service versions.","label":1}
+{"command":"dnf module list","description":"Lists available modules on Fedora-based systems.","label":0}
+{"command":"lzcat file.txt.lz","description":"Displays the contents of an Lzip-compressed file.txt.lz.","label":0}
+{"command":"sudo systemctl status ssh","description":"Check the status of the SSH service","label":1}
+{"command":"top -u user","description":"Displays processes owned by user in top.","label":0}
+{"command":"tcpdump -i eth0 port 80","description":"Captures HTTP traffic on port 80 via eth0.","label":1}
+{"command":"nano -c config.conf","description":"Opens config.conf in Nano with constant cursor position display.","label":0}
+{"command":"ip rule show","description":"Displays policy routing rules.","label":1}
+{"command":"ss -tuln","description":"Lists listening TCP and UDP sockets.","label":1}
+{"command":"mv -i file.txt \/tmp","description":"Moves file.txt to \/tmp with interactive prompt for overwrite.","label":0}
+{"command":"dmidecode -t system","description":"Displays system hardware information.","label":0}
+{"command":"host google.com","description":"Performs a DNS lookup for google.com.","label":1}
+{"command":"netstat -r","description":"Displays the kernel routing table.","label":1}
+{"command":"rm -f file.txt","description":"Deletes file.txt without prompting.","label":0}
+{"command":"ls -F","description":"Lists files with indicators (e.g., \/ for directories, * for executables).","label":0}
+{"command":"ping -i 0.5 google.com","description":"Sends ICMP echo requests to google.com every 0.5 seconds.","label":1}
+{"command":"dig google.com","description":"Performs a detailed DNS lookup for google.com.","label":1}
+{"command":"chown -v user file.txt","description":"Changes owner of file.txt to user with verbose output.","label":0}
+{"command":"ifconfig eth0","description":"Displays configuration for the eth0 network interface.","label":1}
+{"command":"nmap localhost","description":"Scans open ports on localhost.","label":1}
+{"command":"cp -s file1.txt link.txt","description":"Creates a symbolic link link.txt to file1.txt.","label":0}
+{"command":"chcon -t httpd_sys_content_t \/var\/www","description":"Sets SELinux context for \/var\/www to httpd_sys_content_t.","label":0}
+{"command":"yum reinstall httpd","description":"Reinstalls the httpd package on CentOS\/RHEL systems.","label":0}
+{"command":"fallocate -l 1G file.img","description":"Preallocates a 1GB file.img without writing zeros.","label":0}
+{"command":"ifconfig eth0 down","description":"Disables the eth0 network interface.","label":1}
+{"command":"ip xfrm state","description":"Lists IPsec security associations.","label":1}
+{"command":"getent passwd user","description":"Displays passwd database entry for user.","label":0}
+{"command":"top -n 1","description":"Runs top for one iteration and exits.","label":0}
+{"command":"mv dir1 \/archive","description":"Moves dir1 to the \/archive directory.","label":0}
+{"command":"ping -c 4 google.com","description":"Sends 4 ICMP echo requests to google.com to check connectivity.","label":1}
+{"command":"nano -T 4 config.conf","description":"Opens config.conf in Nano with tabs set to 4 spaces.","label":0}
+{"command":"tail -n +2 error.log","description":"Displays error.log starting from the second line.","label":0}
+{"command":"ss -M","description":"Lists sockets with memory usage details.","label":1}
+{"command":"ln file1.txt file2.txt","description":"Creates a hard link file2.txt to file1.txt.","label":0}
+{"command":"tc qdisc show","description":"Lists traffic control queueing disciplines.","label":1}
+{"command":"ip -s link","description":"Shows network interface statistics.","label":1}
+{"command":"apt autoremove","description":"Removes unused dependencies on Debian-based systems.","label":0}
+{"command":"ethtool eth0","description":"Displays the status and settings of the eth0 interface.","label":1}
+{"command":"netcat -zv 192.168.1.1 22","description":"Scans port 22 on 192.168.1.1 for connectivity.","label":1}
+{"command":"setfacl -x u:user file.txt","description":"Removes ACL entries for user from file.txt.","label":0}
+{"command":"touch -t 202505211200 file.txt","description":"Sets file.txt's timestamp to May 21, 2025, 12:00.","label":0}
+{"command":"ls -la","description":"Lists all files (including hidden) in long format.","label":0}
+{"command":"tcpdump -i eth0","description":"Captures packets on the eth0 interface.","label":1}
+{"command":"ip addr add 192.168.1.101\/24 dev eth0","description":"Assigns IP address 192.168.1.101\/24 to eth0.","label":1}
+{"command":"uname -r","description":"Displays the kernel release version.","label":0}
+{"command":"find \/ -xdev -perm \/u+s","description":"Finds setuid files on the root filesystem, ignoring other mounts.","label":0}
+{"command":"wget http:\/\/example.com\/file.txt","description":"Download a file using wget from a URL","label":1}
+{"command":"hping3 -S 192.168.1.1","description":"Sends TCP SYN packets to 192.168.1.1 for network probing.","label":1}
+{"command":"popd","description":"Returns to the directory at the top of the stack.","label":0}
+{"command":"netcat -l 12345","description":"Listens for incoming connections on port 12345.","label":1}
+{"command":"sudo systemctl restart ssh","description":"Restart the SSH service","label":1}
+{"command":"systemctl is-enabled nginx","description":"Checks if the nginx service is enabled at boot.","label":0}
+{"command":"netstat -s | grep Tcp","description":"Displays TCP protocol statistics.","label":1}
+{"command":"less +F logfile.txt","description":"Monitors logfile.txt in less, similar to tail -f.","label":0}
+{"command":"ping 8.8.8.8","description":"Sends ICMP echo requests to Google's public DNS server.","label":1}
+{"command":"yum history","description":"Displays the transaction history of yum on CentOS\/RHEL systems.","label":0}
+{"command":"nping --tcp -p 80 192.168.1.1","description":"Sends TCP probes to port 80 on 192.168.1.1 for network testing.","label":1}
+{"command":"less largefile.txt","description":"Views largefile.txt with pagination.","label":0}
+{"command":"apt search nginx","description":"Searches for nginx packages in Debian-based repositories.","label":0}
+{"command":"lsipc","description":"Lists information about IPC facilities (shared memory, semaphores, queues).","label":0}
+{"command":"lsscsi","description":"Lists SCSI devices and their attributes.","label":0}
+{"command":"lsof -iTCP -sTCP:LISTEN","description":"Lists processes with open TCP listening sockets.","label":1}
+{"command":"sudo apt install curl","description":"Install a package named 'curl' on a Debian-based system","label":1}
+{"command":"arping 192.168.1.1","description":"Sends ARP requests to 192.168.1.1 to resolve MAC address.","label":1}
+{"command":"ifconfig eth0 up","description":"Enables the eth0 network interface.","label":1}
+{"command":"trace-cmd record -p function -P 1234","description":"Records function traces for the process with PID 1234.","label":0}
+{"command":"sudo systemctl enable ssh","description":"Enable the SSH service to start on boot","label":1}
+{"command":"firefox 'https:\/\/example.com' &","description":"Open a website in Firefox","label":1}
+{"command":"free -t","description":"Displays total memory usage, including swap.","label":0}
+{"command":"setfacl -m u:user:rw file.txt","description":"Grants user read and write permissions on file.txt using ACL.","label":0}
+{"command":"sudo ufw allow ssh","description":"Allow SSH connections through the firewall","label":1}
+{"command":"netstat -i","description":"Displays network interface statistics.","label":1}
+{"command":"netstat -s","description":"Displays network protocol statistics.","label":1}
+{"command":"sar -n DEV 1 3","description":"Reports network device statistics every second for 3 iterations.","label":1}
+{"command":"hexdump -C file.bin","description":"Displays file.bin in hexadecimal and ASCII format.","label":0}
+{"command":"restore -rf backup.tar","description":"Restores the filesystem from backup.tar.","label":0}
+{"command":"route -n","description":"Displays the routing table with numeric addresses.","label":1}
+{"command":"nload eth0","description":"Monitors network traffic on eth0 with a graphical interface.","label":1}
+{"command":"head -n -5 access.log","description":"Displays all but the last 5 lines of access.log.","label":0}
+{"command":"cat > newfile.txt","description":"Creates or overwrites newfile.txt with input from stdin (Ctrl+D to end).","label":0}
+{"command":"chattr -R +u \/backup","description":"Recursively sets the undelete attribute on \/backup for data recovery.","label":0}
+{"command":"dnf provides \/bin\/bash","description":"Finds which package provides \/bin\/bash on Fedora-based systems.","label":0}
+{"command":"ip mroute show","description":"Displays multicast routing table.","label":1}
+{"command":"ipset add myset 192.168.1.100","description":"Adds IP 192.168.1.100 to the IP set myset.","label":1}
+{"command":"swapon \/dev\/sdb1","description":"Enables the swap partition on \/dev\/sdb1.","label":0}
+{"command":"ip monitor","description":"Monitors network interface and address changes in real-time.","label":1}
+{"command":"rm -r dir1","description":"Recursively deletes dir1 and its contents.","label":0}
+{"command":"iftop -i eth0","description":"Displays real-time bandwidth usage by connection on eth0.","label":1}
+{"command":"watch -d 'netstat -tuln'","description":"Runs 'netstat -tuln' every 2 seconds, highlighting changes.","label":1}
+{"command":"ip a","description":"Check current network interfaces","label":1}
+{"command":"ip route show","description":"Displays the IP routing table.","label":1}
+{"command":"bmon -i eth0","description":"Monitors bandwidth usage on eth0 interactively.","label":1}
+{"command":"logger 'Test message'","description":"Sends 'Test message' to the system log.","label":0}
+{"command":"lscpu -e","description":"Displays CPU information in a tabular format.","label":0}
+{"command":"iotop -o","description":"Displays I\/O usage by processes, showing only active ones.","label":0}
+{"command":"nft list ruleset","description":"Displays all active nftables firewall rules.","label":1}
+{"command":"chsh -s \/bin\/zsh user","description":"Changes the login shell for user to zsh.","label":0}
+{"command":"emacs -Q file.txt","description":"Opens file.txt in Emacs with minimal configuration.","label":0}
+{"command":"ifconfig","description":"Displays network interface configuration.","label":1}
+{"command":"ip link set eth0 mtu 9000","description":"Sets the MTU of eth0 to 9000 for jumbo frames.","label":1}
+{"command":"hexdump -C -n 16 file.bin","description":"Displays the first 16 bytes of file.bin in hex and ASCII.","label":0}
+{"command":"chgrp -R group \/data","description":"Recursively changes group ownership of \/data to group.","label":0}
+{"command":"stat file.txt","description":"Displays detailed file status, including timestamps and permissions.","label":0}
+{"command":"rmdir empty_dir","description":"Removes the empty directory empty_dir.","label":0}
+{"command":"sudo ip link set wlan0 down","description":"Disable a Wi-Fi network interface (e.g., wlan0)","label":1}
+{"command":"df -T","description":"Shows disk usage with filesystem types.","label":0}
+{"command":"sudo yum install wget","description":"Install the 'wget' utility on a RedHat-based system","label":1}
+{"command":"lsof -t -i :80","description":"Lists PIDs of processes using port 80.","label":1}
+{"command":"cat -v file.txt","description":"Displays file.txt with non-printable characters visible.","label":0}
+{"command":"vmstat 2 5","description":"Reports virtual memory statistics every 2 seconds for 5 iterations.","label":0}
+{"command":"traceroute google.com","description":"Traces the route packets take to google.com.","label":1}
+{"command":"colrm 1 5 < file.txt","description":"Removes columns 1 through 5 from file.txt.","label":0}
+{"command":"tcpdump -X -i eth0","description":"Captures packets on eth0, displaying both hex and ASCII.","label":1}
+{"command":"vmstat -s","description":"Displays a summary of virtual memory statistics.","label":0}
+{"command":"ip addr show","description":"Displays IP addresses and interface details.","label":1}
+{"command":"sudo systemctl disable ssh","description":"Disable the SSH service from starting on boot","label":1}
+{"command":"apt update","description":"Updates package lists for upgrades on Debian-based systems.","label":0}
+{"command":"systemd-cgtop","description":"Displays resource usage by control groups.","label":0}
