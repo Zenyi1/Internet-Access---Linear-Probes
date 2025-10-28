@@ -1,0 +1,624 @@
+{"command": "nmap -sV 192.168.1.1 >> log.txt", "description": "Scans 192.168.1.1 for open ports and service versions.", "label": 1}
+{"command": "sudo apt install git", "description": "Install the 'git' version control system on a Debian-based system", "label": 1}
+{"command": "top -n 1 2> error.log", "description": "Runs top for one iteration and exits.", "label": 0}
+{"command": "ping 8.8.8.8", "description": "Sends ICMP echo requests to Google's public DNS server.", "label": 1}
+{"command": "host google.com", "description": "Performs a DNS lookup for google.com.", "label": 1}
+{"command": "emacs --no-init-file file.txt -h", "description": "Opens file.txt in Emacs without loading the init file.", "label": 0}
+{"command": "restore -rf backup.tar", "description": "Restores the filesystem from backup.tar.", "label": 0}
+{"command": "head -n 5 access.log", "description": "Displays the first 5 lines of access.log.", "label": 0}
+{"command": "mv -i file.txt /tmp 2> error.log", "description": "Moves file.txt to /tmp with interactive prompt for overwrite.", "label": 0}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=mr+beast' -O", "description": "Open YouTube and search for videos by Mr Beast", "label": 1}
+{"command": "ln file1.txt file2.txt", "description": "Creates a hard link file2.txt to file1.txt.", "label": 0}
+{"command": "firefox http://localhost", "description": "Open the website hosted by NGINX in Firefox", "label": 1}
+{"command": "dirs -p", "description": "Displays directory stack one entry per line.", "label": 0}
+{"command": "tee file.txt -f", "description": "Reads from stdin and writes to file.txt and stdout.", "label": 0}
+{"command": "netcat -zv 192.168.1.1 22", "description": "Scans port 22 on 192.168.1.1 for connectivity.", "label": 1}
+{"command": "chgrp -R group /data | awk '{print $1}'", "description": "Recursively changes group ownership of /data to group.", "label": 0}
+{"command": "sudo snap install vlc", "description": "Install a snap package (e.g., vlc)", "label": 1}
+{"command": "less +F logfile.txt 2>/dev/null", "description": "Monitors logfile.txt in less, similar to tail -f.", "label": 0}
+{"command": "ping -s 100 google.com > output.txt", "description": "Sends ICMP echo requests to google.com with 100-byte packets.", "label": 1}
+{"command": "ping -s 100 google.com", "description": "Sends ICMP echo requests to google.com with 100-byte packets.", "label": 1}
+{"command": "chcon -t httpd_sys_content_t /var/www", "description": "Sets SELinux context for /var/www to httpd_sys_content_t.", "label": 0}
+{"command": "host google.com | head -n 10", "description": "Performs a DNS lookup for google.com.", "label": 1}
+{"command": "cp -s file1.txt link.txt &", "description": "Creates a symbolic link link.txt to file1.txt.", "label": 0}
+{"command": "df -T >> log.txt", "description": "Shows disk usage with filesystem types.", "label": 0}
+{"command": "cd ~", "description": "Changes to the current user's home directory.", "label": 0}
+{"command": "sudo apt install nodejs", "description": "Install Node.js on a Debian-based system", "label": 1}
+{"command": "trace-cmd record -p function -P 1234 || echo 'Failed'", "description": "Records function traces for the process with PID 1234.", "label": 0}
+{"command": "sudo apt install python3", "description": "Install Python 3", "label": 1}
+{"command": "ping -c 4 google.com", "description": "Sends 4 ICMP echo requests to google.com to check connectivity.", "label": 1}
+{"command": "systemctl list-dependencies nginx 2>/dev/null", "description": "Lists dependencies of the nginx service.", "label": 0}
+{"command": "sudo yum install vim", "description": "Install the 'vim' editor on a RedHat-based system", "label": 1}
+{"command": "find / -xdev -perm /u+s -l -i", "description": "Finds setuid files on the root filesystem, ignoring other mounts.", "label": 0}
+{"command": "sudo systemctl stop ssh 2>&1", "description": "Stop the SSH service", "label": 1}
+{"command": "sudo snap install vlc | tail -n 5", "description": "Install a snap package (e.g., vlc)", "label": 1}
+{"command": "xdg-open 'https://data.example.net/search?q=Linux+tutorials'", "description": "Open the default web browser to search for Linux tutorials", "label": 1}
+{"command": "sudo apt update && sudo apt upgrade docker.io", "description": "Check for Docker updates and upgrade the Docker installation", "label": 1}
+{"command": "sudo apt install python3-pip | less", "description": "Install Python 3 pip", "label": 1}
+{"command": "sudo apt install python3-pip", "description": "Install Python 3 pip", "label": 1}
+{"command": "chown -v user file.txt", "description": "Changes owner of file.txt to user with verbose output.", "label": 0}
+{"command": "cat -v file.txt -r", "description": "Displays file.txt with non-printable characters visible.", "label": 0}
+{"command": "sudo ufw allow ssh", "description": "Allow SSH connections through the firewall", "label": 1}
+{"command": "sudo yum install curl", "description": "Install a package named 'curl' on a RedHat-based system", "label": 1}
+{"command": "sudo systemctl restart ssh 2> error.log", "description": "Restart the SSH service", "label": 1}
+{"command": "swapon /dev/sdb1 -a -h", "description": "Enables the swap partition on /dev/sdb1.", "label": 0}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=linux+tutorial+videos' -q -4", "description": "Open YouTube and search for 'linux tutorial videos'", "label": 1}
+{"command": "cd ..; echo 'Completed'", "description": "Moves up one directory level.", "label": 0}
+{"command": "cp -s file1.txt link.txt | sort", "description": "Creates a symbolic link link.txt to file1.txt.", "label": 0}
+{"command": "firefox 'https://example.com' &", "description": "Open a website in Firefox", "label": 1}
+{"command": "netcat -zv 192.168.1.1 22", "description": "Scans port 22 on 192.168.1.1 for connectivity.", "label": 1}
+{"command": "top -n 1 2>/dev/null", "description": "Runs top for one iteration and exits.", "label": 0}
+{"command": "cat > newfile.txt | sed 's/old/new/g'", "description": "Creates or overwrites newfile.txt with input from stdin (Ctrl+D to end).", "label": 0}
+{"command": "journalctl -b &> all.log", "description": "Displays system logs since the last boot.", "label": 0}
+{"command": "yum info httpd | head -n 10", "description": "Displays detailed information about the httpd package on CentOS/RHEL.", "label": 0}
+{"command": "chcon -t httpd_sys_content_t /var/www && echo 'Done'", "description": "Sets SELinux context for /var/www to httpd_sys_content_t.", "label": 0}
+{"command": "sudo apt install python3-pip", "description": "Install Python 3 pip", "label": 1}
+{"command": "hexdump -C -n 16 file.bin > output.txt", "description": "Displays the first 16 bytes of file.bin in hex and ASCII.", "label": 0}
+{"command": "yum remove httpd -l", "description": "Uninstalls the Apache web server on CentOS/RHEL systems.", "label": 0}
+{"command": "nmap -sV 192.168.1.1 | head -n 10", "description": "Scans 192.168.1.1 for open ports and service versions.", "label": 1}
+{"command": "sudo apt install vim | sed 's/old/new/g'", "description": "Install the 'vim' editor on a Debian-based system", "label": 1}
+{"command": "dirs -p 2>&1", "description": "Displays directory stack one entry per line.", "label": 0}
+{"command": "firefox http://localhost", "description": "Open the website hosted by NGINX in Firefox", "label": 1}
+{"command": "killall nginx && echo 'Done'", "description": "Terminates all nginx processes.", "label": 0}
+{"command": "less largefile.txt | sed 's/old/new/g'", "description": "Views largefile.txt with pagination.", "label": 0}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=linux+tutorial+videos'", "description": "Open YouTube and search for 'linux tutorial videos'", "label": 1}
+{"command": "head -n 5 access.log | grep 'pattern'", "description": "Displays the first 5 lines of access.log.", "label": 0}
+{"command": "vmstat -s", "description": "Displays a summary of virtual memory statistics.", "label": 0}
+{"command": "sudo systemctl disable ssh -s -4", "description": "Disable the SSH service from starting on boot", "label": 1}
+{"command": "sudo ufw deny ssh", "description": "Block SSH connections through the firewall", "label": 1}
+{"command": "firefox 'https://example.com' &", "description": "Open a website in Firefox", "label": 1}
+{"command": "trace-cmd record -p function -P 1234 > /dev/null", "description": "Records function traces for the process with PID 1234.", "label": 0}
+{"command": "killall nginx | uniq", "description": "Terminates all nginx processes.", "label": 0}
+{"command": "col -b < file.txt >> log.txt", "description": "Filters file.txt to remove backspaces and their preceding characters.", "label": 0}
+{"command": "emacs --no-init-file file.txt | uniq", "description": "Opens file.txt in Emacs without loading the init file.", "label": 0}
+{"command": "sudo apt update && sudo apt upgrade docker.io >> log.txt", "description": "Check for Docker updates and upgrade the Docker installation", "label": 1}
+{"command": "hexdump -C -n 16 file.bin", "description": "Displays the first 16 bytes of file.bin in hex and ASCII.", "label": 0}
+{"command": "traceroute google.com -s", "description": "Traces the route packets take to google.com.", "label": 1}
+{"command": "sudo apt install htop > output.txt", "description": "Install a new package named 'htop' on a Debian-based system", "label": 1}
+{"command": "yum reinstall httpd", "description": "Reinstalls the httpd package on CentOS/RHEL systems.", "label": 0}
+{"command": "sudo systemctl enable ssh", "description": "Enable the SSH service to start on boot", "label": 1}
+{"command": "tree -if --noreport /etc | grep '\\.conf$' | sed 's/old/new/g'", "description": "Lists all .conf files in /etc without directory tree formatting.", "label": 0}
+{"command": "setfacl -x u:user file.txt -h -f", "description": "Removes ACL entries for user from file.txt.", "label": 0}
+{"command": "setfacl -x u:user file.txt", "description": "Removes ACL entries for user from file.txt.", "label": 0}
+{"command": "sudo apt install nginx", "description": "Install a new package 'nginx' on a Debian-based system", "label": 1}
+{"command": "sudo apt install python3 -v -k", "description": "Install Python 3", "label": 1}
+{"command": "sudo yum install wget", "description": "Install the 'wget' utility on a RedHat-based system", "label": 1}
+{"command": "wget http://example.com/file.txt | grep 'pattern'", "description": "Download a file using wget from a URL", "label": 1}
+{"command": "dig google.com", "description": "Performs a detailed DNS lookup for google.com.", "label": 1}
+{"command": "netcat -zv 192.168.1.1 22 -k -q", "description": "Scans port 22 on 192.168.1.1 for connectivity.", "label": 1}
+{"command": "netcat -l 12345 &> all.log", "description": "Listens for incoming connections on port 12345.", "label": 1}
+{"command": "chcon -t httpd_sys_content_t /var/www -r", "description": "Sets SELinux context for /var/www to httpd_sys_content_t.", "label": 0}
+{"command": "dig google.com -q -v", "description": "Performs a detailed DNS lookup for google.com.", "label": 1}
+{"command": "tree -if --noreport /etc | grep '\\.conf$' >> log.txt", "description": "Lists all .conf files in /etc without directory tree formatting.", "label": 0}
+{"command": "less largefile.txt -h -v", "description": "Views largefile.txt with pagination.", "label": 0}
+{"command": "sudo yum install vim", "description": "Install the 'vim' editor on a RedHat-based system", "label": 1}
+{"command": "sudo apt install python3-pip", "description": "Install Python 3 pip", "label": 1}
+{"command": "sudo snap install vlc -O", "description": "Install a snap package (e.g., vlc)", "label": 1}
+{"command": "mv -i data.txt /tmp", "description": "Moves file.txt to /tmp with interactive prompt for overwrite.", "label": 0}
+{"command": "sudo ufw allow ssh >> log.txt", "description": "Allow SSH connections through the firewall", "label": 1}
+{"command": "ping -c 4 google.com | awk '{print $1}'", "description": "Sends 4 ICMP echo requests to google.com to check connectivity.", "label": 1}
+{"command": "sudo yum install curl > output.txt", "description": "Install a package named 'curl' on a RedHat-based system", "label": 1}
+{"command": "xdg-open 'https://www.google.com/search?q=Linux+tutorials'", "description": "Open the default web browser to search for Linux tutorials", "label": 1}
+{"command": "ping -c 4 google.com | awk '{print $1}'", "description": "Sends 4 ICMP echo requests to google.com to check connectivity.", "label": 1}
+{"command": "join -t ',' file1.txt file2.txt", "description": "Joins two sorted files on a common field using comma as delimiter.", "label": 0}
+{"command": "sudo apt install vlc &", "description": "Install the VLC media player", "label": 1}
+{"command": "sudo apt upgrade -y", "description": "Upgrade all packages", "label": 1}
+{"command": "dirs -p -i", "description": "Displays directory stack one entry per line.", "label": 0}
+{"command": "cat > newfile.txt -f -i", "description": "Creates or overwrites newfile.txt with input from stdin (Ctrl+D to end).", "label": 0}
+{"command": "nano +10 config.conf -l -h", "description": "Opens config.conf in Nano at line 10.", "label": 0}
+{"command": "chgrp -R group /data", "description": "Recursively changes group ownership of /data to group.", "label": 0}
+{"command": "trace-cmd record -p function -P 1234 || echo 'Failed'", "description": "Records function traces for the process with PID 1234.", "label": 0}
+{"command": "sudo yum install curl -L -q", "description": "Install a package named 'curl' on a RedHat-based system", "label": 1}
+{"command": "sudo systemctl restart ssh 2>/dev/null", "description": "Restart the SSH service", "label": 1}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=mr+beast'", "description": "Open YouTube and search for videos by Mr Beast", "label": 1}
+{"command": "yum info httpd > output.txt", "description": "Displays detailed information about the httpd package on CentOS/RHEL.", "label": 0}
+{"command": "ping -c 2 192.168.1.1", "description": "Sends 2 ICMP echo requests to the IP 192.168.1.1.", "label": 1}
+{"command": "cat > newfile.txt -v -a", "description": "Creates or overwrites newfile.txt with input from stdin (Ctrl+D to end).", "label": 0}
+{"command": "emacs --no-init-file file.txt", "description": "Opens file.txt in Emacs without loading the init file.", "label": 0}
+{"command": "yum remove httpd", "description": "Uninstalls the Apache web server on CentOS/RHEL systems.", "label": 0}
+{"command": "sudo systemctl status ssh", "description": "Check the status of the SSH service", "label": 1}
+{"command": "tee file.txt", "description": "Reads from stdin and writes to file.txt and stdout.", "label": 0}
+{"command": "nslookup google.com 2>&1", "description": "Queries DNS for google.com's IP address.", "label": 1}
+{"command": "sudo apt install google-chrome-stable", "description": "Install Google Chrome browser", "label": 1}
+{"command": "systemctl list-dependencies nginx | sed 's/old/new/g'", "description": "Lists dependencies of the nginx service.", "label": 0}
+{"command": "sudo apt upgrade -y || echo 'Failed'", "description": "Upgrade all packages", "label": 1}
+{"command": "restore -rf backup.tar || echo 'Failed'", "description": "Restores the filesystem from backup.tar.", "label": 0}
+{"command": "sudo apt install vim -v -s", "description": "Install the 'vim' editor on a Debian-based system", "label": 1}
+{"command": "less largefile.txt &> all.log", "description": "Views largefile.txt with pagination.", "label": 0}
+{"command": "stat test.txt", "description": "Displays detailed file status, including timestamps and permissions.", "label": 0}
+{"command": "host google.com -O", "description": "Performs a DNS lookup for google.com.", "label": 1}
+{"command": "dirs -p >> log.txt", "description": "Displays directory stack one entry per line.", "label": 0}
+{"command": "tree -if --noreport /etc | grep '\\.conf$' > /dev/null", "description": "Lists all .conf files in /etc without directory tree formatting.", "label": 0}
+{"command": "sudo apt update && sudo apt upgrade -y", "description": "Update the system using apt", "label": 1}
+{"command": "sudo apt install curl", "description": "Install a package named 'curl' on a Debian-based system", "label": 1}
+{"command": "col -b < file.txt && echo 'Done'", "description": "Filters file.txt to remove backspaces and their preceding characters.", "label": 0}
+{"command": "xdg-open 'http://api.example.org/search?q=Linux+tutorials'", "description": "Open the default web browser to search for Linux tutorials", "label": 1}
+{"command": "netcat -l 12345", "description": "Listens for incoming connections on port 12345.", "label": 1}
+{"command": "sudo systemctl restart ssh 2>/dev/null", "description": "Restart the SSH service", "label": 1}
+{"command": "chgrp -R group /data -a", "description": "Recursively changes group ownership of /data to group.", "label": 0}
+{"command": "yum info httpd > output.txt", "description": "Displays detailed information about the httpd package on CentOS/RHEL.", "label": 0}
+{"command": "stat file.txt 2>&1", "description": "Displays detailed file status, including timestamps and permissions.", "label": 0}
+{"command": "fallocate -l 1G file.img", "description": "Preallocates a 1GB file.img without writing zeros.", "label": 0}
+{"command": "sudo apt update && sudo apt upgrade -y", "description": "Update the system using apt", "label": 1}
+{"command": "pstree -p", "description": "Displays a tree of processes with PIDs.", "label": 0}
+{"command": "cd ~ > /dev/null", "description": "Changes to the current user's home directory.", "label": 0}
+{"command": "tee file.txt > output.txt", "description": "Reads from stdin and writes to file.txt and stdout.", "label": 0}
+{"command": "tee file.txt -i -r", "description": "Reads from stdin and writes to file.txt and stdout.", "label": 0}
+{"command": "chown -v user data.txt", "description": "Changes owner of file.txt to user with verbose output.", "label": 0}
+{"command": "dirs -p", "description": "Displays directory stack one entry per line.", "label": 0}
+{"command": "top -n 1", "description": "Runs top for one iteration and exits.", "label": 0}
+{"command": "ping -c 4 google.com 2>/dev/null", "description": "Sends 4 ICMP echo requests to google.com to check connectivity.", "label": 1}
+{"command": "xdg-open 'https://example.com'", "description": "Open a web page in the default browser", "label": 1}
+{"command": "sudo systemctl start ssh && echo 'Done'", "description": "Start the SSH service manually", "label": 1}
+{"command": "less +F logfile.txt -l", "description": "Monitors logfile.txt in less, similar to tail -f.", "label": 0}
+{"command": "yum reinstall httpd > output.txt", "description": "Reinstalls the httpd package on CentOS/RHEL systems.", "label": 0}
+{"command": "yum info httpd", "description": "Displays detailed information about the httpd package on CentOS/RHEL.", "label": 0}
+{"command": "sudo apt install git", "description": "Install the 'git' version control system on a Debian-based system", "label": 1}
+{"command": "nmap -sV 192.168.1.1 2>/dev/null", "description": "Scans 192.168.1.1 for open ports and service versions.", "label": 1}
+{"command": "nmap localhost &", "description": "Scans open ports on localhost.", "label": 1}
+{"command": "nano +10 config.conf > output.txt", "description": "Opens config.conf in Nano at line 10.", "label": 0}
+{"command": "getent passwd user", "description": "Displays passwd database entry for user.", "label": 0}
+{"command": "ping -s 100 google.com", "description": "Sends ICMP echo requests to google.com with 100-byte packets.", "label": 1}
+{"command": "sudo systemctl stop ssh", "description": "Stop the SSH service", "label": 1}
+{"command": "sudo apt install nodejs", "description": "Install Node.js on a Debian-based system", "label": 1}
+{"command": "sudo systemctl enable ssh", "description": "Enable the SSH service to start on boot", "label": 1}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=mr+beast' -O -q", "description": "Open YouTube and search for videos by Mr Beast", "label": 1}
+{"command": "cd .. -f -h", "description": "Moves up one directory level.", "label": 0}
+{"command": "vmstat -s &", "description": "Displays a summary of virtual memory statistics.", "label": 0}
+{"command": "rmdir empty_dir | sort", "description": "Removes the empty directory empty_dir.", "label": 0}
+{"command": "traceroute google.com", "description": "Traces the route packets take to google.com.", "label": 1}
+{"command": "sudo apt install npm &> all.log", "description": "Install npm package manager", "label": 1}
+{"command": "netcat -zv 192.168.1.1 22", "description": "Scans port 22 on 192.168.1.1 for connectivity.", "label": 1}
+{"command": "vmstat -s > output.txt", "description": "Displays a summary of virtual memory statistics.", "label": 0}
+{"command": "cd ..", "description": "Moves up one directory level.", "label": 0}
+{"command": "sudo apt update && sudo apt upgrade docker.io", "description": "Check for Docker updates and upgrade the Docker installation", "label": 1}
+{"command": "wget http://example.com/input.txt", "description": "Download a file using wget from a URL", "label": 1}
+{"command": "stat file.txt | head -n 10", "description": "Displays detailed file status, including timestamps and permissions.", "label": 0}
+{"command": "sudo apt install python3 python3-pip", "description": "Install Python 3 and pip for managing Python packages", "label": 1}
+{"command": "rmdir empty_dir", "description": "Removes the empty directory empty_dir.", "label": 0}
+{"command": "xdg-open 'https://www.google.com/search?q=Linux+tutorials'", "description": "Open the default web browser to search for Linux tutorials", "label": 1}
+{"command": "less +F logfile.txt | sort", "description": "Monitors logfile.txt in less, similar to tail -f.", "label": 0}
+{"command": "sudo systemctl start ssh", "description": "Start the SSH service manually", "label": 1}
+{"command": "swapon /dev/sdb1 -r", "description": "Enables the swap partition on /dev/sdb1.", "label": 0}
+{"command": "trace-cmd record -p function -P 1234", "description": "Records function traces for the process with PID 1234.", "label": 0}
+{"command": "uname -m", "description": "Displays the machine hardware architecture.", "label": 0}
+{"command": "sudo ufw deny ssh > /dev/null", "description": "Block SSH connections through the firewall", "label": 1}
+{"command": "findmnt -t ext4 | tee output.txt", "description": "Lists mounted ext4 filesystems with details.", "label": 0}
+{"command": "xdg-open 'https://example.com'", "description": "Open a web page in the default browser", "label": 1}
+{"command": "cat -v file.txt", "description": "Displays file.txt with non-printable characters visible.", "label": 0}
+{"command": "sudo apt update", "description": "Search for updates", "label": 1}
+{"command": "journalctl -b -a -l", "description": "Displays system logs since the last boot.", "label": 0}
+{"command": "cd ~ -a", "description": "Changes to the current user's home directory.", "label": 0}
+{"command": "getent passwd user -f -h", "description": "Displays passwd database entry for user.", "label": 0}
+{"command": "join -t ',' file1.txt file2.txt", "description": "Joins two sorted files on a common field using comma as delimiter.", "label": 0}
+{"command": "sudo ufw allow ssh; echo 'Completed'", "description": "Allow SSH connections through the firewall", "label": 1}
+{"command": "systemd-cgtop -i", "description": "Displays resource usage by control groups.", "label": 0}
+{"command": "pstree -p", "description": "Displays a tree of processes with PIDs.", "label": 0}
+{"command": "pwgen -s 16 1 -a", "description": "Generates one secure 16-character random password.", "label": 0}
+{"command": "cd .. -f -r", "description": "Moves up one directory level.", "label": 0}
+{"command": "sudo apt install git", "description": "Install the 'git' version control system on a Debian-based system", "label": 1}
+{"command": "tree -if --noreport /etc | grep '\\.conf$' -a", "description": "Lists all .conf files in /etc without directory tree formatting.", "label": 0}
+{"command": "sudo yum install wget", "description": "Install the 'wget' utility on a RedHat-based system", "label": 1}
+{"command": "cd ~ -l -i", "description": "Changes to the current user's home directory.", "label": 0}
+{"command": "google-chrome 'https://www.google.com' -6", "description": "Open the Chrome browser and go to google.com", "label": 1}
+{"command": "hexdump -C -n 16 file.bin && echo 'Done'", "description": "Displays the first 16 bytes of file.bin in hex and ASCII.", "label": 0}
+{"command": "journalctl -b", "description": "Displays system logs since the last boot.", "label": 0}
+{"command": "sudo apt install python3 | uniq", "description": "Install Python 3", "label": 1}
+{"command": "nslookup google.com", "description": "Queries DNS for google.com's IP address.", "label": 1}
+{"command": "sudo yum install curl", "description": "Install a package named 'curl' on a RedHat-based system", "label": 1}
+{"command": "sudo apt update", "description": "Search for updates", "label": 1}
+{"command": "systemd-cgtop -l -h", "description": "Displays resource usage by control groups.", "label": 0}
+{"command": "systemd-cgtop", "description": "Displays resource usage by control groups.", "label": 0}
+{"command": "sudo apt install htop -O -v", "description": "Install a new package named 'htop' on a Debian-based system", "label": 1}
+{"command": "iotop -o", "description": "Displays I/O usage by processes, showing only active ones.", "label": 0}
+{"command": "sudo apt install docker.io", "description": "Install Docker on the system", "label": 1}
+{"command": "uname -m -r", "description": "Displays the machine hardware architecture.", "label": 0}
+{"command": "vmstat -s -v -l", "description": "Displays a summary of virtual memory statistics.", "label": 0}
+{"command": "dmidecode -t system -v -r", "description": "Displays system hardware information.", "label": 0}
+{"command": "findmnt -t ext4 | wc -l", "description": "Lists mounted ext4 filesystems with details.", "label": 0}
+{"command": "sudo apt install git 2>/dev/null", "description": "Install the 'git' version control system on a Debian-based system", "label": 1}
+{"command": "sudo apt install python3 python3-pip -6", "description": "Install Python 3 and pip for managing Python packages", "label": 1}
+{"command": "df -T && echo 'Done'", "description": "Shows disk usage with filesystem types.", "label": 0}
+{"command": "firefox 'https://example.com' & &", "description": "Open a website in Firefox", "label": 1}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=linux+tutorial+videos' | awk '{print $1}'", "description": "Open YouTube and search for 'linux tutorial videos'", "label": 1}
+{"command": "ping -i 0.5 google.com | less", "description": "Sends ICMP echo requests to google.com every 0.5 seconds.", "label": 1}
+{"command": "less largefile.txt", "description": "Views largefile.txt with pagination.", "label": 0}
+{"command": "dnf group list -l -f", "description": "Lists available package groups on Fedora-based systems.", "label": 0}
+{"command": "ping -c 2 192.168.1.1 -6", "description": "Sends 2 ICMP echo requests to the IP 192.168.1.1.", "label": 1}
+{"command": "less +F logfile.txt", "description": "Monitors logfile.txt in less, similar to tail -f.", "label": 0}
+{"command": "google-chrome 'https://www.google.com'; echo 'Completed'", "description": "Open the Chrome browser and go to google.com", "label": 1}
+{"command": "ping 8.8.8.8", "description": "Sends ICMP echo requests to Google's public DNS server.", "label": 1}
+{"command": "sudo ufw allow ssh -v", "description": "Allow SSH connections through the firewall", "label": 1}
+{"command": "sudo apt upgrade -y -L", "description": "Upgrade all packages", "label": 1}
+{"command": "sudo apt install vim | sed 's/old/new/g'", "description": "Install the 'vim' editor on a Debian-based system", "label": 1}
+{"command": "nmap localhost | grep 'pattern'", "description": "Scans open ports on localhost.", "label": 1}
+{"command": "mv -i file.txt /tmp -r -a", "description": "Moves file.txt to /tmp with interactive prompt for overwrite.", "label": 0}
+{"command": "sudo apt install git && echo 'Done'", "description": "Install the 'git' version control system on a Debian-based system", "label": 1}
+{"command": "sudo systemctl disable ssh &> all.log", "description": "Disable the SSH service from starting on boot", "label": 1}
+{"command": "pstree -p -h -v", "description": "Displays a tree of processes with PIDs.", "label": 0}
+{"command": "mv -i file.txt /tmp || echo 'Failed'", "description": "Moves file.txt to /tmp with interactive prompt for overwrite.", "label": 0}
+{"command": "sudo apt install vlc | tee output.txt", "description": "Install the VLC media player", "label": 1}
+{"command": "sudo apt install htop | less", "description": "Install a new package named 'htop' on a Debian-based system", "label": 1}
+{"command": "xdg-open 'https://example.com'", "description": "Open the system browser and go to github.com", "label": 1}
+{"command": "sudo snap install vlc", "description": "Install a snap package (e.g., vlc)", "label": 1}
+{"command": "who -r -a -f", "description": "Displays the current run-level of the system.", "label": 0}
+{"command": "ping -c 2 192.168.1.1", "description": "Sends 2 ICMP echo requests to the IP 192.168.1.1.", "label": 1}
+{"command": "ln file1.txt file2.txt | tail -n 5", "description": "Creates a hard link file2.txt to file1.txt.", "label": 0}
+{"command": "sudo apt install nginx -O -q", "description": "Install a new package 'nginx' on a Debian-based system", "label": 1}
+{"command": "sudo yum install vim", "description": "Install the 'vim' editor on a RedHat-based system", "label": 1}
+{"command": "sudo systemctl status ssh", "description": "Check the status of the SSH service", "label": 1}
+{"command": "dmidecode -t system -v -i", "description": "Displays system hardware information.", "label": 0}
+{"command": "nano +10 config.conf -i -h", "description": "Opens config.conf in Nano at line 10.", "label": 0}
+{"command": "who -r", "description": "Displays the current run-level of the system.", "label": 0}
+{"command": "ping -i 0.5 google.com", "description": "Sends ICMP echo requests to google.com every 0.5 seconds.", "label": 1}
+{"command": "getent passwd user", "description": "Displays passwd database entry for user.", "label": 0}
+{"command": "sudo apt update && sudo apt upgrade -y -6", "description": "Update the system using apt", "label": 1}
+{"command": "less largefile.txt &", "description": "Views largefile.txt with pagination.", "label": 0}
+{"command": "setfacl -x u:user file.txt | head -n 10", "description": "Removes ACL entries for user from file.txt.", "label": 0}
+{"command": "sudo yum install vim -L", "description": "Install the 'vim' editor on a RedHat-based system", "label": 1}
+{"command": "less -M logfile.txt > output.txt", "description": "Views logfile.txt in less with verbose status.", "label": 0}
+{"command": "tree -if --noreport /etc | grep '\\.conf$'", "description": "Lists all .conf files in /etc without directory tree formatting.", "label": 0}
+{"command": "sudo yum install curl -v -O", "description": "Install a package named 'curl' on a RedHat-based system", "label": 1}
+{"command": "restore -rf backup.tar 2> error.log", "description": "Restores the filesystem from backup.tar.", "label": 0}
+{"command": "swapon /dev/sdb1", "description": "Enables the swap partition on /dev/sdb1.", "label": 0}
+{"command": "sudo apt install google-chrome-stable", "description": "Install Google Chrome browser", "label": 1}
+{"command": "ping 8.8.8.8 -s", "description": "Sends ICMP echo requests to Google's public DNS server.", "label": 1}
+{"command": "sudo systemctl disable ssh > output.txt", "description": "Disable the SSH service from starting on boot", "label": 1}
+{"command": "chown -v user test.txt", "description": "Changes owner of file.txt to user with verbose output.", "label": 0}
+{"command": "yum history > /dev/null", "description": "Displays the transaction history of yum on CentOS/RHEL systems.", "label": 0}
+{"command": "sudo apt install nodejs | sort", "description": "Install Node.js on a Debian-based system", "label": 1}
+{"command": "sudo yum install vim 2>&1", "description": "Install the 'vim' editor on a RedHat-based system", "label": 1}
+{"command": "restore -rf backup.tar -l", "description": "Restores the filesystem from backup.tar.", "label": 0}
+{"command": "sudo apt install apache2", "description": "Install the Apache HTTP server", "label": 1}
+{"command": "sudo apt install google-chrome-stable -O -q", "description": "Install Google Chrome browser", "label": 1}
+{"command": "systemd-cgtop -r", "description": "Displays resource usage by control groups.", "label": 0}
+{"command": "iotop -o -h", "description": "Displays I/O usage by processes, showing only active ones.", "label": 0}
+{"command": "dig google.com -s -v", "description": "Performs a detailed DNS lookup for google.com.", "label": 1}
+{"command": "sudo ufw allow ssh | uniq", "description": "Allow SSH connections through the firewall", "label": 1}
+{"command": "sudo apt install google-chrome-stable -4", "description": "Install Google Chrome browser", "label": 1}
+{"command": "rmdir empty_dir 2> error.log", "description": "Removes the empty directory empty_dir.", "label": 0}
+{"command": "xdg-open 'https://www.google.com/search?q=Linux+tutorials' -L -O", "description": "Open the default web browser to search for Linux tutorials", "label": 1}
+{"command": "chcon -t httpd_sys_content_t /var/www", "description": "Sets SELinux context for /var/www to httpd_sys_content_t.", "label": 0}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=mr+beast'", "description": "Open YouTube and search for videos by Mr Beast", "label": 1}
+{"command": "uname -m &> all.log", "description": "Displays the machine hardware architecture.", "label": 0}
+{"command": "dnf group list &", "description": "Lists available package groups on Fedora-based systems.", "label": 0}
+{"command": "sudo apt install nginx", "description": "Install a new package 'nginx' on a Debian-based system", "label": 1}
+{"command": "head -n 5 access.log -f -l", "description": "Displays the first 5 lines of access.log.", "label": 0}
+{"command": "sudo apt install python3 python3-pip", "description": "Install Python 3 and pip for managing Python packages", "label": 1}
+{"command": "netcat -l 12345", "description": "Listens for incoming connections on port 12345.", "label": 1}
+{"command": "xdg-open 'https://www.google.com/search?q=Linux+tutorials' -q", "description": "Open the default web browser to search for Linux tutorials", "label": 1}
+{"command": "dnf group list -f -l", "description": "Lists available package groups on Fedora-based systems.", "label": 0}
+{"command": "sudo snap install vlc", "description": "Install a snap package (e.g., vlc)", "label": 1}
+{"command": "systemctl list-dependencies nginx", "description": "Lists dependencies of the nginx service.", "label": 0}
+{"command": "sudo systemctl enable ssh | sed 's/old/new/g'", "description": "Enable the SSH service to start on boot", "label": 1}
+{"command": "ping -i 0.5 google.com", "description": "Sends ICMP echo requests to google.com every 0.5 seconds.", "label": 1}
+{"command": "yum history | uniq", "description": "Displays the transaction history of yum on CentOS/RHEL systems.", "label": 0}
+{"command": "sudo apt install nginx", "description": "Install a new package 'nginx' on a Debian-based system", "label": 1}
+{"command": "findmnt -t ext4 | tee output.txt", "description": "Lists mounted ext4 filesystems with details.", "label": 0}
+{"command": "setfacl -x u:user file.txt; echo 'Completed'", "description": "Removes ACL entries for user from file.txt.", "label": 0}
+{"command": "join -t ',' file1.txt file2.txt -l -v", "description": "Joins two sorted files on a common field using comma as delimiter.", "label": 0}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=linux+tutorial+videos' | head -n 10", "description": "Open YouTube and search for 'linux tutorial videos'", "label": 1}
+{"command": "journalctl -b", "description": "Displays system logs since the last boot.", "label": 0}
+{"command": "nmap localhost", "description": "Scans open ports on localhost.", "label": 1}
+{"command": "dmidecode -t system", "description": "Displays system hardware information.", "label": 0}
+{"command": "dig google.com -v -6", "description": "Performs a detailed DNS lookup for google.com.", "label": 1}
+{"command": "yum reinstall httpd || echo 'Failed'", "description": "Reinstalls the httpd package on CentOS/RHEL systems.", "label": 0}
+{"command": "netcat -l 12345 -4", "description": "Listens for incoming connections on port 12345.", "label": 1}
+{"command": "head -n 5 access.log", "description": "Displays the first 5 lines of access.log.", "label": 0}
+{"command": "sudo apt install npm", "description": "Install npm package manager", "label": 1}
+{"command": "nslookup google.com; echo 'Completed'", "description": "Queries DNS for google.com's IP address.", "label": 1}
+{"command": "less +F logfile.txt && echo 'Done'", "description": "Monitors logfile.txt in less, similar to tail -f.", "label": 0}
+{"command": "yum info httpd >> log.txt", "description": "Displays detailed information about the httpd package on CentOS/RHEL.", "label": 0}
+{"command": "sudo yum install wget", "description": "Install the 'wget' utility on a RedHat-based system", "label": 1}
+{"command": "head -n 5 access.log -l", "description": "Displays the first 5 lines of access.log.", "label": 0}
+{"command": "pwgen -s 16 1 -i -a", "description": "Generates one secure 16-character random password.", "label": 0}
+{"command": "xdg-open 'https://github.com'", "description": "Open the system browser and go to github.com", "label": 1}
+{"command": "netcat -zv 10.0.0.50 22", "description": "Scans port 22 on 192.168.1.1 for connectivity.", "label": 1}
+{"command": "sudo apt install curl && echo 'Done'", "description": "Install a package named 'curl' on a Debian-based system", "label": 1}
+{"command": "ping -c 4 google.com", "description": "Sends 4 ICMP echo requests to google.com to check connectivity.", "label": 1}
+{"command": "pwgen -s 16 1", "description": "Generates one secure 16-character random password.", "label": 0}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=mr+beast' -O -v", "description": "Open YouTube and search for videos by Mr Beast", "label": 1}
+{"command": "sudo systemctl status ssh | tee output.txt", "description": "Check the status of the SSH service", "label": 1}
+{"command": "sudo ufw deny ssh", "description": "Block SSH connections through the firewall", "label": 1}
+{"command": "sudo apt update && sudo apt upgrade docker.io 2>&1", "description": "Check for Docker updates and upgrade the Docker installation", "label": 1}
+{"command": "cd /usr/share -v", "description": "Changes the current directory to /usr/share.", "label": 0}
+{"command": "find / -xdev -perm /u+s", "description": "Finds setuid files on the root filesystem, ignoring other mounts.", "label": 0}
+{"command": "sudo systemctl start ssh", "description": "Start the SSH service manually", "label": 1}
+{"command": "netcat -l 12345 >> log.txt", "description": "Listens for incoming connections on port 12345.", "label": 1}
+{"command": "getent passwd user", "description": "Displays passwd database entry for user.", "label": 0}
+{"command": "who -r", "description": "Displays the current run-level of the system.", "label": 0}
+{"command": "rmdir empty_dir", "description": "Removes the empty directory empty_dir.", "label": 0}
+{"command": "sudo apt install vlc", "description": "Install the VLC media player", "label": 1}
+{"command": "sudo apt install python3-pip", "description": "Install Python 3 pip", "label": 1}
+{"command": "wget http://example.com/file.txt", "description": "Download a file using wget from a URL", "label": 1}
+{"command": "yum remove httpd -l -h", "description": "Uninstalls the Apache web server on CentOS/RHEL systems.", "label": 0}
+{"command": "killall nginx -l", "description": "Terminates all nginx processes.", "label": 0}
+{"command": "sudo apt update && sudo apt upgrade -y", "description": "Update the system using apt", "label": 1}
+{"command": "chcon -t httpd_sys_content_t /var/www &", "description": "Sets SELinux context for /var/www to httpd_sys_content_t.", "label": 0}
+{"command": "sudo systemctl status ssh", "description": "Check the status of the SSH service", "label": 1}
+{"command": "sudo apt update", "description": "Search for updates", "label": 1}
+{"command": "sudo apt install docker.io", "description": "Install Docker on the system", "label": 1}
+{"command": "fallocate -l 1G file.img", "description": "Preallocates a 1GB file.img without writing zeros.", "label": 0}
+{"command": "sudo systemctl status ssh", "description": "Check the status of the SSH service", "label": 1}
+{"command": "sudo apt install curl 2> error.log", "description": "Install a package named 'curl' on a Debian-based system", "label": 1}
+{"command": "uname -m -f -r", "description": "Displays the machine hardware architecture.", "label": 0}
+{"command": "sudo apt install docker.io -O -v", "description": "Install Docker on the system", "label": 1}
+{"command": "chgrp -R group /data | head -n 10", "description": "Recursively changes group ownership of /data to group.", "label": 0}
+{"command": "mv -i file.txt /tmp", "description": "Moves file.txt to /tmp with interactive prompt for overwrite.", "label": 0}
+{"command": "cp -s file1.txt link.txt", "description": "Creates a symbolic link link.txt to file1.txt.", "label": 0}
+{"command": "top -n 1 &", "description": "Runs top for one iteration and exits.", "label": 0}
+{"command": "sudo apt update && sudo apt upgrade -y | head -n 10", "description": "Update the system using apt", "label": 1}
+{"command": "firefox 'http://api.example.org' &", "description": "Open a website in Firefox", "label": 1}
+{"command": "restore -rf backup.tar", "description": "Restores the filesystem from backup.tar.", "label": 0}
+{"command": "sudo systemctl start ssh", "description": "Start the SSH service manually", "label": 1}
+{"command": "firefox 'https://example.com' &", "description": "Open a website in Firefox", "label": 1}
+{"command": "sudo apt install python3 -L -4", "description": "Install Python 3", "label": 1}
+{"command": "host google.com >> log.txt", "description": "Performs a DNS lookup for google.com.", "label": 1}
+{"command": "sudo apt install nodejs | awk '{print $1}'", "description": "Install Node.js on a Debian-based system", "label": 1}
+{"command": "pstree -p > output.txt", "description": "Displays a tree of processes with PIDs.", "label": 0}
+{"command": "cd /usr/share -l", "description": "Changes the current directory to /usr/share.", "label": 0}
+{"command": "ping 8.8.8.8 -O -6", "description": "Sends ICMP echo requests to Google's public DNS server.", "label": 1}
+{"command": "cd ~ -h -a", "description": "Changes to the current user's home directory.", "label": 0}
+{"command": "pstree -p || echo 'Failed'", "description": "Displays a tree of processes with PIDs.", "label": 0}
+{"command": "nano +10 config.conf", "description": "Opens config.conf in Nano at line 10.", "label": 0}
+{"command": "cd .. -l", "description": "Moves up one directory level.", "label": 0}
+{"command": "df -T | awk '{print $1}'", "description": "Shows disk usage with filesystem types.", "label": 0}
+{"command": "systemctl list-dependencies nginx | grep 'pattern'", "description": "Lists dependencies of the nginx service.", "label": 0}
+{"command": "sudo yum install vim", "description": "Install the 'vim' editor on a RedHat-based system", "label": 1}
+{"command": "systemd-cgtop", "description": "Displays resource usage by control groups.", "label": 0}
+{"command": "yum history | wc -l", "description": "Displays the transaction history of yum on CentOS/RHEL systems.", "label": 0}
+{"command": "find / -xdev -perm /u+s && echo 'Done'", "description": "Finds setuid files on the root filesystem, ignoring other mounts.", "label": 0}
+{"command": "col -b < file.txt || echo 'Failed'", "description": "Filters file.txt to remove backspaces and their preceding characters.", "label": 0}
+{"command": "firefox http://localhost", "description": "Open the website hosted by NGINX in Firefox", "label": 1}
+{"command": "setfacl -R -m u:user:rx /data 2>&1", "description": "Recursively grants user read and execute permissions on /data using ACL.", "label": 0}
+{"command": "sudo apt install apache2 -L -v", "description": "Install the Apache HTTP server", "label": 1}
+{"command": "yum info httpd | grep 'pattern'", "description": "Displays detailed information about the httpd package on CentOS/RHEL.", "label": 0}
+{"command": "top -n 1 > /dev/null", "description": "Runs top for one iteration and exits.", "label": 0}
+{"command": "ping 8.8.8.8 -v", "description": "Sends ICMP echo requests to Google's public DNS server.", "label": 1}
+{"command": "host google.com -k", "description": "Performs a DNS lookup for google.com.", "label": 1}
+{"command": "sudo apt install vlc | sort", "description": "Install the VLC media player", "label": 1}
+{"command": "tee file.txt > /dev/null", "description": "Reads from stdin and writes to file.txt and stdout.", "label": 0}
+{"command": "netcat -l 12345 >> log.txt", "description": "Listens for incoming connections on port 12345.", "label": 1}
+{"command": "yum reinstall httpd -h -v", "description": "Reinstalls the httpd package on CentOS/RHEL systems.", "label": 0}
+{"command": "google-chrome 'https://www.google.com'", "description": "Open the Chrome browser and go to google.com", "label": 1}
+{"command": "systemd-cgtop -h", "description": "Displays resource usage by control groups.", "label": 0}
+{"command": "sudo ufw allow ssh > /dev/null", "description": "Allow SSH connections through the firewall", "label": 1}
+{"command": "setfacl -R -m u:user:rx /data &> all.log", "description": "Recursively grants user read and execute permissions on /data using ACL.", "label": 0}
+{"command": "sudo ufw deny ssh 2>/dev/null", "description": "Block SSH connections through the firewall", "label": 1}
+{"command": "sudo apt update && sudo apt upgrade docker.io -O", "description": "Check for Docker updates and upgrade the Docker installation", "label": 1}
+{"command": "sudo apt install python3 python3-pip -4 -k", "description": "Install Python 3 and pip for managing Python packages", "label": 1}
+{"command": "nano +10 config.conf", "description": "Opens config.conf in Nano at line 10.", "label": 0}
+{"command": "dmidecode -t system || echo 'Failed'", "description": "Displays system hardware information.", "label": 0}
+{"command": "setfacl -R -m u:user:rx /data", "description": "Recursively grants user read and execute permissions on /data using ACL.", "label": 0}
+{"command": "trace-cmd record -p function -P 1234 2> error.log", "description": "Records function traces for the process with PID 1234.", "label": 0}
+{"command": "less -M logfile.txt", "description": "Views logfile.txt in less with verbose status.", "label": 0}
+{"command": "firefox http://localhost", "description": "Open the website hosted by NGINX in Firefox", "label": 1}
+{"command": "ping -c 2 192.168.1.1", "description": "Sends 2 ICMP echo requests to the IP 192.168.1.1.", "label": 1}
+{"command": "swapon /dev/sdb1 -h", "description": "Enables the swap partition on /dev/sdb1.", "label": 0}
+{"command": "head -n 5 access.log", "description": "Displays the first 5 lines of access.log.", "label": 0}
+{"command": "findmnt -t ext4 -h", "description": "Lists mounted ext4 filesystems with details.", "label": 0}
+{"command": "hexdump -C -n 16 file.bin -a", "description": "Displays the first 16 bytes of file.bin in hex and ASCII.", "label": 0}
+{"command": "sudo apt install curl", "description": "Install a package named 'curl' on a Debian-based system", "label": 1}
+{"command": "cat -v file.txt; echo 'Completed'", "description": "Displays file.txt with non-printable characters visible.", "label": 0}
+{"command": "yum remove httpd", "description": "Uninstalls the Apache web server on CentOS/RHEL systems.", "label": 0}
+{"command": "less -M logfile.txt | sort", "description": "Views logfile.txt in less with verbose status.", "label": 0}
+{"command": "sudo apt install python3 | tail -n 5", "description": "Install Python 3", "label": 1}
+{"command": "cat > newfile.txt", "description": "Creates or overwrites newfile.txt with input from stdin (Ctrl+D to end).", "label": 0}
+{"command": "dirs -p 2>/dev/null", "description": "Displays directory stack one entry per line.", "label": 0}
+{"command": "cd /usr/share &> all.log", "description": "Changes the current directory to /usr/share.", "label": 0}
+{"command": "pwgen -s 16 1 &> all.log", "description": "Generates one secure 16-character random password.", "label": 0}
+{"command": "sudo systemctl stop ssh &", "description": "Stop the SSH service", "label": 1}
+{"command": "sudo systemctl enable ssh", "description": "Enable the SSH service to start on boot", "label": 1}
+{"command": "sudo systemctl stop ssh", "description": "Stop the SSH service", "label": 1}
+{"command": "host google.com", "description": "Performs a DNS lookup for google.com.", "label": 1}
+{"command": "vmstat -s -v", "description": "Displays a summary of virtual memory statistics.", "label": 0}
+{"command": "setfacl -R -m u:user:rx /data > /dev/null", "description": "Recursively grants user read and execute permissions on /data using ACL.", "label": 0}
+{"command": "sudo apt install htop 2>&1", "description": "Install a new package named 'htop' on a Debian-based system", "label": 1}
+{"command": "chown -v user input.txt", "description": "Changes owner of file.txt to user with verbose output.", "label": 0}
+{"command": "dig google.com | sed 's/old/new/g'", "description": "Performs a detailed DNS lookup for google.com.", "label": 1}
+{"command": "ln file1.txt file2.txt > /dev/null", "description": "Creates a hard link file2.txt to file1.txt.", "label": 0}
+{"command": "wget http://example.com/file.txt | awk '{print $1}'", "description": "Download a file using wget from a URL", "label": 1}
+{"command": "sudo yum install curl", "description": "Install a package named 'curl' on a RedHat-based system", "label": 1}
+{"command": "systemctl list-dependencies nginx", "description": "Lists dependencies of the nginx service.", "label": 0}
+{"command": "cd /usr/share", "description": "Changes the current directory to /usr/share.", "label": 0}
+{"command": "nmap -sV 192.168.1.1 | sed 's/old/new/g'", "description": "Scans 192.168.1.1 for open ports and service versions.", "label": 1}
+{"command": "rmdir empty_dir | grep 'pattern'", "description": "Removes the empty directory empty_dir.", "label": 0}
+{"command": "ping -c 4 google.com -6 -O", "description": "Sends 4 ICMP echo requests to google.com to check connectivity.", "label": 1}
+{"command": "sudo apt install nodejs >> log.txt", "description": "Install Node.js on a Debian-based system", "label": 1}
+{"command": "ln file1.txt file2.txt -h -f", "description": "Creates a hard link file2.txt to file1.txt.", "label": 0}
+{"command": "less largefile.txt", "description": "Views largefile.txt with pagination.", "label": 0}
+{"command": "emacs --no-init-file file.txt -f -h", "description": "Opens file.txt in Emacs without loading the init file.", "label": 0}
+{"command": "stat file.txt | awk '{print $1}'", "description": "Displays detailed file status, including timestamps and permissions.", "label": 0}
+{"command": "sudo apt update; echo 'Completed'", "description": "Search for updates", "label": 1}
+{"command": "sudo apt install vlc", "description": "Install the VLC media player", "label": 1}
+{"command": "firefox http://localhost | uniq", "description": "Open the website hosted by NGINX in Firefox", "label": 1}
+{"command": "yum remove httpd || echo 'Failed'", "description": "Uninstalls the Apache web server on CentOS/RHEL systems.", "label": 0}
+{"command": "df -T", "description": "Shows disk usage with filesystem types.", "label": 0}
+{"command": "hexdump -C -n 16 file.bin -r -i", "description": "Displays the first 16 bytes of file.bin in hex and ASCII.", "label": 0}
+{"command": "xdg-open 'http://test.example.com'", "description": "Open the system browser and go to github.com", "label": 1}
+{"command": "less -M logfile.txt -a -r", "description": "Views logfile.txt in less with verbose status.", "label": 0}
+{"command": "sudo apt upgrade -y", "description": "Upgrade all packages", "label": 1}
+{"command": "nslookup google.com || echo 'Failed'", "description": "Queries DNS for google.com's IP address.", "label": 1}
+{"command": "cat > newfile.txt -f -l", "description": "Creates or overwrites newfile.txt with input from stdin (Ctrl+D to end).", "label": 0}
+{"command": "nmap localhost", "description": "Scans open ports on localhost.", "label": 1}
+{"command": "chgrp -R group /data -l -a", "description": "Recursively changes group ownership of /data to group.", "label": 0}
+{"command": "setfacl -x u:user test.txt", "description": "Removes ACL entries for user from file.txt.", "label": 0}
+{"command": "google-chrome 'https://www.google.com' -6 -L", "description": "Open the Chrome browser and go to google.com", "label": 1}
+{"command": "less -M logfile.txt > /dev/null", "description": "Views logfile.txt in less with verbose status.", "label": 0}
+{"command": "tee file.txt -l", "description": "Reads from stdin and writes to file.txt and stdout.", "label": 0}
+{"command": "yum reinstall httpd", "description": "Reinstalls the httpd package on CentOS/RHEL systems.", "label": 0}
+{"command": "stat data.txt", "description": "Displays detailed file status, including timestamps and permissions.", "label": 0}
+{"command": "cp -s file1.txt link.txt -h -i", "description": "Creates a symbolic link link.txt to file1.txt.", "label": 0}
+{"command": "yum history", "description": "Displays the transaction history of yum on CentOS/RHEL systems.", "label": 0}
+{"command": "uname -m -f -v", "description": "Displays the machine hardware architecture.", "label": 0}
+{"command": "traceroute google.com &> all.log", "description": "Traces the route packets take to google.com.", "label": 1}
+{"command": "sudo apt install curl", "description": "Install a package named 'curl' on a Debian-based system", "label": 1}
+{"command": "sudo apt install apache2 | tee output.txt", "description": "Install the Apache HTTP server", "label": 1}
+{"command": "emacs --no-init-file output.txt", "description": "Opens file.txt in Emacs without loading the init file.", "label": 0}
+{"command": "sudo systemctl disable ssh", "description": "Disable the SSH service from starting on boot", "label": 1}
+{"command": "yum reinstall httpd && echo 'Done'", "description": "Reinstalls the httpd package on CentOS/RHEL systems.", "label": 0}
+{"command": "chgrp -R group /data", "description": "Recursively changes group ownership of /data to group.", "label": 0}
+{"command": "sudo apt install docker.io | tail -n 5", "description": "Install Docker on the system", "label": 1}
+{"command": "sudo apt install npm", "description": "Install npm package manager", "label": 1}
+{"command": "cat -v file.txt 2>&1", "description": "Displays file.txt with non-printable characters visible.", "label": 0}
+{"command": "setfacl -x u:user file.txt -i -r", "description": "Removes ACL entries for user from file.txt.", "label": 0}
+{"command": "chown -v user file.txt 2> error.log", "description": "Changes owner of file.txt to user with verbose output.", "label": 0}
+{"command": "join -t ',' file1.txt file2.txt > /dev/null", "description": "Joins two sorted files on a common field using comma as delimiter.", "label": 0}
+{"command": "sudo apt install apache2 -L", "description": "Install the Apache HTTP server", "label": 1}
+{"command": "nslookup google.com", "description": "Queries DNS for google.com's IP address.", "label": 1}
+{"command": "findmnt -t ext4", "description": "Lists mounted ext4 filesystems with details.", "label": 0}
+{"command": "less -M logfile.txt | sort", "description": "Views logfile.txt in less with verbose status.", "label": 0}
+{"command": "cd .. | less", "description": "Moves up one directory level.", "label": 0}
+{"command": "sudo apt install python3 python3-pip", "description": "Install Python 3 and pip for managing Python packages", "label": 1}
+{"command": "fallocate -l 1G file.img 2>&1", "description": "Preallocates a 1GB file.img without writing zeros.", "label": 0}
+{"command": "ping -i 0.5 google.com", "description": "Sends ICMP echo requests to google.com every 0.5 seconds.", "label": 1}
+{"command": "wget http://example.com/file.txt | head -n 10", "description": "Download a file using wget from a URL", "label": 1}
+{"command": "ln file1.txt file2.txt | less", "description": "Creates a hard link file2.txt to file1.txt.", "label": 0}
+{"command": "dnf group list | tail -n 5", "description": "Lists available package groups on Fedora-based systems.", "label": 0}
+{"command": "sudo apt update && sudo apt upgrade docker.io > /dev/null", "description": "Check for Docker updates and upgrade the Docker installation", "label": 1}
+{"command": "xdg-open 'https://github.com' -6 -k", "description": "Open the system browser and go to github.com", "label": 1}
+{"command": "swapon /dev/sdb1 | awk '{print $1}'", "description": "Enables the swap partition on /dev/sdb1.", "label": 0}
+{"command": "sudo systemctl disable ssh", "description": "Disable the SSH service from starting on boot", "label": 1}
+{"command": "sudo apt install google-chrome-stable -v", "description": "Install Google Chrome browser", "label": 1}
+{"command": "top -n 1 -v", "description": "Runs top for one iteration and exits.", "label": 0}
+{"command": "fallocate -l 1G file.img", "description": "Preallocates a 1GB file.img without writing zeros.", "label": 0}
+{"command": "traceroute google.com", "description": "Traces the route packets take to google.com.", "label": 1}
+{"command": "xdg-open 'https://github.com' > /dev/null", "description": "Open the system browser and go to github.com", "label": 1}
+{"command": "vmstat -s 2>/dev/null", "description": "Displays a summary of virtual memory statistics.", "label": 0}
+{"command": "sudo apt install htop", "description": "Install a new package named 'htop' on a Debian-based system", "label": 1}
+{"command": "cd /usr/share | uniq", "description": "Changes the current directory to /usr/share.", "label": 0}
+{"command": "tree -if --noreport /etc | grep '\\.conf$'; echo 'Completed'", "description": "Lists all .conf files in /etc without directory tree formatting.", "label": 0}
+{"command": "sudo apt upgrade -y", "description": "Upgrade all packages", "label": 1}
+{"command": "cat -v file.txt -h -f", "description": "Displays file.txt with non-printable characters visible.", "label": 0}
+{"command": "ping -c 2 192.168.1.1", "description": "Sends 2 ICMP echo requests to the IP 192.168.1.1.", "label": 1}
+{"command": "systemctl list-dependencies nginx -a -h", "description": "Lists dependencies of the nginx service.", "label": 0}
+{"command": "sudo systemctl restart ssh -6 -4", "description": "Restart the SSH service", "label": 1}
+{"command": "xdg-open 'http://test.example.com'", "description": "Open a web page in the default browser", "label": 1}
+{"command": "yum remove httpd; echo 'Completed'", "description": "Uninstalls the Apache web server on CentOS/RHEL systems.", "label": 0}
+{"command": "fallocate -l 1G file.img | tail -n 5", "description": "Preallocates a 1GB file.img without writing zeros.", "label": 0}
+{"command": "findmnt -t ext4", "description": "Lists mounted ext4 filesystems with details.", "label": 0}
+{"command": "pwgen -s 16 1", "description": "Generates one secure 16-character random password.", "label": 0}
+{"command": "firefox 'https://example.com' & -v", "description": "Open a website in Firefox", "label": 1}
+{"command": "google-chrome 'https://example.com'", "description": "Open the Chrome browser and go to google.com", "label": 1}
+{"command": "sudo apt install vim", "description": "Install the 'vim' editor on a Debian-based system", "label": 1}
+{"command": "chcon -t httpd_sys_content_t /var/www -l -i", "description": "Sets SELinux context for /var/www to httpd_sys_content_t.", "label": 0}
+{"command": "trace-cmd record -p function -P 1234 -i", "description": "Records function traces for the process with PID 1234.", "label": 0}
+{"command": "sudo systemctl start ssh -v", "description": "Start the SSH service manually", "label": 1}
+{"command": "sudo systemctl status ssh", "description": "Check the status of the SSH service", "label": 1}
+{"command": "cp -s file1.txt link.txt -f", "description": "Creates a symbolic link link.txt to file1.txt.", "label": 0}
+{"command": "sudo apt install nodejs", "description": "Install Node.js on a Debian-based system", "label": 1}
+{"command": "sudo systemctl stop ssh -s -6", "description": "Stop the SSH service", "label": 1}
+{"command": "ping -s 100 google.com", "description": "Sends ICMP echo requests to google.com with 100-byte packets.", "label": 1}
+{"command": "sudo apt install git 2>/dev/null", "description": "Install the 'git' version control system on a Debian-based system", "label": 1}
+{"command": "emacs --no-init-file file.txt | sort", "description": "Opens file.txt in Emacs without loading the init file.", "label": 0}
+{"command": "dnf group list", "description": "Lists available package groups on Fedora-based systems.", "label": 0}
+{"command": "wget http://example.com/file.txt", "description": "Download a file using wget from a URL", "label": 1}
+{"command": "sudo apt install npm", "description": "Install npm package manager", "label": 1}
+{"command": "sudo systemctl disable ssh -L -6", "description": "Disable the SSH service from starting on boot", "label": 1}
+{"command": "sudo apt install apache2", "description": "Install the Apache HTTP server", "label": 1}
+{"command": "col -b < file.txt", "description": "Filters file.txt to remove backspaces and their preceding characters.", "label": 0}
+{"command": "sudo apt upgrade -y -v", "description": "Upgrade all packages", "label": 1}
+{"command": "traceroute google.com", "description": "Traces the route packets take to google.com.", "label": 1}
+{"command": "hexdump -C -n 16 file.bin; echo 'Completed'", "description": "Displays the first 16 bytes of file.bin in hex and ASCII.", "label": 0}
+{"command": "sudo apt install docker.io", "description": "Install Docker on the system", "label": 1}
+{"command": "sudo apt install curl 2> error.log", "description": "Install a package named 'curl' on a Debian-based system", "label": 1}
+{"command": "killall nginx", "description": "Terminates all nginx processes.", "label": 0}
+{"command": "less +F logfile.txt 2>/dev/null", "description": "Monitors logfile.txt in less, similar to tail -f.", "label": 0}
+{"command": "col -b < file.txt | grep 'pattern'", "description": "Filters file.txt to remove backspaces and their preceding characters.", "label": 0}
+{"command": "fallocate -l 1G file.img", "description": "Preallocates a 1GB file.img without writing zeros.", "label": 0}
+{"command": "uname -m", "description": "Displays the machine hardware architecture.", "label": 0}
+{"command": "sudo apt install npm", "description": "Install npm package manager", "label": 1}
+{"command": "killall nginx || echo 'Failed'", "description": "Terminates all nginx processes.", "label": 0}
+{"command": "sudo apt install docker.io", "description": "Install Docker on the system", "label": 1}
+{"command": "sudo apt install apache2", "description": "Install the Apache HTTP server", "label": 1}
+{"command": "df -T | uniq", "description": "Shows disk usage with filesystem types.", "label": 0}
+{"command": "sudo apt install google-chrome-stable &", "description": "Install Google Chrome browser", "label": 1}
+{"command": "iotop -o 2>/dev/null", "description": "Displays I/O usage by processes, showing only active ones.", "label": 0}
+{"command": "join -t ',' file1.txt file2.txt", "description": "Joins two sorted files on a common field using comma as delimiter.", "label": 0}
+{"command": "who -r 2> error.log", "description": "Displays the current run-level of the system.", "label": 0}
+{"command": "sudo systemctl stop ssh", "description": "Stop the SSH service", "label": 1}
+{"command": "restore -rf backup.tar -a -h", "description": "Restores the filesystem from backup.tar.", "label": 0}
+{"command": "nmap -sV 192.168.1.1 -q", "description": "Scans 192.168.1.1 for open ports and service versions.", "label": 1}
+{"command": "cd /usr/share", "description": "Changes the current directory to /usr/share.", "label": 0}
+{"command": "who -r; echo 'Completed'", "description": "Displays the current run-level of the system.", "label": 0}
+{"command": "killall nginx -h -f", "description": "Terminates all nginx processes.", "label": 0}
+{"command": "nano +10 config.conf 2>&1", "description": "Opens config.conf in Nano at line 10.", "label": 0}
+{"command": "cat -v file.txt | awk '{print $1}'", "description": "Displays file.txt with non-printable characters visible.", "label": 0}
+{"command": "setfacl -R -m u:user:rx /data &", "description": "Recursively grants user read and execute permissions on /data using ACL.", "label": 0}
+{"command": "cp -s file1.txt link.txt -i", "description": "Creates a symbolic link link.txt to file1.txt.", "label": 0}
+{"command": "sudo apt install nginx", "description": "Install a new package 'nginx' on a Debian-based system", "label": 1}
+{"command": "col -b < file.txt -l", "description": "Filters file.txt to remove backspaces and their preceding characters.", "label": 0}
+{"command": "sudo systemctl enable ssh", "description": "Enable the SSH service to start on boot", "label": 1}
+{"command": "iotop -o -f -a", "description": "Displays I/O usage by processes, showing only active ones.", "label": 0}
+{"command": "ping -s 100 google.com 2>/dev/null", "description": "Sends ICMP echo requests to google.com with 100-byte packets.", "label": 1}
+{"command": "xdg-open 'https://github.com' -s -q", "description": "Open the system browser and go to github.com", "label": 1}
+{"command": "df -T", "description": "Shows disk usage with filesystem types.", "label": 0}
+{"command": "setfacl -R -m u:user:rx /data 2> error.log", "description": "Recursively grants user read and execute permissions on /data using ACL.", "label": 0}
+{"command": "firefox http://localhost 2> error.log", "description": "Open the website hosted by NGINX in Firefox", "label": 1}
+{"command": "find / -xdev -perm /u+s -h -v", "description": "Finds setuid files on the root filesystem, ignoring other mounts.", "label": 0}
+{"command": "find / -xdev -perm /u+s | tee output.txt", "description": "Finds setuid files on the root filesystem, ignoring other mounts.", "label": 0}
+{"command": "dig google.com", "description": "Performs a detailed DNS lookup for google.com.", "label": 1}
+{"command": "sudo ufw deny ssh | less", "description": "Block SSH connections through the firewall", "label": 1}
+{"command": "pstree -p", "description": "Displays a tree of processes with PIDs.", "label": 0}
+{"command": "cat > newfile.txt", "description": "Creates or overwrites newfile.txt with input from stdin (Ctrl+D to end).", "label": 0}
+{"command": "sudo apt install npm > /dev/null", "description": "Install npm package manager", "label": 1}
+{"command": "sudo yum install wget -O", "description": "Install the 'wget' utility on a RedHat-based system", "label": 1}
+{"command": "sudo apt install vim > output.txt", "description": "Install the 'vim' editor on a Debian-based system", "label": 1}
+{"command": "sudo apt update 2> error.log", "description": "Search for updates", "label": 1}
+{"command": "sudo ufw deny ssh", "description": "Block SSH connections through the firewall", "label": 1}
+{"command": "xdg-open 'https://data.example.net/results?search_query=mr+beast'", "description": "Open YouTube and search for videos by Mr Beast", "label": 1}
+{"command": "ping -i 0.5 google.com", "description": "Sends ICMP echo requests to google.com every 0.5 seconds.", "label": 1}
+{"command": "swapon /dev/sdb1 > /dev/null", "description": "Enables the swap partition on /dev/sdb1.", "label": 0}
+{"command": "find / -xdev -perm /u+s 2>&1", "description": "Finds setuid files on the root filesystem, ignoring other mounts.", "label": 0}
+{"command": "cd ~", "description": "Changes to the current user's home directory.", "label": 0}
+{"command": "dnf group list | awk '{print $1}'", "description": "Lists available package groups on Fedora-based systems.", "label": 0}
+{"command": "xdg-open 'https://example.com' && echo 'Done'", "description": "Open a web page in the default browser", "label": 1}
+{"command": "dmidecode -t system -l -r", "description": "Displays system hardware information.", "label": 0}
+{"command": "google-chrome 'https://www.google.com' | tail -n 5", "description": "Open the Chrome browser and go to google.com", "label": 1}
+{"command": "sudo apt install python3 python3-pip | grep 'pattern'", "description": "Install Python 3 and pip for managing Python packages", "label": 1}
+{"command": "nmap localhost", "description": "Scans open ports on localhost.", "label": 1}
+{"command": "ping -c 2 192.168.1.1 &> all.log", "description": "Sends 2 ICMP echo requests to the IP 192.168.1.1.", "label": 1}
+{"command": "netcat -zv 192.168.1.1 22 || echo 'Failed'", "description": "Scans port 22 on 192.168.1.1 for connectivity.", "label": 1}
+{"command": "getent passwd user -v", "description": "Displays passwd database entry for user.", "label": 0}
+{"command": "xdg-open 'https://example.com' || echo 'Failed'", "description": "Open a web page in the default browser", "label": 1}
+{"command": "xdg-open 'https://example.com' -L -k", "description": "Open a web page in the default browser", "label": 1}
+{"command": "rmdir empty_dir -a -h", "description": "Removes the empty directory empty_dir.", "label": 0}
+{"command": "iotop -o 2>/dev/null", "description": "Displays I/O usage by processes, showing only active ones.", "label": 0}
+{"command": "dmidecode -t system | head -n 10", "description": "Displays system hardware information.", "label": 0}
+{"command": "sudo systemctl start ssh", "description": "Start the SSH service manually", "label": 1}
+{"command": "nmap -sV 192.168.1.1", "description": "Scans 192.168.1.1 for open ports and service versions.", "label": 1}
+{"command": "sudo systemctl enable ssh", "description": "Enable the SSH service to start on boot", "label": 1}
+{"command": "yum history", "description": "Displays the transaction history of yum on CentOS/RHEL systems.", "label": 0}
+{"command": "sudo apt update", "description": "Search for updates", "label": 1}
+{"command": "sudo apt install python3", "description": "Install Python 3", "label": 1}
+{"command": "sudo apt install vlc", "description": "Install the VLC media player", "label": 1}
+{"command": "who -r 2> error.log", "description": "Displays the current run-level of the system.", "label": 0}
+{"command": "journalctl -b", "description": "Displays system logs since the last boot.", "label": 0}
+{"command": "journalctl -b | grep 'pattern'", "description": "Displays system logs since the last boot.", "label": 0}
+{"command": "traceroute google.com", "description": "Traces the route packets take to google.com.", "label": 1}
+{"command": "ping -i 0.5 google.com", "description": "Sends ICMP echo requests to google.com every 0.5 seconds.", "label": 1}
+{"command": "sudo apt install htop", "description": "Install a new package named 'htop' on a Debian-based system", "label": 1}
+{"command": "mv -i file.txt /tmp -r", "description": "Moves file.txt to /tmp with interactive prompt for overwrite.", "label": 0}
+{"command": "yum history | tee output.txt", "description": "Displays the transaction history of yum on CentOS/RHEL systems.", "label": 0}
+{"command": "ping -s 100 google.com", "description": "Sends ICMP echo requests to google.com with 100-byte packets.", "label": 1}
+{"command": "stat file.txt", "description": "Displays detailed file status, including timestamps and permissions.", "label": 0}
+{"command": "xdg-open 'https://example.com/results?search_query=linux+tutorial+videos'", "description": "Open YouTube and search for 'linux tutorial videos'", "label": 1}
+{"command": "ping 8.8.8.8 || echo 'Failed'", "description": "Sends ICMP echo requests to Google's public DNS server.", "label": 1}
+{"command": "sudo apt install vim -k", "description": "Install the 'vim' editor on a Debian-based system", "label": 1}
+{"command": "sudo snap install vlc", "description": "Install a snap package (e.g., vlc)", "label": 1}
+{"command": "nmap localhost", "description": "Scans open ports on localhost.", "label": 1}
+{"command": "getent passwd user | awk '{print $1}'", "description": "Displays passwd database entry for user.", "label": 0}
+{"command": "sudo systemctl restart ssh", "description": "Restart the SSH service", "label": 1}
+{"command": "sudo apt update && sudo apt upgrade -y", "description": "Update the system using apt", "label": 1}
+{"command": "join -t ',' file1.txt file2.txt", "description": "Joins two sorted files on a common field using comma as delimiter.", "label": 0}
+{"command": "sudo yum install wget -q -L", "description": "Install the 'wget' utility on a RedHat-based system", "label": 1}
+{"command": "iotop -o", "description": "Displays I/O usage by processes, showing only active ones.", "label": 0}
+{"command": "nslookup google.com", "description": "Queries DNS for google.com's IP address.", "label": 1}
+{"command": "pwgen -s 16 1 2>&1", "description": "Generates one secure 16-character random password.", "label": 0}
+{"command": "sudo apt install python3-pip", "description": "Install Python 3 pip", "label": 1}
+{"command": "sudo yum install wget &", "description": "Install the 'wget' utility on a RedHat-based system", "label": 1}
+{"command": "ln file1.txt file2.txt 2>/dev/null", "description": "Creates a hard link file2.txt to file1.txt.", "label": 0}
+{"command": "sudo apt install nginx", "description": "Install a new package 'nginx' on a Debian-based system", "label": 1}
+{"command": "sudo systemctl restart ssh; echo 'Completed'", "description": "Restart the SSH service", "label": 1}
+{"command": "chown -v user test.txt", "description": "Changes owner of file.txt to user with verbose output.", "label": 0}
+{"command": "xdg-open 'https://www.youtube.com/results?search_query=linux+tutorial+videos' >> log.txt", "description": "Open YouTube and search for 'linux tutorial videos'", "label": 1}

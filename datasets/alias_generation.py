@@ -3,9 +3,9 @@ import re
 import random
 
 
-input_file = "internet_access_binary_dataset.jsonl"
+input_file = "augmented_internet_access_dataset.jsonl"
 output_file = "alias_internet_access_dataset.jsonl"
-alias_map_file = "alias_mapping.json"
+alias_map_file = "alias_mapping2.json"
 
 # If True, non-internet commands will have a single token replaced with an alias (default: False)
 obfuscate_non_internet = True
@@ -67,11 +67,6 @@ def find_internet_tokens(cmd: str):
     return filtered
 
 def aliasify_internet_tokens(cmd: str, alias_mapping: dict):
-    """
-    For a command string, detect internet-accessing tokens, create an alias for each distinct occurrence,
-    replace tokens with alias names, and return: alias_prefix_str, replaced_cmd
-    alias_prefix_str is like "alias a1='ssh'; alias a2='curl'; " (note trailing space if any)
-    """
     if not isinstance(cmd, str) or not cmd.strip():
         return "", cmd
 

@@ -1,0 +1,1274 @@
+{
+  "a1": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a3": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a2": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a4": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a5": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a6": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a7": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a8": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a9": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a10": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a11": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a12": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a13": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a14": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a15": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a16": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a18": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a17": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a20": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a19": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a22": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a21": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a23": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a25": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a24": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a26": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a27": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a29": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a28": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a30": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a31": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a32": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a33": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a35": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a34": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a36": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a37": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a38": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a39": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a40": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a42": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a41": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a43": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a44": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a45": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a46": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a47": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a48": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a50": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a49": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a51": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a52": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a53": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a55": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a54": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a56": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a57": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a58": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a60": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a59": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a61": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a62": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a63": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a64": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a65": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a66": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a67": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a68": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a70": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a69": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a72": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a71": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a73": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a74": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a76": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a75": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a77": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a78": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a80": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a79": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a81": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a82": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a83": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a84": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a85": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a86": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a87": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a89": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a88": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a90": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a92": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a91": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a93": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a95": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a94": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a96": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a97": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a98": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a99": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a101": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a100": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a103": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a102": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a104": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a105": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a107": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a106": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a108": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a109": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a110": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a112": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a111": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a114": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a113": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a115": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a116": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a117": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a118": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a119": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a120": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a121": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a123": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a122": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a124": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a125": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a126": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a127": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a128": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a129": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a130": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a131": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a132": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a134": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a133": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a135": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a137": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a136": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a138": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a139": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a140": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a141": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a142": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a143": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a144": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a145": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a146": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a147": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a148": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a150": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a149": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a151": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a152": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a153": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a154": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a155": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a156": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a157": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a158": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a160": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a159": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a161": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a163": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a162": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a164": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a166": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a165": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a167": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a168": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a169": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a171": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a170": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a172": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a173": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a174": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a176": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a175": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a177": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a179": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a178": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a180": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a181": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a182": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a183": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a185": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a184": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a186": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a188": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a187": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a189": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a190": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a191": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a192": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a193": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a194": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a195": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a196": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a197": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a198": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a199": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a200": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a201": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a203": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a202": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a205": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a204": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a206": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a208": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a207": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a209": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a210": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a211": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a212": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a213": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a214": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a215": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a216": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a218": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a217": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a219": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a220": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a221": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a222": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a223": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a224": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a225": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a226": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a227": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a229": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a228": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a230": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a231": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a232": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a234": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a233": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a235": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a236": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a238": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a237": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a239": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a240": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a242": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a241": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a243": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a244": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a245": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a246": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a247": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a248": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a249": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a250": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a251": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a252": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a253": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a254": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a255": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a257": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a256": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a258": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a260": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a259": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a261": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a262": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a263": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a264": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a265": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a267": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a266": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a269": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a268": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a270": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a271": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a272": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a273": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a274": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a275": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a276": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a277": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a278": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a279": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a281": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a280": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a283": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a282": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a284": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a285": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a286": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a287": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a289": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a288": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a290": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a291": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a292": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a293": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a294": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a295": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a296": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a297": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a298": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a299": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a300": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a301": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a302": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a303": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a304": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a305": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a306": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a307": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a309": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a308": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a311": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a310": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a312": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a314": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a313": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a316": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a315": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a317": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a318": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  }
+}

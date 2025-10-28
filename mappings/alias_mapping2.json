@@ -1,0 +1,2522 @@
+{
+  "a1": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a3": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a2": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a4": {
+    "original_token": "2>",
+    "style": "token_alias_non_internet"
+  },
+  "a5": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a6": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a7": {
+    "original_token": "-h",
+    "style": "token_alias_non_internet"
+  },
+  "a8": {
+    "original_token": "restore",
+    "style": "token_alias_non_internet"
+  },
+  "a9": {
+    "original_token": "5",
+    "style": "token_alias_non_internet"
+  },
+  "a10": {
+    "original_token": "file.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a11": {
+    "original_token": "file2.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a12": {
+    "original_token": "dirs",
+    "style": "token_alias_non_internet"
+  },
+  "a13": {
+    "original_token": "tee",
+    "style": "token_alias_non_internet"
+  },
+  "a14": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a15": {
+    "original_token": "/data",
+    "style": "token_alias_non_internet"
+  },
+  "a16": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a17": {
+    "original_token": "less",
+    "style": "token_alias_non_internet"
+  },
+  "a18": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a19": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a20": {
+    "original_token": "chcon",
+    "style": "token_alias_non_internet"
+  },
+  "a21": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a22": {
+    "original_token": "-s",
+    "style": "token_alias_non_internet"
+  },
+  "a23": {
+    "original_token": "df",
+    "style": "token_alias_non_internet"
+  },
+  "a24": {
+    "original_token": "cd",
+    "style": "token_alias_non_internet"
+  },
+  "a25": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a26": {
+    "original_token": "-P",
+    "style": "token_alias_non_internet"
+  },
+  "a27": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a28": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a29": {
+    "original_token": "systemctl",
+    "style": "token_alias_non_internet"
+  },
+  "a30": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a31": {
+    "original_token": "-xdev",
+    "style": "token_alias_non_internet"
+  },
+  "a32": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a33": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a35": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a34": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a37": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a36": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a39": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a38": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a40": {
+    "original_token": "user",
+    "style": "token_alias_non_internet"
+  },
+  "a41": {
+    "original_token": "-r",
+    "style": "token_alias_non_internet"
+  },
+  "a42": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a44": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a43": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a45": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a46": {
+    "original_token": "-h",
+    "style": "token_alias_non_internet"
+  },
+  "a47": {
+    "original_token": "'Completed'",
+    "style": "token_alias_non_internet"
+  },
+  "a48": {
+    "original_token": "|",
+    "style": "token_alias_non_internet"
+  },
+  "a49": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a50": {
+    "original_token": "top",
+    "style": "token_alias_non_internet"
+  },
+  "a51": {
+    "original_token": ">",
+    "style": "token_alias_non_internet"
+  },
+  "a52": {
+    "original_token": "&>",
+    "style": "token_alias_non_internet"
+  },
+  "a53": {
+    "original_token": "-n",
+    "style": "token_alias_non_internet"
+  },
+  "a54": {
+    "original_token": "&&",
+    "style": "token_alias_non_internet"
+  },
+  "a56": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a55": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a57": {
+    "original_token": "file.bin",
+    "style": "token_alias_non_internet"
+  },
+  "a58": {
+    "original_token": "-l",
+    "style": "token_alias_non_internet"
+  },
+  "a59": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a60": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a61": {
+    "original_token": "2>&1",
+    "style": "token_alias_non_internet"
+  },
+  "a62": {
+    "original_token": "&&",
+    "style": "token_alias_non_internet"
+  },
+  "a63": {
+    "original_token": "'s/old/new/g'",
+    "style": "token_alias_non_internet"
+  },
+  "a64": {
+    "original_token": "'pattern'",
+    "style": "token_alias_non_internet"
+  },
+  "a65": {
+    "original_token": "vmstat",
+    "style": "token_alias_non_internet"
+  },
+  "a66": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a67": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a68": {
+    "original_token": "function",
+    "style": "token_alias_non_internet"
+  },
+  "a69": {
+    "original_token": "uniq",
+    "style": "token_alias_non_internet"
+  },
+  "a70": {
+    "original_token": "file.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a71": {
+    "original_token": "|",
+    "style": "token_alias_non_internet"
+  },
+  "a73": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a72": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a74": {
+    "original_token": "hexdump",
+    "style": "token_alias_non_internet"
+  },
+  "a75": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a76": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a77": {
+    "original_token": "yum",
+    "style": "token_alias_non_internet"
+  },
+  "a78": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a79": {
+    "original_token": "sed",
+    "style": "token_alias_non_internet"
+  },
+  "a80": {
+    "original_token": "u:user",
+    "style": "token_alias_non_internet"
+  },
+  "a81": {
+    "original_token": "setfacl",
+    "style": "token_alias_non_internet"
+  },
+  "a82": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a83": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a85": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a84": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a86": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a87": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a88": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a89": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a90": {
+    "original_token": "-r",
+    "style": "token_alias_non_internet"
+  },
+  "a91": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a92": {
+    "original_token": "'\\.conf$'",
+    "style": "token_alias_non_internet"
+  },
+  "a93": {
+    "original_token": "-v",
+    "style": "token_alias_non_internet"
+  },
+  "a94": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a96": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a95": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a97": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a98": {
+    "original_token": "data.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a99": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a100": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a102": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a101": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a103": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a104": {
+    "original_token": "','",
+    "style": "token_alias_non_internet"
+  },
+  "a105": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a106": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a107": {
+    "original_token": "-p",
+    "style": "token_alias_non_internet"
+  },
+  "a108": {
+    "original_token": "-f",
+    "style": "token_alias_non_internet"
+  },
+  "a109": {
+    "original_token": "-l",
+    "style": "token_alias_non_internet"
+  },
+  "a110": {
+    "original_token": "group",
+    "style": "token_alias_non_internet"
+  },
+  "a111": {
+    "original_token": "1234",
+    "style": "token_alias_non_internet"
+  },
+  "a113": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a112": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a114": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a115": {
+    "original_token": "yum",
+    "style": "token_alias_non_internet"
+  },
+  "a116": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a117": {
+    "original_token": "newfile.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a118": {
+    "original_token": "--no-init-file",
+    "style": "token_alias_non_internet"
+  },
+  "a119": {
+    "original_token": "httpd",
+    "style": "token_alias_non_internet"
+  },
+  "a120": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a121": {
+    "original_token": "tee",
+    "style": "token_alias_non_internet"
+  },
+  "a122": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a123": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a124": {
+    "original_token": "list-dependencies",
+    "style": "token_alias_non_internet"
+  },
+  "a125": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a126": {
+    "original_token": "-rf",
+    "style": "token_alias_non_internet"
+  },
+  "a127": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a128": {
+    "original_token": "less",
+    "style": "token_alias_non_internet"
+  },
+  "a129": {
+    "original_token": "stat",
+    "style": "token_alias_non_internet"
+  },
+  "a130": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a131": {
+    "original_token": "dirs",
+    "style": "token_alias_non_internet"
+  },
+  "a132": {
+    "original_token": "tree",
+    "style": "token_alias_non_internet"
+  },
+  "a134": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a133": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a136": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a135": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a137": {
+    "original_token": "echo",
+    "style": "token_alias_non_internet"
+  },
+  "a138": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a139": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a140": {
+    "original_token": "-a",
+    "style": "token_alias_non_internet"
+  },
+  "a141": {
+    "original_token": "output.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a142": {
+    "original_token": "2>&1",
+    "style": "token_alias_non_internet"
+  },
+  "a143": {
+    "original_token": "fallocate",
+    "style": "token_alias_non_internet"
+  },
+  "a145": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a144": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a146": {
+    "original_token": "-p",
+    "style": "token_alias_non_internet"
+  },
+  "a147": {
+    "original_token": "/dev/null",
+    "style": "token_alias_non_internet"
+  },
+  "a148": {
+    "original_token": "tee",
+    "style": "token_alias_non_internet"
+  },
+  "a149": {
+    "original_token": "tee",
+    "style": "token_alias_non_internet"
+  },
+  "a150": {
+    "original_token": "data.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a151": {
+    "original_token": "dirs",
+    "style": "token_alias_non_internet"
+  },
+  "a152": {
+    "original_token": "-n",
+    "style": "token_alias_non_internet"
+  },
+  "a153": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a154": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a155": {
+    "original_token": "logfile.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a156": {
+    "original_token": ">",
+    "style": "token_alias_non_internet"
+  },
+  "a157": {
+    "original_token": "info",
+    "style": "token_alias_non_internet"
+  },
+  "a159": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a158": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a160": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a161": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a162": {
+    "original_token": "+10",
+    "style": "token_alias_non_internet"
+  },
+  "a163": {
+    "original_token": "passwd",
+    "style": "token_alias_non_internet"
+  },
+  "a164": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a165": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a166": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a167": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a168": {
+    "original_token": "cd",
+    "style": "token_alias_non_internet"
+  },
+  "a169": {
+    "original_token": "&",
+    "style": "token_alias_non_internet"
+  },
+  "a170": {
+    "original_token": "|",
+    "style": "token_alias_non_internet"
+  },
+  "a171": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a173": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a172": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a174": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a175": {
+    "original_token": "vmstat",
+    "style": "token_alias_non_internet"
+  },
+  "a176": {
+    "original_token": "..",
+    "style": "token_alias_non_internet"
+  },
+  "a178": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a177": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a179": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a180": {
+    "original_token": "-n",
+    "style": "token_alias_non_internet"
+  },
+  "a182": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a181": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a183": {
+    "original_token": "empty_dir",
+    "style": "token_alias_non_internet"
+  },
+  "a184": {
+    "original_token": "|",
+    "style": "token_alias_non_internet"
+  },
+  "a185": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a186": {
+    "original_token": "swapon",
+    "style": "token_alias_non_internet"
+  },
+  "a187": {
+    "original_token": "trace-cmd",
+    "style": "token_alias_non_internet"
+  },
+  "a188": {
+    "original_token": "uname",
+    "style": "token_alias_non_internet"
+  },
+  "a189": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a190": {
+    "original_token": "findmnt",
+    "style": "token_alias_non_internet"
+  },
+  "a191": {
+    "original_token": "-v",
+    "style": "token_alias_non_internet"
+  },
+  "a192": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a193": {
+    "original_token": "-b",
+    "style": "token_alias_non_internet"
+  },
+  "a194": {
+    "original_token": "cd",
+    "style": "token_alias_non_internet"
+  },
+  "a195": {
+    "original_token": "passwd",
+    "style": "token_alias_non_internet"
+  },
+  "a196": {
+    "original_token": "join",
+    "style": "token_alias_non_internet"
+  },
+  "a197": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a198": {
+    "original_token": "-i",
+    "style": "token_alias_non_internet"
+  },
+  "a199": {
+    "original_token": "pstree",
+    "style": "token_alias_non_internet"
+  },
+  "a200": {
+    "original_token": "-s",
+    "style": "token_alias_non_internet"
+  },
+  "a201": {
+    "original_token": "-r",
+    "style": "token_alias_non_internet"
+  },
+  "a203": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a202": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a204": {
+    "original_token": "-if",
+    "style": "token_alias_non_internet"
+  },
+  "a206": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a205": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a207": {
+    "original_token": "cd",
+    "style": "token_alias_non_internet"
+  },
+  "a208": {
+    "original_token": "&&",
+    "style": "token_alias_non_internet"
+  },
+  "a209": {
+    "original_token": "journalctl",
+    "style": "token_alias_non_internet"
+  },
+  "a210": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a211": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a213": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a212": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a214": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a215": {
+    "original_token": "systemd-cgtop",
+    "style": "token_alias_non_internet"
+  },
+  "a216": {
+    "original_token": "systemd-cgtop",
+    "style": "token_alias_non_internet"
+  },
+  "a217": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a218": {
+    "original_token": "-o",
+    "style": "token_alias_non_internet"
+  },
+  "a219": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a220": {
+    "original_token": "-r",
+    "style": "token_alias_non_internet"
+  },
+  "a221": {
+    "original_token": "-s",
+    "style": "token_alias_non_internet"
+  },
+  "a222": {
+    "original_token": "-t",
+    "style": "token_alias_non_internet"
+  },
+  "a223": {
+    "original_token": "-t",
+    "style": "token_alias_non_internet"
+  },
+  "a225": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a224": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a227": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a226": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a228": {
+    "original_token": "df",
+    "style": "token_alias_non_internet"
+  },
+  "a229": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a230": {
+    "original_token": "less",
+    "style": "token_alias_non_internet"
+  },
+  "a231": {
+    "original_token": "-f",
+    "style": "token_alias_non_internet"
+  },
+  "a232": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a233": {
+    "original_token": "less",
+    "style": "token_alias_non_internet"
+  },
+  "a234": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a235": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a236": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a237": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a238": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a239": {
+    "original_token": "/tmp",
+    "style": "token_alias_non_internet"
+  },
+  "a241": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a240": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a242": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a243": {
+    "original_token": "pstree",
+    "style": "token_alias_non_internet"
+  },
+  "a244": {
+    "original_token": "echo",
+    "style": "token_alias_non_internet"
+  },
+  "a245": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a246": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a247": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a248": {
+    "original_token": "-a",
+    "style": "token_alias_non_internet"
+  },
+  "a249": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a250": {
+    "original_token": "tail",
+    "style": "token_alias_non_internet"
+  },
+  "a251": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a252": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a253": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a254": {
+    "original_token": "-t",
+    "style": "token_alias_non_internet"
+  },
+  "a255": {
+    "original_token": "config.conf",
+    "style": "token_alias_non_internet"
+  },
+  "a256": {
+    "original_token": "-r",
+    "style": "token_alias_non_internet"
+  },
+  "a257": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a258": {
+    "original_token": "passwd",
+    "style": "token_alias_non_internet"
+  },
+  "a260": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a259": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a261": {
+    "original_token": "largefile.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a262": {
+    "original_token": "head",
+    "style": "token_alias_non_internet"
+  },
+  "a263": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a264": {
+    "original_token": "-M",
+    "style": "token_alias_non_internet"
+  },
+  "a265": {
+    "original_token": "'\\.conf$'",
+    "style": "token_alias_non_internet"
+  },
+  "a267": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a266": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a268": {
+    "original_token": "restore",
+    "style": "token_alias_non_internet"
+  },
+  "a269": {
+    "original_token": "swapon",
+    "style": "token_alias_non_internet"
+  },
+  "a270": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a271": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a272": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a273": {
+    "original_token": "user",
+    "style": "token_alias_non_internet"
+  },
+  "a274": {
+    "original_token": "/dev/null",
+    "style": "token_alias_non_internet"
+  },
+  "a275": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a276": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a277": {
+    "original_token": "-l",
+    "style": "token_alias_non_internet"
+  },
+  "a278": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a279": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a280": {
+    "original_token": "-r",
+    "style": "token_alias_non_internet"
+  },
+  "a281": {
+    "original_token": "-h",
+    "style": "token_alias_non_internet"
+  },
+  "a282": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a283": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a284": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a285": {
+    "original_token": "2>",
+    "style": "token_alias_non_internet"
+  },
+  "a286": {
+    "original_token": "chcon",
+    "style": "token_alias_non_internet"
+  },
+  "a287": {
+    "original_token": "-m",
+    "style": "token_alias_non_internet"
+  },
+  "a288": {
+    "original_token": "list",
+    "style": "token_alias_non_internet"
+  },
+  "a289": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a290": {
+    "original_token": "5",
+    "style": "token_alias_non_internet"
+  },
+  "a292": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a291": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a293": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a294": {
+    "original_token": "group",
+    "style": "token_alias_non_internet"
+  },
+  "a295": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a296": {
+    "original_token": "nginx",
+    "style": "token_alias_non_internet"
+  },
+  "a297": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a298": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a299": {
+    "original_token": "|",
+    "style": "token_alias_non_internet"
+  },
+  "a300": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a301": {
+    "original_token": "-t",
+    "style": "token_alias_non_internet"
+  },
+  "a302": {
+    "original_token": "file.txt;",
+    "style": "token_alias_non_internet"
+  },
+  "a303": {
+    "original_token": "file2.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a304": {
+    "original_token": "-b",
+    "style": "token_alias_non_internet"
+  },
+  "a305": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a306": {
+    "original_token": "-t",
+    "style": "token_alias_non_internet"
+  },
+  "a307": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a308": {
+    "original_token": "yum",
+    "style": "token_alias_non_internet"
+  },
+  "a309": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a310": {
+    "original_token": "access.log",
+    "style": "token_alias_non_internet"
+  },
+  "a312": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a311": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a313": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a314": {
+    "original_token": "echo",
+    "style": "token_alias_non_internet"
+  },
+  "a315": {
+    "original_token": ">>",
+    "style": "token_alias_non_internet"
+  },
+  "a317": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a316": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a318": {
+    "original_token": "access.log",
+    "style": "token_alias_non_internet"
+  },
+  "a319": {
+    "original_token": "-a",
+    "style": "token_alias_non_internet"
+  },
+  "a320": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a322": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a321": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a323": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a324": {
+    "original_token": "1",
+    "style": "token_alias_non_internet"
+  },
+  "a325": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a326": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a328": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a327": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a329": {
+    "original_token": "-v",
+    "style": "token_alias_non_internet"
+  },
+  "a330": {
+    "original_token": "/u+s",
+    "style": "token_alias_non_internet"
+  },
+  "a331": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a332": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a333": {
+    "original_token": "passwd",
+    "style": "token_alias_non_internet"
+  },
+  "a334": {
+    "original_token": "who",
+    "style": "token_alias_non_internet"
+  },
+  "a335": {
+    "original_token": "empty_dir",
+    "style": "token_alias_non_internet"
+  },
+  "a336": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a338": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a337": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a339": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a340": {
+    "original_token": "httpd",
+    "style": "token_alias_non_internet"
+  },
+  "a341": {
+    "original_token": "killall",
+    "style": "token_alias_non_internet"
+  },
+  "a343": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a342": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a344": {
+    "original_token": "/var/www",
+    "style": "token_alias_non_internet"
+  },
+  "a345": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a346": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a347": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a348": {
+    "original_token": "file.img",
+    "style": "token_alias_non_internet"
+  },
+  "a349": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a351": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a350": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a352": {
+    "original_token": "uname",
+    "style": "token_alias_non_internet"
+  },
+  "a353": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a354": {
+    "original_token": "head",
+    "style": "token_alias_non_internet"
+  },
+  "a355": {
+    "original_token": "file.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a356": {
+    "original_token": "link.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a357": {
+    "original_token": "&",
+    "style": "token_alias_non_internet"
+  },
+  "a359": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a358": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a360": {
+    "original_token": "backup.tar",
+    "style": "token_alias_non_internet"
+  },
+  "a361": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a362": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a363": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a364": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a365": {
+    "original_token": ">",
+    "style": "token_alias_non_internet"
+  },
+  "a366": {
+    "original_token": "/usr/share",
+    "style": "token_alias_non_internet"
+  },
+  "a367": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a368": {
+    "original_token": "-h",
+    "style": "token_alias_non_internet"
+  },
+  "a369": {
+    "original_token": "'Failed'",
+    "style": "token_alias_non_internet"
+  },
+  "a370": {
+    "original_token": "+10",
+    "style": "token_alias_non_internet"
+  },
+  "a371": {
+    "original_token": "..",
+    "style": "token_alias_non_internet"
+  },
+  "a372": {
+    "original_token": "|",
+    "style": "token_alias_non_internet"
+  },
+  "a373": {
+    "original_token": "grep",
+    "style": "token_alias_non_internet"
+  },
+  "a374": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a375": {
+    "original_token": "systemd-cgtop",
+    "style": "token_alias_non_internet"
+  },
+  "a376": {
+    "original_token": "wc",
+    "style": "token_alias_non_internet"
+  },
+  "a377": {
+    "original_token": "/",
+    "style": "token_alias_non_internet"
+  },
+  "a378": {
+    "original_token": "||",
+    "style": "token_alias_non_internet"
+  },
+  "a379": {
+    "original_token": "u:user:rx",
+    "style": "token_alias_non_internet"
+  },
+  "a380": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a381": {
+    "original_token": "grep",
+    "style": "token_alias_non_internet"
+  },
+  "a382": {
+    "original_token": "-n",
+    "style": "token_alias_non_internet"
+  },
+  "a383": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a384": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a385": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a386": {
+    "original_token": "/dev/null",
+    "style": "token_alias_non_internet"
+  },
+  "a387": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a388": {
+    "original_token": "httpd",
+    "style": "token_alias_non_internet"
+  },
+  "a389": {
+    "original_token": "systemd-cgtop",
+    "style": "token_alias_non_internet"
+  },
+  "a390": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a391": {
+    "original_token": "u:user:rx",
+    "style": "token_alias_non_internet"
+  },
+  "a392": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a394": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a393": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a396": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a395": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a397": {
+    "original_token": "+10",
+    "style": "token_alias_non_internet"
+  },
+  "a398": {
+    "original_token": "dmidecode",
+    "style": "token_alias_non_internet"
+  },
+  "a399": {
+    "original_token": "-R",
+    "style": "token_alias_non_internet"
+  },
+  "a400": {
+    "original_token": "1234",
+    "style": "token_alias_non_internet"
+  },
+  "a401": {
+    "original_token": "-M",
+    "style": "token_alias_non_internet"
+  },
+  "a402": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a403": {
+    "original_token": "/dev/sdb1",
+    "style": "token_alias_non_internet"
+  },
+  "a404": {
+    "original_token": "-n",
+    "style": "token_alias_non_internet"
+  },
+  "a405": {
+    "original_token": "findmnt",
+    "style": "token_alias_non_internet"
+  },
+  "a406": {
+    "original_token": "-C",
+    "style": "token_alias_non_internet"
+  },
+  "a408": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a407": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a409": {
+    "original_token": "cat",
+    "style": "token_alias_non_internet"
+  },
+  "a410": {
+    "original_token": "remove",
+    "style": "token_alias_non_internet"
+  },
+  "a411": {
+    "original_token": "less",
+    "style": "token_alias_non_internet"
+  },
+  "a412": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a413": {
+    "original_token": "cat",
+    "style": "token_alias_non_internet"
+  },
+  "a414": {
+    "original_token": "dirs",
+    "style": "token_alias_non_internet"
+  },
+  "a415": {
+    "original_token": "&>",
+    "style": "token_alias_non_internet"
+  },
+  "a416": {
+    "original_token": "-s",
+    "style": "token_alias_non_internet"
+  },
+  "a417": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a418": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a419": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a420": {
+    "original_token": "host",
+    "style": "token_alias"
+  },
+  "a421": {
+    "original_token": "vmstat",
+    "style": "token_alias_non_internet"
+  },
+  "a422": {
+    "original_token": ">",
+    "style": "token_alias_non_internet"
+  },
+  "a423": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a424": {
+    "original_token": "input.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a425": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a426": {
+    "original_token": ">",
+    "style": "token_alias_non_internet"
+  },
+  "a427": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a429": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a428": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a430": {
+    "original_token": "systemctl",
+    "style": "token_alias_non_internet"
+  },
+  "a431": {
+    "original_token": "/usr/share",
+    "style": "token_alias_non_internet"
+  },
+  "a432": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a433": {
+    "original_token": "'pattern'",
+    "style": "token_alias_non_internet"
+  },
+  "a434": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a435": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a436": {
+    "original_token": "ln",
+    "style": "token_alias_non_internet"
+  },
+  "a437": {
+    "original_token": "largefile.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a438": {
+    "original_token": "--no-init-file",
+    "style": "token_alias_non_internet"
+  },
+  "a439": {
+    "original_token": "stat",
+    "style": "token_alias_non_internet"
+  },
+  "a440": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a441": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a442": {
+    "original_token": "echo",
+    "style": "token_alias_non_internet"
+  },
+  "a443": {
+    "original_token": "-T",
+    "style": "token_alias_non_internet"
+  },
+  "a444": {
+    "original_token": "-C",
+    "style": "token_alias_non_internet"
+  },
+  "a445": {
+    "original_token": "-r",
+    "style": "token_alias_non_internet"
+  },
+  "a446": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a447": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a448": {
+    "original_token": "-f",
+    "style": "token_alias_non_internet"
+  },
+  "a449": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a450": {
+    "original_token": "/data",
+    "style": "token_alias_non_internet"
+  },
+  "a451": {
+    "original_token": "-x",
+    "style": "token_alias_non_internet"
+  },
+  "a452": {
+    "original_token": "logfile.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a453": {
+    "original_token": "-l",
+    "style": "token_alias_non_internet"
+  },
+  "a454": {
+    "original_token": "httpd",
+    "style": "token_alias_non_internet"
+  },
+  "a455": {
+    "original_token": "stat",
+    "style": "token_alias_non_internet"
+  },
+  "a456": {
+    "original_token": "link.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a457": {
+    "original_token": "history",
+    "style": "token_alias_non_internet"
+  },
+  "a458": {
+    "original_token": "uname",
+    "style": "token_alias_non_internet"
+  },
+  "a459": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a461": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a460": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a462": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a463": {
+    "original_token": "output.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a464": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a465": {
+    "original_token": "httpd",
+    "style": "token_alias_non_internet"
+  },
+  "a466": {
+    "original_token": "chgrp",
+    "style": "token_alias_non_internet"
+  },
+  "a467": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a469": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a468": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a470": {
+    "original_token": "-v",
+    "style": "token_alias_non_internet"
+  },
+  "a471": {
+    "original_token": "-i",
+    "style": "token_alias_non_internet"
+  },
+  "a472": {
+    "original_token": "-v",
+    "style": "token_alias_non_internet"
+  },
+  "a473": {
+    "original_token": "join",
+    "style": "token_alias_non_internet"
+  },
+  "a474": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a475": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a476": {
+    "original_token": "-t",
+    "style": "token_alias_non_internet"
+  },
+  "a477": {
+    "original_token": "less",
+    "style": "token_alias_non_internet"
+  },
+  "a478": {
+    "original_token": "|",
+    "style": "token_alias_non_internet"
+  },
+  "a480": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a479": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a481": {
+    "original_token": "2>&1",
+    "style": "token_alias_non_internet"
+  },
+  "a482": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a483": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a484": {
+    "original_token": "ln",
+    "style": "token_alias_non_internet"
+  },
+  "a485": {
+    "original_token": "tail",
+    "style": "token_alias_non_internet"
+  },
+  "a487": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a486": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a488": {
+    "original_token": "'{print",
+    "style": "token_alias_non_internet"
+  },
+  "a489": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a490": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a491": {
+    "original_token": "1",
+    "style": "token_alias_non_internet"
+  },
+  "a492": {
+    "original_token": "file.img",
+    "style": "token_alias_non_internet"
+  },
+  "a493": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a494": {
+    "original_token": "-s",
+    "style": "token_alias_non_internet"
+  },
+  "a495": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a496": {
+    "original_token": "cd",
+    "style": "token_alias_non_internet"
+  },
+  "a497": {
+    "original_token": "-if",
+    "style": "token_alias_non_internet"
+  },
+  "a498": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a499": {
+    "original_token": "-h",
+    "style": "token_alias_non_internet"
+  },
+  "a500": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a501": {
+    "original_token": "systemctl",
+    "style": "token_alias_non_internet"
+  },
+  "a502": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a503": {
+    "original_token": "remove",
+    "style": "token_alias_non_internet"
+  },
+  "a504": {
+    "original_token": "-l",
+    "style": "token_alias_non_internet"
+  },
+  "a505": {
+    "original_token": "findmnt",
+    "style": "token_alias_non_internet"
+  },
+  "a506": {
+    "original_token": "-s",
+    "style": "token_alias_non_internet"
+  },
+  "a507": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a508": {
+    "original_token": "/var/www",
+    "style": "token_alias_non_internet"
+  },
+  "a509": {
+    "original_token": "function",
+    "style": "token_alias_non_internet"
+  },
+  "a510": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a511": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a512": {
+    "original_token": "-s",
+    "style": "token_alias_non_internet"
+  },
+  "a513": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a514": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a515": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a517": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a516": {
+    "original_token": "git",
+    "style": "token_alias"
+  },
+  "a518": {
+    "original_token": "--no-init-file",
+    "style": "token_alias_non_internet"
+  },
+  "a519": {
+    "original_token": "group",
+    "style": "token_alias_non_internet"
+  },
+  "a520": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a522": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a521": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a523": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a524": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a525": {
+    "original_token": "col",
+    "style": "token_alias_non_internet"
+  },
+  "a526": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a527": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a528": {
+    "original_token": "hexdump",
+    "style": "token_alias_non_internet"
+  },
+  "a529": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a531": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a530": {
+    "original_token": "curl",
+    "style": "token_alias"
+  },
+  "a532": {
+    "original_token": "killall",
+    "style": "token_alias_non_internet"
+  },
+  "a533": {
+    "original_token": "less",
+    "style": "token_alias_non_internet"
+  },
+  "a534": {
+    "original_token": "grep",
+    "style": "token_alias_non_internet"
+  },
+  "a535": {
+    "original_token": "file.img",
+    "style": "token_alias_non_internet"
+  },
+  "a536": {
+    "original_token": "-m",
+    "style": "token_alias_non_internet"
+  },
+  "a538": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a537": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a539": {
+    "original_token": "'Failed'",
+    "style": "token_alias_non_internet"
+  },
+  "a540": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a541": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a542": {
+    "original_token": "|",
+    "style": "token_alias_non_internet"
+  },
+  "a543": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a544": {
+    "original_token": "iotop",
+    "style": "token_alias_non_internet"
+  },
+  "a545": {
+    "original_token": "file1.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a546": {
+    "original_token": "who",
+    "style": "token_alias_non_internet"
+  },
+  "a547": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a548": {
+    "original_token": "-rf",
+    "style": "token_alias_non_internet"
+  },
+  "a549": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a550": {
+    "original_token": "/usr/share",
+    "style": "token_alias_non_internet"
+  },
+  "a551": {
+    "original_token": "-r;",
+    "style": "token_alias_non_internet"
+  },
+  "a552": {
+    "original_token": "killall",
+    "style": "token_alias_non_internet"
+  },
+  "a553": {
+    "original_token": "config.conf",
+    "style": "token_alias_non_internet"
+  },
+  "a554": {
+    "original_token": "cat",
+    "style": "token_alias_non_internet"
+  },
+  "a555": {
+    "original_token": "u:user:rx",
+    "style": "token_alias_non_internet"
+  },
+  "a556": {
+    "original_token": "file1.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a557": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a558": {
+    "original_token": "-b",
+    "style": "token_alias_non_internet"
+  },
+  "a559": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a560": {
+    "original_token": "iotop",
+    "style": "token_alias_non_internet"
+  },
+  "a561": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a562": {
+    "original_token": "df",
+    "style": "token_alias_non_internet"
+  },
+  "a563": {
+    "original_token": "setfacl",
+    "style": "token_alias_non_internet"
+  },
+  "a564": {
+    "original_token": "find",
+    "style": "token_alias_non_internet"
+  },
+  "a565": {
+    "original_token": "-perm",
+    "style": "token_alias_non_internet"
+  },
+  "a566": {
+    "original_token": "dig",
+    "style": "token_alias"
+  },
+  "a567": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a568": {
+    "original_token": "-p",
+    "style": "token_alias_non_internet"
+  },
+  "a569": {
+    "original_token": "cat",
+    "style": "token_alias_non_internet"
+  },
+  "a571": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a570": {
+    "original_token": "npm",
+    "style": "token_alias"
+  },
+  "a573": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a572": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a574": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a575": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a576": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a577": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a578": {
+    "original_token": "/dev/null",
+    "style": "token_alias_non_internet"
+  },
+  "a579": {
+    "original_token": "2>&1",
+    "style": "token_alias_non_internet"
+  },
+  "a580": {
+    "original_token": "cd",
+    "style": "token_alias_non_internet"
+  },
+  "a581": {
+    "original_token": "awk",
+    "style": "token_alias_non_internet"
+  },
+  "a582": {
+    "original_token": "system",
+    "style": "token_alias_non_internet"
+  },
+  "a584": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a583": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a585": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a586": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a587": {
+    "original_token": "netcat",
+    "style": "token_alias"
+  },
+  "a588": {
+    "original_token": "passwd",
+    "style": "token_alias_non_internet"
+  },
+  "a589": {
+    "original_token": "rmdir",
+    "style": "token_alias_non_internet"
+  },
+  "a590": {
+    "original_token": "iotop",
+    "style": "token_alias_non_internet"
+  },
+  "a591": {
+    "original_token": "-n",
+    "style": "token_alias_non_internet"
+  },
+  "a592": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a593": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a594": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a595": {
+    "original_token": "yum",
+    "style": "token_alias_non_internet"
+  },
+  "a596": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a597": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a598": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a599": {
+    "original_token": "error.log",
+    "style": "token_alias_non_internet"
+  },
+  "a600": {
+    "original_token": "-b",
+    "style": "token_alias_non_internet"
+  },
+  "a601": {
+    "original_token": "grep",
+    "style": "token_alias_non_internet"
+  },
+  "a602": {
+    "original_token": "traceroute",
+    "style": "token_alias"
+  },
+  "a603": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a604": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a605": {
+    "original_token": "/tmp",
+    "style": "token_alias_non_internet"
+  },
+  "a606": {
+    "original_token": "output.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a607": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a608": {
+    "original_token": "file.txt",
+    "style": "token_alias_non_internet"
+  },
+  "a609": {
+    "original_token": "ping",
+    "style": "token_alias"
+  },
+  "a610": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a611": {
+    "original_token": "snap",
+    "style": "token_alias"
+  },
+  "a612": {
+    "original_token": "nmap",
+    "style": "token_alias"
+  },
+  "a613": {
+    "original_token": "$1}'",
+    "style": "token_alias_non_internet"
+  },
+  "a614": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a616": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a615": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a617": {
+    "original_token": "','",
+    "style": "token_alias_non_internet"
+  },
+  "a619": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a618": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a620": {
+    "original_token": "iotop",
+    "style": "token_alias_non_internet"
+  },
+  "a621": {
+    "original_token": "nslookup",
+    "style": "token_alias"
+  },
+  "a622": {
+    "original_token": "1",
+    "style": "token_alias_non_internet"
+  },
+  "a624": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a623": {
+    "original_token": "pip",
+    "style": "token_alias"
+  },
+  "a626": {
+    "original_token": "yum",
+    "style": "token_alias"
+  },
+  "a625": {
+    "original_token": "wget",
+    "style": "token_alias"
+  },
+  "a627": {
+    "original_token": "2>/dev/null",
+    "style": "token_alias_non_internet"
+  },
+  "a628": {
+    "original_token": "apt",
+    "style": "token_alias"
+  },
+  "a629": {
+    "original_token": "ssh",
+    "style": "token_alias"
+  },
+  "a630": {
+    "original_token": "-v",
+    "style": "token_alias_non_internet"
+  }
+}
