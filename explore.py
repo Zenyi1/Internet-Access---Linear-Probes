@@ -2,10 +2,7 @@ import json
 import pandas as pd
 import re
 
-
 # Load dataset
-import json
-
 dataset = []
 with open("LINUX_TERMINAL_COMMANDS.jsonl", "r", encoding="utf-8") as file:
     for line in file:
@@ -19,58 +16,90 @@ with open("LINUX_TERMINAL_COMMANDS.jsonl", "r", encoding="utf-8") as file:
 # Convert to DataFrame
 df1 = pd.DataFrame(dataset)
 
-#networking_df1 = df1[df1['category'] == 'networking']
+print(f"Networking commands from dataset 1: {len(df1[df1['category'] == 'Networking'])}")
 
-print(f"Networking commands from dataset 1: {len(df1[df1["category"] == "Networking"])}")
-
-
-
-##Second dataset
+# Second dataset
 df2 = pd.read_json("hf://datasets/aelhalili/bash-commands-dataset/dataset.json")
 df2 = df2.rename(columns={"prompt": "description", "response": "command"})
 
-# === 3. Define patterns for commands that access the internet ===
-network_patterns = [
-    r"\b(curl|wget|ping|scp|ftp|sftp|ssh|rsync|telnet|nc|netcat|dig|host|nslookup|traceroute|nmap|ifconfig|ip|route|arp|whois|scp|ncftp|lynx|links|elinks|sshfs|tftp)\b",
+# === Define patterns for commands that ACTUALLY access the internet ===
+# Excluded local-only network commands: ifconfig, ip, route, arp, netstat, ss, etc.
+internet_access_patterns = [
+    r"\b(curl|wget|ping|scp|ftp|sftp|ssh|rsync|telnet|nc|netcat|dig|host|nslookup|traceroute|nmap|whois|ncftp|lynx|links|elinks|sshfs|tftp)\b",
     r"http[s]?://",  # URLs
     r"\bgit\s+(clone|fetch|pull|push)\b",  # Git commands involving network
+    r"\bapt(-get)?\s+(update|install|upgrade)\b",  # Package managers
+    r"\b(yum|dnf|zypper|pacman)\s+(update|install|upgrade)\b",
+    r"\bsnap\s+(install|refresh)\b",
+    r"\bpip\s+install\b",
+    r"\bnpm\s+(install|update)\b",
 ]
 
-def is_network_command(command):
+# Local-only network commands (to exclude)
+local_network_only = [
+    r"\b(ifconfig|ip\s+(addr|link|route)|route|arp|netstat|ss|hostname|hostnamectl|nmcli|nmtui|iwconfig|ethtool)\b",
+]
+
+def is_internet_access_command(command):
+    """Check if command accesses the internet (not just local network config)"""
     if not isinstance(command, str):
         return False
-    for pattern in network_patterns:
+    
+    # Check if it's a local-only command
+    for pattern in local_network_only:
+        if re.search(pattern, command, re.IGNORECASE):
+            return False
+    
+    # Check if it's an internet-accessing command
+    for pattern in internet_access_patterns:
         if re.search(pattern, command, re.IGNORECASE):
             return True
+    
     return False
 
-df2["is_network_command"] = df2["command"].apply(is_network_command)
-networking_df2 = df2[df2["is_network_command"]].copy()
+# Filter dataset 2 for internet-accessing commands
+df2["is_internet_command"] = df2["command"].apply(is_internet_access_command)
+networking_df2 = df2[df2["is_internet_command"]].copy()
 networking_df2["label"] = 1
 networking_df2 = networking_df2[["command", "description", "label"]]
 
+# Filter dataset 1 - manually check networking commands
 networking_df1 = df1[df1['category'] == 'Networking'].copy()
+networking_df1["is_internet_command"] = networking_df1["command"].apply(is_internet_access_command)
+networking_df1 = networking_df1[networking_df1["is_internet_command"]].copy()
 networking_df1["label"] = 1
 networking_df1 = networking_df1[["command", "description", "label"]]
 
-non_networking_df1 = df1[df1["category"].str.lower() != "networking"].copy()
+print(f"Internet-accessing commands from dataset 1: {len(networking_df1)}")
+
+# Get non-networking commands as negative samples
+non_networking_df1 = df1[df1["category"] != "Networking"].copy()
 non_networking_df1["label"] = 0
 non_networking_df1 = non_networking_df1[["command", "description", "label"]]
 
+# Combine positive samples and remove duplicates
 positive_df = pd.concat([networking_df1, networking_df2], ignore_index=True).drop_duplicates(subset=["command"])
 pos_count = len(positive_df)
 
-negative_df = non_networking_df1.sample(n=pos_count, random_state=42)
+print(f"\nTotal internet-accessing commands: {pos_count}")
+
+# Sample negative examples to match positive count
+negative_df = non_networking_df1.sample(n=min(pos_count, len(non_networking_df1)), random_state=42)
+
+# Combine and shuffle
 final_df = pd.concat([positive_df, negative_df], ignore_index=True)
-final_df = final_df.sample(frac=1, random_state=42).reset_index(drop=True) #shuffle
+final_df = final_df.sample(frac=1, random_state=42).reset_index(drop=True)
 
-final_df.to_json("nonalias_network_binary_dataset2.jsonl", orient="records", lines=True, force_ascii=False)
+# Save to file
+final_df.to_json("internet_access_binary_dataset.jsonl", orient="records", lines=True, force_ascii=False)
 
-# Optional sanity check: show some examples
-print("\n🔹 Example positive samples (networking):")
-print(final_df[final_df['label'] == 1].head(5)[["command", "description"]])
+# Sanity check: show examples
+print("\n🔹 Example positive samples (internet-accessing):")
+print(positive_df.head(10)[["command", "description"]])
 
-print("\n🔹 Example negative samples (non-networking):")
+print("\n🔹 Example negative samples (non-internet):")
 print(final_df[final_df['label'] == 0].head(5)[["command", "description"]])
 
-print(len(final_df))
+print(f"\nFinal dataset size: {len(final_df)}")
+print(f"Positive samples: {len(final_df[final_df['label'] == 1])}")
+print(f"Negative samples: {len(final_df[final_df['label'] == 0])}")
