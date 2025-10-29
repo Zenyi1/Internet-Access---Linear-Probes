@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # Load the JSON data
 dataset = []
-with open('../datasets/alias_internet_access_adversarial.jsonl', 'r', encoding="utf-8") as f:
+with open('../datasets/datasets/alias_internet_access_adversarial_full.jsonl', 'r', encoding="utf-8") as f:
     for line in f:
         try:
             dataset.append(json.loads(line)) # list of dicts

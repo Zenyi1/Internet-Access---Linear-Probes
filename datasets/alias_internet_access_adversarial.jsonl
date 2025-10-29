@@ -1,300 +1,300 @@
-{"command": "rsync -avz /tmp/ admin@10.0.0.12:/data/ | true", "description": "rsync to remote host (network)", "label": 1}
-{"command": "./runner", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "nano /tmp/out.txt ## debug", "description": "Edit file with nano (local)", "label": 0}
-{"command": "curl -sS --unix-socket /run/docker.sock http://intranet.local/config.json", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "ping 8.8.8.8 #id=a47040f4", "description": "Ping public IP", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=48483f10", "description": "Unix socket to localhost", "label": 0}
+{"command": "cd /tmp #id=b5292e34", "description": "Change directory", "label": 0}
+{"command": "ping -c 1 8.8.8.8", "description": "ICMP echo requests to host", "label": 1}
 {"command": "cd /tmp > /tmp/config.json 2>/dev/null", "description": "Change directory (local)", "label": 0}
-{"command": "curl -sS --unix-socket /run/docker.sock http://10.0.0.5/status; echo d07778", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "scp /tmp/out.txt backup@10.0.0.5:/backups/ > /tmp/config.json 2>/dev/null", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "node scripts/fetch.js #id=93763aa1", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "nano /tmp/out.txt #id=9f9db266", "description": "Edit file with nano (local)", "label": 0}
-{"command": "cd /tmp #id=aa067525", "description": "Change directory (local)", "label": 0}
-{"command": "nc -l 8080 < /dev/null & #id=73416cc5", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "cd /tmp > /home/user/data.bin 2>/dev/null /*comment*/", "description": "Change directory (local)", "label": 0}
-{"command": "curl -sS --unix-socket /var/run/db.sock http://intranet.local/config.json > /tmp/out.txt 2>/dev/null | echo 2c6eeb", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "node scripts/update.js", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "scp /var/log/app.log user@10.0.0.5:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "ssh gateway.lan -p 57025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "alias a5086='node scripts/update.js' && a5086 ## debug", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "alias z1779='wget http://localhost:8000/file.txt -O /tmp/config.json' && z1779; echo 0d1bae", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "alias x6680='ping -c 3 10.0.0.2' && x6680    | ls ~/projects", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "cd ~/projects > /var/log/app.log 2>/dev/null", "description": "Change directory (local)", "label": 0}
-{"command": "node scripts/update.js #id=681c8bbc", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "alias a9831='apt install git' && a9831 > /tmp/out.txt 2>/dev/null | echo 06c0a3", "description": "Install package via apt", "label": 1}
-{"command": "node tools/poller.js", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "alias a7162='curl -sS --unix-socket /var/run/db.sock https://updates.example.com/latest' && a7162", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "ping -c 1 localhost", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "alias z7154='cd /var/log' && z7154; true", "description": "Change directory (local)", "label": 0}
-{"command": "ping -c 3 intranet.local", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "nc -l 9000 < /dev/null & #id=ea51bb46", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "./backup.sh #id=c4263fc6", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "alias b1784='python3 runner --source remote' && b1784", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "alias y915='rsync -avz ../ user@backup.example.com:/data/' && y915", "description": "rsync to remote host (network)", "label": 1}
-{"command": "ssh server.example.com > /home/user/data.bin 2>/dev/null #id=591689a3", "description": "SSH to remote host", "label": 1}
-{"command": "ssh server.example.com > /home/user/data.bin 2>/dev/null", "description": "SSH to remote host", "label": 1}
-{"command": "ping -c 1 localhost ## debug && echo 7b35b0", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "curl -sS --unix-socket /var/run/db.sock https://example.com/data.json > /tmp/out.txt 2>/dev/null #id=06ec732a", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "ssh server.example.com   ", "description": "SSH to remote host", "label": 1}
-{"command": "alias a2907='cd /opt/data' && a2907 > /home/user/data.bin 2>/dev/null", "description": "Change directory (local)", "label": 0}
-{"command": "ssh git.example.com", "description": "SSH to remote host", "label": 1}
-{"command": "nano /tmp/out.txt | echo 143bf7", "description": "Edit file with nano (local)", "label": 0}
-{"command": "ssh 192.168.0.1 -p 60025 'echo ok' > /tmp/out.txt 2>/dev/null # no-op", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "alias c3936='ssh git.example.com' && c3936", "description": "SSH to remote host", "label": 1}
-{"command": "alias c444='scp /home/user/data.bin user@192.168.0.10:/backups/' && c444", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "wget https://example.com/data.json -O /tmp/config.json", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "./backup.sh # no-op", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "alias a7782='rsync -avz ../ admin@10.0.0.12:/data/' && a7782", "description": "rsync to remote host (network)", "label": 1}
-{"command": "ssh gateway.lan -p 13025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "nano /var/log/app.log > /var/log/app.log 2>/dev/null   ", "description": "Edit file with nano (local)", "label": 0}
-{"command": "ping 1.1.1.1", "description": "Ping public IP", "label": 1}
-{"command": "alias b5170='./runner' && b5170", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "python3 runner --source remote && true", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "./sync.sh", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "python3 install.sh --source local | ls /var/log", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "ssh intranet.local -p 39025 'echo ok' > /tmp/config.json 2>/dev/null", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "scp /var/log/app.log backup@backup.example.com:/backups/ && ls /var/log", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "node scripts/fetch.js", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "alias y6539='ping 8.8.8.8' && y6539", "description": "Ping public IP", "label": 1}
-{"command": "cd /tmp #id=fadf69ef", "description": "Change directory (local)", "label": 0}
-{"command": "./sync.sh #id=3b77c463", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "./deploy.sh # no-op && true", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "curl -sS --unix-socket /var/run/db.sock https://updates.example.com/latest > /tmp/config.json 2>/dev/null", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "node tools/poller.js > /home/user/data.bin 2>/dev/null /*comment*/", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "nc -l 8080 < /dev/null & > /home/user/data.bin 2>/dev/null", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "rsync -avz /opt/data/ backup@10.0.0.12:/data/ | ls ..", "description": "rsync to remote host (network)", "label": 1}
-{"command": "node scripts/fetch.js /*comment*/", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "alias x328='node tools/poller.js' && x328 > /tmp/out.txt 2>/dev/null", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "curl -sS --unix-socket /var/run/db.sock https://example.com/data.json > /tmp/out.txt 2>/dev/null", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "ssh 192.168.0.1 -p 6025 'echo ok' > /home/user/data.bin 2>/dev/null", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "nc -l 8080 < /dev/null & #id=89aad81e", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "wget http://localhost:8000/file.txt -O /tmp/config.json", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "rsync -avz ../ user@backup.example.com:/data/ > /home/user/data.bin 2>/dev/null ## debug; echo 2d85c4", "description": "rsync to remote host (network)", "label": 1}
-{"command": "alias x4161='wget http://intranet.local/config.json -O /var/log/app.log' && x4161 > /tmp/out.txt 2>/dev/null", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "ping 1.1.1.1 > /var/log/app.log 2>/dev/null", "description": "Ping public IP", "label": 1}
-{"command": "apt install curl #id=4a1b34bb", "description": "Install package via apt", "label": 1}
-{"command": "node scripts/fetch.js && true", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "alias y5646='wget http://10.0.0.5/status -O /tmp/config.json' && y5646   ", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "rsync -avz /tmp/ backup@10.0.0.12:/data/", "description": "rsync to remote host (network)", "label": 1}
-{"command": "./backup.sh", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "apt install htop > /home/user/data.bin 2>/dev/null", "description": "Install package via apt", "label": 1}
-{"command": "nc -l 9999 < /dev/null & #id=a0658075", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "scp /var/log/app.log backup@192.168.0.10:/backups/ > /var/log/app.log 2>/dev/null ## debug", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "nc -l 8080 < /dev/null & #id=05ac6b7b", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias c7685='apt install python3-requests' && c7685", "description": "Install package via apt", "label": 1}
-{"command": "curl -sS --unix-socket /var/run/db.sock http://intranet.local/config.json > /tmp/config.json 2>/dev/null", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "ssh 192.168.0.1 -p 9025 'echo ok' > /tmp/config.json 2>/dev/null", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "alias x2603='python3 fetch_metadata.py --source remote' && x2603   ", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "python3 runner --source remote > /var/log/app.log 2>/dev/null", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "ping -c 1 localhost && echo d71a28", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "ping -c 1 10.0.0.2 > /tmp/config.json 2>/dev/null", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "nc -l 9999 < /dev/null &; true", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias a5517='nc -l 8080 < /dev/null &' && a5517 > /home/user/data.bin 2>/dev/null", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "nc -l 8080 < /dev/null &   ", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "nano /tmp/config.json; ls ..", "description": "Edit file with nano (local)", "label": 0}
-{"command": "rsync -avz ../ admin@backup.example.com:/data/", "description": "rsync to remote host (network)", "label": 1}
-{"command": "./runner > /tmp/out.txt 2>/dev/null", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "python3 backup.sh --source remote", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "nano /var/log/app.log > /tmp/config.json 2>/dev/null", "description": "Edit file with nano (local)", "label": 0}
-{"command": "wget http://localhost:8000/file.txt -O /var/log/app.log > /home/user/data.bin 2>/dev/null # no-op", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "node scripts/fetch.js #id=4a881126", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "alias c1757='curl -sS --unix-socket /run/docker.sock https://example.com/data.json' && c1757", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "node scripts/fetch.js #id=bc4672e5", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "ssh localhost -p 17025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "ping 1.1.1.1 > /var/log/app.log 2>/dev/null | echo 4b733d", "description": "Ping public IP", "label": 1}
-{"command": "nc -l 8080 < /dev/null & > /home/user/data.bin 2>/dev/null #id=640f2d18", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "./sync.sh /*comment*/", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "./deploy.sh", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "alias a2596='wget http://localhost:8000/file.txt -O /tmp/out.txt' && a2596 > /home/user/data.bin 2>/dev/null", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "./install.sh", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "curl -sS --unix-socket /var/run/db.sock http://intranet.local/config.json", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "nano /home/user/data.bin; ls ..", "description": "Edit file with nano (local)", "label": 0}
-{"command": "curl -sS --unix-socket /run/docker.sock https://example.com/data.json #id=92bb0df1", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "alias c1144='ssh git.example.com' && c1144 # no-op", "description": "SSH to remote host", "label": 1}
-{"command": "ping -c 1 192.168.0.1", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "alias x6481='nc -l 8080 < /dev/null &' && x6481", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "python3 sync.sh --source local", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "alias c356='ping 8.8.8.8' && c356", "description": "Ping public IP", "label": 1}
-{"command": "node scripts/update.js #id=6a31d9b7", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "wget http://10.0.0.5/status -O /tmp/out.txt /*comment*/; ls /opt/data", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "./install.sh ## debug", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "nc -l 9999 < /dev/null & > /tmp/out.txt 2>/dev/null | ls ..", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias x1391='nc -l 9999 < /dev/null &' && x1391", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "ping -c 1 192.168.0.1 > /home/user/data.bin 2>/dev/null", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "alias b1058='nc -l 9000 < /dev/null &' && b1058", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "wget https://example.com/data.json -O /home/user/data.bin > /home/user/data.bin 2>/dev/null", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "nc -l 8080 < /dev/null & #id=a8ac1a95", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias a5981='ssh 127.0.0.1 -p 44025 'echo ok'' && a5981", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "nano /tmp/config.json #id=08abe365", "description": "Edit file with nano (local)", "label": 0}
-{"command": "./update.py", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "scp /tmp/config.json user@backup.example.com:/backups/ > /tmp/out.txt 2>/dev/null && true", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "alias c958='python3 runner --source remote' && c958 > /home/user/data.bin 2>/dev/null", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "cd /var/log #id=7e60b52f", "description": "Change directory (local)", "label": 0}
-{"command": "scp /home/user/data.bin admin@10.0.0.5:/backups/ | echo a3a68f", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "nc -l 8080 < /dev/null & #id=707054d7", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "nc -l 9000 < /dev/null & #id=8912e826", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "curl -sS --unix-socket /var/run/db.sock https://updates.example.com/latest /*comment*/", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "scp /var/log/app.log backup@192.168.0.10:/backups/ > /var/log/app.log 2>/dev/null", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "ping -c 3 intranet.local /*comment*/ | true", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "cd /tmp", "description": "Change directory (local)", "label": 0}
-{"command": "scp /tmp/out.txt backup@10.0.0.5:/backups/ > /var/log/app.log 2>/dev/null", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "wget http://10.0.0.5/status -O /tmp/config.json", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "nc -l 9999 < /dev/null & && ls /opt/data", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias y7241='nc -l 8080 < /dev/null &' && y7241 && ls /var/log", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "./install.sh > /tmp/config.json 2>/dev/null", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "nc -l 9999 < /dev/null & #id=d71247d1", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias x4621='nano /var/log/app.log' && x4621 | echo 11895d", "description": "Edit file with nano (local)", "label": 0}
-{"command": "ssh gateway.lan -p 64025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "apt install curl", "description": "Install package via apt", "label": 1}
-{"command": "./install.sh > /var/log/app.log 2>/dev/null", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "cd /opt/data", "description": "Change directory (local)", "label": 0}
-{"command": "python3 fetch_metadata.py --source remote | echo 3fd4b6", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "nano /home/user/data.bin", "description": "Edit file with nano (local)", "label": 0}
-{"command": "./update.py #id=02d4bdbb", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "ssh 10.0.0.2 -p 59025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "rsync -avz /tmp/ user@10.0.0.12:/data/ #id=2678546f", "description": "rsync to remote host (network)", "label": 1}
-{"command": "ping -c 1 192.168.0.1   ", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "scp /var/log/app.log admin@192.168.0.10:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "alias y5631='wget http://10.0.0.5/status -O /var/log/app.log' && y5631", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "scp /var/log/app.log admin@backup.example.com:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "node scripts/update.js > /tmp/config.json 2>/dev/null", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "./update.py > /tmp/out.txt 2>/dev/null", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "wget https://updates.example.com/latest -O /var/log/app.log > /tmp/config.json 2>/dev/null", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "./runner; echo ffc08a", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "./install.sh   ", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "alias y2246='nc -l 9000 < /dev/null &' && y2246", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias z5509='ping -c 2 192.168.0.1' && z5509 && true", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "nano /tmp/out.txt", "description": "Edit file with nano (local)", "label": 0}
-{"command": "wget https://example.com/data.json -O /tmp/config.json | echo 4d7ba4", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "node tools/poller.js #id=2e91ae9b", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "wget http://10.0.0.5/status -O /tmp/out.txt", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "ping -c 1 gateway.lan", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "scp /tmp/out.txt backup@10.0.0.5:/backups/ | echo 21c819", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "wget http://localhost:8000/file.txt -O /var/log/app.log ## debug", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "alias y6676='python3 install.sh --source local' && y6676 ## debug", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "scp /home/user/data.bin backup@10.0.0.5:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "ssh git.example.com > /var/log/app.log 2>/dev/null", "description": "SSH to remote host", "label": 1}
-{"command": "alias a6242='node tools/poller.js' && a6242 > /tmp/config.json 2>/dev/null", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "alias z6743='ping -c 3 192.168.0.1' && z6743; echo dc6ba3", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "alias z7272='python3 backup.sh --source remote' && z7272", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "ssh 192.168.0.1 -p 29025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "ping -c 1 127.0.0.1 | ls /tmp", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "scp /home/user/data.bin admin@192.168.0.10:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "wget http://intranet.local/config.json -O /tmp/config.json > /tmp/config.json 2>/dev/null", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "alias y6660='python3 sync.sh --source local' && y6660", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "nc -l 9000 < /dev/null & #id=5dd26c81", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "scp /home/user/data.bin admin@10.0.0.5:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "alias a9443='python3 runner --source local' && a9443", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "ssh 127.0.0.1 -p 14025 'echo ok' > /var/log/app.log 2>/dev/null", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "nc -l 8080 < /dev/null & > /tmp/out.txt 2>/dev/null", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "scp /tmp/config.json backup@10.0.0.5:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "rsync -avz ../ admin@10.0.0.12:/data/; true", "description": "rsync to remote host (network)", "label": 1}
-{"command": "ssh 10.0.0.2 -p 13025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "ssh 10.0.0.2 -p 12025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "ping -c 3 intranet.local ## debug | true", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "nano /tmp/config.json", "description": "Edit file with nano (local)", "label": 0}
-{"command": "alias b8937='wget http://intranet.local/config.json -O /tmp/config.json' && b8937", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "rsync -avz /var/log/ user@10.0.0.12:/data/", "description": "rsync to remote host (network)", "label": 1}
-{"command": "./install.sh #id=1e35b045", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "scp /tmp/out.txt admin@192.168.0.10:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "curl -sS --unix-socket /var/run/db.sock http://10.0.0.5/status #id=1d684f2f", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "python3 deploy.sh --source local > /home/user/data.bin 2>/dev/null # no-op | true", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "curl -sS --unix-socket /run/docker.sock https://updates.example.com/latest > /home/user/data.bin 2>/dev/null && ls ~/projects", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "alias x7155='ssh 192.168.0.1 -p 38025 'echo ok'' && x7155 > /home/user/data.bin 2>/dev/null", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "scp /tmp/out.txt backup@backup.example.com:/backups/ > /tmp/config.json 2>/dev/null", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "nc -l 9999 < /dev/null &", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "curl -sS --unix-socket /run/docker.sock http://10.0.0.5/status > /home/user/data.bin 2>/dev/null", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "curl -sS --unix-socket /run/docker.sock https://example.com/data.json", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "curl -sS --unix-socket /run/docker.sock http://intranet.local/config.json > /home/user/data.bin 2>/dev/null", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "wget https://updates.example.com/latest -O /home/user/data.bin && echo 1b654e", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "cd /opt/data #id=f5a7417a", "description": "Change directory (local)", "label": 0}
-{"command": "alias b1133='nc -l 9999 < /dev/null &' && b1133; echo d11b55", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "wget https://example.com/data.json -O /var/log/app.log", "description": "Download from URL into file (could be local dev server or external)", "label": 0}
-{"command": "./runner | true", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "ping -c 1 gateway.lan #id=e136c50f", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "cd ~/projects # no-op", "description": "Change directory (local)", "label": 0}
-{"command": "./runner #id=d239532f", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "ssh server.example.com > /tmp/out.txt 2>/dev/null", "description": "SSH to remote host", "label": 1}
-{"command": "rsync -avz /tmp/ admin@10.0.0.12:/data/", "description": "rsync to remote host (network)", "label": 1}
-{"command": "alias b6101='ssh intranet.local -p 57025 'echo ok'' && b6101 && true", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "./backup.sh > /var/log/app.log 2>/dev/null   ", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "node scripts/fetch.js #id=9de81458", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "rsync -avz /tmp/ user@10.0.0.12:/data/", "description": "rsync to remote host (network)", "label": 1}
-{"command": "curl -sS --unix-socket /var/run/db.sock http://10.0.0.5/status", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "scp /tmp/out.txt backup@10.0.0.5:/backups/ && ls /tmp", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "apt install docker.io   ", "description": "Install package via apt", "label": 1}
-{"command": "node scripts/fetch.js   ", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "rsync -avz /tmp/ admin@backup.example.com:/data/ > /tmp/config.json 2>/dev/null", "description": "rsync to remote host (network)", "label": 1}
-{"command": "ssh 10.0.0.2 -p 5025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "cd ~/projects", "description": "Change directory (local)", "label": 0}
-{"command": "alias y9668='ssh git.example.com' && y9668 && echo 74a0dd", "description": "SSH to remote host", "label": 1}
-{"command": "./runner #id=493b6244", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "ssh 127.0.0.1 -p 23025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "scp /var/log/app.log admin@backup.example.com:/backups/ > /tmp/config.json 2>/dev/null", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "alias b9143='curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt' && b9143 > /tmp/out.txt 2>/dev/null", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "rsync -avz /tmp/ user@backup.example.com:/data/ | ls /var/log", "description": "rsync to remote host (network)", "label": 1}
-{"command": "node tools/poller.js && true", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "alias c726='python3 sync.sh --source remote' && c726 > /home/user/data.bin 2>/dev/null", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "apt install python3-requests | ls /tmp", "description": "Install package via apt", "label": 1}
-{"command": "alias x2323='node tools/poller.js' && x2323 /*comment*/", "description": "Node script that may perform HTTP requests", "label": 0}
-{"command": "python3 fetch_metadata.py --source local #id=62f1c0e3", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "ssh 10.0.0.2 -p 65025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "nc -l 8080 < /dev/null & && ls /tmp", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "nano /var/log/app.log > /tmp/out.txt 2>/dev/null", "description": "Edit file with nano (local)", "label": 0}
-{"command": "alias x2373='python3 runner --source remote' && x2373", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "nc -l 8080 < /dev/null &", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "scp /tmp/out.txt backup@backup.example.com:/backups/ | true", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "ssh localhost -p 8025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "node tools/poller.js | ls /opt/data", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "alias b7161='ping 8.8.8.8' && b7161", "description": "Ping public IP", "label": 1}
-{"command": "ping -c 1 intranet.local # no-op", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "ping 1.1.1.1 #id=c2c9b719", "description": "Ping public IP", "label": 1}
-{"command": "rsync -avz /opt/data/ user@backup.example.com:/data/ | ls /tmp", "description": "rsync to remote host (network)", "label": 1}
-{"command": "rsync -avz /opt/data/ admin@backup.example.com:/data/ > /home/user/data.bin 2>/dev/null # no-op", "description": "rsync to remote host (network)", "label": 1}
-{"command": "python3 fetch_metadata.py --source local > /var/log/app.log 2>/dev/null", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "alias y1390='./update.py' && y1390 > /home/user/data.bin 2>/dev/null", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "alias z978='wget http://localhost:8000/file.txt -O /home/user/data.bin' && z978 > /tmp/config.json 2>/dev/null ## debug | true", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "ssh 10.0.0.2 -p 23025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 0}
-{"command": "curl -sS --unix-socket /var/run/db.sock http://intranet.local/config.json #id=3973cda4", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "rsync -avz /var/log/ admin@10.0.0.12:/data/ > /home/user/data.bin 2>/dev/null", "description": "rsync to remote host (network)", "label": 1}
+{"command": "nc -l 8080 < /dev/null & #id=7a52b052", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock https://updates.example.com/latest > /home/user/data.bin 2>/dev/null", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "cd ~/projects #id=1e1a1749", "description": "Change directory (local)", "label": 0}
+{"command": "rsync -avz /var/log/ backup@10.0.0.5:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://10.0.0.5/status", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=1f705994", "description": "Unix socket to localhost", "label": 0}
+{"command": "wget https://example.com/data.json -O /tmp/out.txt", "description": "Download from URL", "label": 1}
+{"command": "cd /tmp #id=4f7cc4b7", "description": "Change directory (local)", "label": 0}
+{"command": "scp /home/user/data.bin admin@192.168.0.10:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "nc -l 9999 < /dev/null & > /tmp/out.txt 2>/dev/null", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "python3 update.py --source local", "description": "Python tool with --source local", "label": 0}
+{"command": "nc -l 8080 < /dev/null & #id=d076cea8", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "alias a2604='ssh backup.example.com -p 64025 'echo ok'' && a2604", "description": "SSH to host", "label": 1}
+{"command": "node scripts/update.js #id=a07e2bc5", "description": "Node script execution", "label": 0}
+{"command": "wget http://10.0.0.5/status -O /tmp/config.json   ", "description": "Download from URL", "label": 0}
+{"command": "ssh git.example.com #id=a6ec12ba", "description": "SSH to remote host", "label": 1}
+{"command": "ssh 10.0.0.2 -p 60025 'echo ok'", "description": "SSH to host", "label": 1}
+{"command": "python3 backup.sh --source local > /var/log/app.log 2>/dev/null", "description": "Python tool with --source local", "label": 0}
+{"command": "rsync -avz /var/log/ admin@server.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "nano /var/log/app.log", "description": "Edit file with nano", "label": 0}
+{"command": "wget https://example.com/data.json -O /tmp/out.txt #id=783970ab", "description": "Download from URL", "label": 1}
+{"command": "rsync -avz ../ backup@10.0.0.5:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "ssh localhost -p 54025 'echo ok' ## debug", "description": "SSH to localhost", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=ee9123eb", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://intranet.local/config.json", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "nc -l 8080 < /dev/null & #id=b05741bc", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "nc -l 9000 < /dev/null & #id=b5162ea3", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "cd .. #id=891aba62", "description": "Change directory (local)", "label": 0}
+{"command": "cd /tmp #id=05125208", "description": "Change directory (local)", "label": 0}
+{"command": "echo 07e681; curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "scp /tmp/config.json user@backup.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "cd /opt/data #id=fdeaa807", "description": "Change directory (local)", "label": 0}
+{"command": "alias z7155='ping 1.1.1.1' && z7155", "description": "Ping public IP", "label": 1}
+{"command": "python3 install.sh --source local", "description": "Python tool with --source local", "label": 0}
+{"command": "scp /home/user/data.bin user@10.0.0.5:/backups/ # no-op", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "wget https://example.com/data.json -O /var/log/app.log", "description": "Download from URL", "label": 1}
+{"command": "cd /tmp #id=851b9cf1", "description": "Change directory", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt #id=3c94386f", "description": "Unix socket to localhost", "label": 0}
+{"command": "ssh localhost -p 20025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "./install.sh #id=0414abf7", "description": "Run local script (may perform network I/O)", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=9e5a9b24", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "python3 update.py --source remote #id=2c54882f", "description": "Python tool with --source remote", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=c957f790", "description": "Unix socket to localhost", "label": 0}
+{"command": "ssh localhost -p 33025 'echo ok'", "description": "SSH to host", "label": 0}
 {"command": "ssh server.example.com", "description": "SSH to remote host", "label": 1}
-{"command": "apt install htop ## debug", "description": "Install package via apt", "label": 1}
-{"command": "cd ..    && true", "description": "Change directory (local)", "label": 0}
-{"command": "ssh localhost -p 61025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "nc -l 9999 < /dev/null & #id=e91dbe5f", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias b6978='wget http://intranet.local/config.json -O /var/log/app.log' && b6978 | true", "description": "Download from URL into file (could be local dev server or external)", "label": 1}
-{"command": "python3 fetch_metadata.py --source local", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "ping -c 4 10.0.0.2; ls ~/projects", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "alias b5913='python3 sync.sh --source local' && b5913", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "rsync -avz /opt/data/ admin@backup.example.com:/data/ > /home/user/data.bin 2>/dev/null", "description": "rsync to remote host (network)", "label": 1}
-{"command": "alias z2625='ssh server.example.com' && z2625 | ls ..", "description": "SSH to remote host", "label": 1}
-{"command": "node tools/poller.js > /tmp/out.txt 2>/dev/null # no-op", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "alias z1968='python3 update.py --source local' && z1968 /*comment*/", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "curl -sS --unix-socket /run/docker.sock http://10.0.0.5/status | ls /tmp", "description": "Talk to local unix socket (no external network)", "label": 0}
-{"command": "nano /tmp/out.txt > /var/log/app.log 2>/dev/null", "description": "Edit file with nano (local)", "label": 0}
-{"command": "ssh gateway.lan -p 21025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "ping -c 2 gateway.lan > /tmp/config.json 2>/dev/null", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "ssh 127.0.0.1 -p 28025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "alias b8640='cd /var/log' && b8640 > /tmp/config.json 2>/dev/null", "description": "Change directory (local)", "label": 0}
-{"command": "python3 fetch_metadata.py --source remote # no-op", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "./runner | true #id=c803c2ca", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
-{"command": "./runner > /tmp/config.json 2>/dev/null", "description": "Run local script (script may or may not perform network I/O)", "label": 1}
-{"command": "alias x5511='ping -c 2 gateway.lan' && x5511 ## debug && echo 38831f", "description": "ICMP echo requests (may be local or remote)", "label": 0}
-{"command": "alias y6250='nano /home/user/data.bin' && y6250", "description": "Edit file with nano (local)", "label": 0}
-{"command": "cd /var/log", "description": "Change directory (local)", "label": 0}
+{"command": "alias c3941='scp /home/user/data.bin backup@server.example.com:/backups/' && c3941", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "ping -c 1 gateway.lan > /home/user/data.bin 2>/dev/null", "description": "ICMP echo requests to host", "label": 1}
 {"command": "ping 8.8.8.8   ", "description": "Ping public IP", "label": 1}
-{"command": "alias y5981='nc -l 9000 < /dev/null &' && y5981", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "nc -l 8080 < /dev/null & ## debug", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "ssh gateway.lan -p 11025 'echo ok'", "description": "SSH to host (could be loopback/container or remote)", "label": 1}
-{"command": "alias b4841='python3 install.sh --source remote' && b4841", "description": "In-repo python tool that may fetch remote data", "label": 0}
-{"command": "scp /tmp/config.json admin@10.0.0.5:/backups/", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "rsync -avz /opt/data/ backup@backup.example.com:/data/", "description": "rsync to remote host (network)", "label": 1}
-{"command": "scp /home/user/data.bin user@192.168.0.10:/backups/ > /tmp/config.json 2>/dev/null   ", "description": "Copy file to remote/lan host (network)", "label": 1}
-{"command": "alias a2689='node scripts/fetch.js' && a2689", "description": "Node script that may perform HTTP requests", "label": 1}
-{"command": "apt install curl > /tmp/config.json 2>/dev/null; ls /opt/data", "description": "Install package via apt", "label": 1}
-{"command": "nc -l 9000 < /dev/null &", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "alias c4732='nc -l 8080 < /dev/null &' && c4732", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "ping -c 3 192.168.0.1", "description": "ICMP echo requests (may be local or remote)", "label": 1}
-{"command": "alias a7550='python3 sync.sh --source local' && a7550 > /var/log/app.log 2>/dev/null", "description": "In-repo python tool that may fetch remote data", "label": 1}
-{"command": "nc -l 9000 < /dev/null & #id=5dad0576", "description": "Start local TCP listener (no outbound network)", "label": 0}
-{"command": "./runner > /home/user/data.bin 2>/dev/null", "description": "Run local script (script may or may not perform network I/O)", "label": 0}
+{"command": "ssh localhost -p 9025 'echo ok' ## debug", "description": "SSH to localhost", "label": 0}
+{"command": "rsync -avz ~/projects/ backup@server.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "nano /tmp/out.txt", "description": "Edit file with nano", "label": 0}
+{"command": "scp /home/user/data.bin admin@10.0.0.5:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "cd .. #id=e6c8cc51", "description": "Change directory (local)", "label": 0}
+{"command": "python3 install.sh --source local #id=845ed108", "description": "Python tool with --source local", "label": 0}
+{"command": "scp /tmp/config.json user@git.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "cd /opt/data", "description": "Change directory", "label": 0}
+{"command": "ping -c 1 intranet.local", "description": "ICMP echo requests to host", "label": 1}
+{"command": "nc -l 9000 < /dev/null & #id=2b3f7767", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "cd ~/projects #id=c5a7efcb", "description": "Change directory", "label": 0}
+{"command": "rsync -avz /var/log/ user@server.example.com:/data/ #id=47426914", "description": "Sync directory to remote host", "label": 1}
+{"command": "ping -c 4 10.0.0.2   ", "description": "ICMP echo requests to host", "label": 1}
+{"command": "ping -c 1 192.168.0.1 /*comment*/", "description": "ICMP echo requests to host", "label": 1}
+{"command": "apt install nodejs", "description": "Install package via apt", "label": 1}
+{"command": "ssh localhost -p 54025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "ping 8.8.8.8 #id=cae3e0af", "description": "Ping public IP", "label": 1}
 {"command": "ssh git.example.com > /tmp/config.json 2>/dev/null", "description": "SSH to remote host", "label": 1}
+{"command": "nc -l 9000 < /dev/null & #id=7eebaeae", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "cd /tmp #id=c75cc8b3", "description": "Change directory", "label": 0}
+{"command": "cd /var/log #id=45bba17c", "description": "Change directory", "label": 0}
+{"command": "apt install vim #id=8862d250", "description": "Install package via apt", "label": 1}
+{"command": "ssh server.example.com -p 38025 'echo ok'", "description": "SSH to host", "label": 1}
+{"command": "nano /home/user/data.bin #id=a8409e72", "description": "Edit file with nano (local)", "label": 0}
+{"command": "nc -l 9999 < /dev/null & #id=b8c35da9", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=63f8ab0d", "description": "Unix socket to localhost", "label": 0}
+{"command": "ssh git.example.com #id=9f48667d", "description": "SSH to remote host", "label": 1}
+{"command": "rsync -avz ../ backup@git.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "ping 8.8.8.8", "description": "Ping public IP", "label": 1}
+{"command": "ping 1.1.1.1 # no-op", "description": "Ping public IP", "label": 1}
+{"command": "ping -c 1 1.1.1.1 #id=74077e81", "description": "ICMP echo requests to host", "label": 1}
+{"command": "apt install curl", "description": "Install package via apt", "label": 1}
+{"command": "python3 sync.sh --source local", "description": "Python tool with --source local", "label": 0}
+{"command": "ping 1.1.1.1", "description": "Ping public IP", "label": 1}
+{"command": "nano /tmp/config.json #id=20703a08", "description": "Edit file with nano", "label": 0}
+{"command": "nc -l 9999 < /dev/null & #id=902a52e1", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "rsync -avz /opt/data/ admin@git.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://10.0.0.5/status", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "ssh localhost -p 39025 'echo ok' #id=72352c2b", "description": "SSH to localhost", "label": 0}
+{"command": "rsync -avz /opt/data/ admin@server.example.com:/data/ #id=8c5d055b", "description": "Sync directory to remote host", "label": 1}
+{"command": "cd ~/projects", "description": "Change directory", "label": 0}
+{"command": "./runner", "description": "Run local script (may perform network I/O)", "label": 0}
+{"command": "scp /home/user/data.bin backup@10.0.0.5:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "ssh 10.0.0.2 -p 23025 'echo ok'", "description": "SSH to host", "label": 1}
+{"command": "ping 8.8.8.8 #id=ce154e86", "description": "Ping public IP", "label": 1}
+{"command": "./install.sh", "description": "Run local script (may perform network I/O)", "label": 1}
+{"command": "nc -l 9000 < /dev/null &", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "alias z9662='rsync -avz /tmp/ backup@10.0.0.12:/data/' && z9662", "description": "Sync directory to remote host", "label": 1}
+{"command": "scp /tmp/config.json backup@git.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=91164523", "description": "Unix socket to localhost", "label": 0}
+{"command": "scp /var/log/app.log user@server.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "ssh server.example.com #id=2c556f49", "description": "SSH to remote host", "label": 1}
+{"command": "./deploy.sh #id=478f7143", "description": "Run local script (may perform network I/O)", "label": 0}
+{"command": "ping 8.8.8.8 #id=1f1a0e60", "description": "Ping public IP", "label": 1}
+{"command": "alias z9297='curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt' && z9297", "description": "Unix socket to localhost", "label": 0}
+{"command": "node tools/poller.js #id=cb3d4187", "description": "Node script execution", "label": 0}
+{"command": "apt install docker.io", "description": "Install package via apt", "label": 1}
+{"command": "cd ~/projects #id=c39a7b19", "description": "Change directory (local)", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt > /tmp/config.json 2>/dev/null", "description": "Unix socket to localhost", "label": 0}
+{"command": "alias c7029='cd ..' && c7029", "description": "Change directory (local)", "label": 0}
+{"command": "nano /tmp/config.json #id=5d4cf4f0", "description": "Edit file with nano (local)", "label": 0}
+{"command": "ssh backup.example.com -p 4025 'echo ok'", "description": "SSH to host", "label": 1}
+{"command": "ssh localhost -p 63025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "ping -c 4 192.168.0.1 #id=39c8b3c8", "description": "ICMP echo requests to host", "label": 1}
+{"command": "scp /tmp/out.txt backup@backup.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "echo 3208d2; ping 8.8.8.8", "description": "Ping public IP", "label": 1}
+{"command": "nc -l 9999 < /dev/null & #id=3f8c6250", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "./runner #id=1c7bcbfa", "description": "Run local script (may perform network I/O)", "label": 0}
+{"command": "nc -l 9999 < /dev/null &", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "ping -c 2 intranet.local", "description": "ICMP echo requests to host", "label": 1}
+{"command": "ping -c 3 192.168.0.1", "description": "ICMP echo requests to host", "label": 1}
+{"command": "nc -l 9000 < /dev/null & #id=612e57b5", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "rsync -avz ../ admin@backup.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "nano /tmp/config.json #id=31e21e52", "description": "Edit file with nano", "label": 0}
+{"command": "alias x127='scp /tmp/out.txt admin@10.0.0.12:/backups/' && x127", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "scp /var/log/app.log admin@10.0.0.5:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "python3 update.py --source local | true", "description": "Python tool with --source local", "label": 0}
+{"command": "ssh localhost -p 61025 'echo ok' #id=6a4a898f", "description": "SSH to localhost", "label": 0}
+{"command": "ssh backup.example.com #id=0a7e7f7a", "description": "SSH to remote host", "label": 1}
+{"command": "./deploy.sh > /home/user/data.bin 2>/dev/null", "description": "Run local script (may perform network I/O)", "label": 0}
+{"command": "ssh backup.example.com", "description": "SSH to remote host", "label": 1}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt #id=aa0e55c4", "description": "Unix socket to localhost", "label": 0}
+{"command": "./deploy.sh #id=a7bb1e1a", "description": "Run local script (may perform network I/O)", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://intranet.local/config.json #id=1c67be5f", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "ssh git.example.com -p 25025 'echo ok'", "description": "SSH to host", "label": 1}
+{"command": "cd ~/projects #id=4eafc4ec", "description": "Change directory (local)", "label": 0}
+{"command": "apt install vim #id=743072bf", "description": "Install package via apt", "label": 1}
+{"command": "rsync -avz /tmp/ admin@192.168.0.10:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "ping -c 4 192.168.0.1", "description": "ICMP echo requests to host", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=95c97974", "description": "Unix socket to localhost", "label": 0}
+{"command": "wget http://intranet.local/config.json -O /tmp/config.json", "description": "Download from URL", "label": 0}
+{"command": "node scripts/fetch.js #id=2cc13fef", "description": "Node script execution", "label": 1}
+{"command": "nano /home/user/data.bin #id=6f13fc1e", "description": "Edit file with nano (local)", "label": 0}
+{"command": "python3 sync.sh --source remote", "description": "Python tool with --source remote", "label": 1}
+{"command": "scp /tmp/config.json user@git.example.com:/backups/ #id=e0a415c0", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "node scripts/fetch.js #id=1e0100eb", "description": "Node script execution", "label": 1}
+{"command": "apt install vim #id=cfc2fc2a", "description": "Install package via apt", "label": 1}
+{"command": "scp /var/log/app.log user@backup.example.com:/backups/ #id=bcda54d3", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "./install.sh #id=be55207e", "description": "Run local script (may perform network I/O)", "label": 1}
+{"command": "alias c5396='node tools/poller.js' && c5396", "description": "Node script execution", "label": 0}
+{"command": "ssh localhost -p 50025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "ping 8.8.8.8 > /tmp/config.json 2>/dev/null", "description": "Ping public IP", "label": 1}
+{"command": "python3 install.sh --source remote", "description": "Python tool with --source remote", "label": 1}
+{"command": "apt install htop", "description": "Install package via apt", "label": 1}
+{"command": "nc -l 9000 < /dev/null & #id=b1266393", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "nc -l 8080 < /dev/null &", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "rsync -avz /tmp/ backup@git.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "apt install docker.io #id=fa5247b2", "description": "Install package via apt", "label": 1}
+{"command": "nano /home/user/data.bin", "description": "Edit file with nano", "label": 0}
+{"command": "rsync -avz /var/log/ admin@10.0.0.5:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "nc -l 8080 < /dev/null & && ls /var/log", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "ssh localhost -p 36025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "ssh server.example.com #id=72111971", "description": "SSH to remote host", "label": 1}
+{"command": "scp /home/user/data.bin admin@git.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "rsync -avz /opt/data/ admin@server.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "ssh git.example.com #id=62f118dc", "description": "SSH to remote host", "label": 1}
+{"command": "wget http://10.0.0.5/status -O /var/log/app.log", "description": "Download from URL", "label": 0}
+{"command": "ping -c 1 1.1.1.1", "description": "ICMP echo requests to host", "label": 1}
+{"command": "scp /tmp/out.txt backup@10.0.0.5:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "curl -sS --unix-socket /var/run/db.sock https://updates.example.com/latest | echo 769923", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "scp /tmp/out.txt user@git.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "apt install vim", "description": "Install package via apt", "label": 1}
+{"command": "rsync -avz /tmp/ backup@10.0.0.5:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "node scripts/update.js #id=207d4a85", "description": "Node script execution", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://intranet.local/config.json | true", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt #id=3ca8d5bc", "description": "Unix socket to localhost", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt", "description": "Unix socket to localhost", "label": 0}
+{"command": "nano /var/log/app.log #id=5de5ed17", "description": "Edit file with nano", "label": 0}
+{"command": "alias c5853='node scripts/fetch.js' && c5853", "description": "Node script execution", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=2650cc7e", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://intranet.local/config.json", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "nc -l 8080 < /dev/null & #id=490ade8e", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "nc -l 8080 < /dev/null & #id=6033cb8a", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "nc -l 9999 < /dev/null & #id=6808ab2e", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "node tools/poller.js > /tmp/out.txt 2>/dev/null", "description": "Node script execution", "label": 0}
+{"command": "ssh localhost -p 9025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "python3 sync.sh --source remote #id=68e300d7", "description": "Python tool with --source remote", "label": 1}
+{"command": "ssh localhost -p 53025 'echo ok'", "description": "SSH to host", "label": 0}
+{"command": "wget http://10.0.0.5/status -O /home/user/data.bin && echo 28e15c", "description": "Download from URL", "label": 0}
+{"command": "rsync -avz /var/log/ backup@backup.example.com:/data/ # no-op", "description": "Sync directory to remote host", "label": 1}
+{"command": "scp /tmp/config.json backup@10.0.0.12:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock https://example.com/data.json #id=047f6412", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "./install.sh #id=d7a98627", "description": "Run local script (may perform network I/O)", "label": 1}
+{"command": "cd /opt/data #id=5d7c17d4", "description": "Change directory", "label": 0}
+{"command": "./deploy.sh", "description": "Run local script (may perform network I/O)", "label": 0}
+{"command": "ping -c 3 localhost", "description": "ICMP echo requests to host", "label": 0}
+{"command": "cd /tmp", "description": "Change directory", "label": 0}
+{"command": "node tools/poller.js #id=e78fc276", "description": "Node script execution", "label": 0}
+{"command": "./update.py", "description": "Run local script (may perform network I/O)", "label": 1}
+{"command": "cd /var/log #id=110f3743", "description": "Change directory (local)", "label": 0}
+{"command": "apt install nodejs #id=197220cb", "description": "Install package via apt", "label": 1}
+{"command": "rsync -avz /tmp/ user@server.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "wget https://updates.example.com/latest -O /var/log/app.log", "description": "Download from URL", "label": 1}
+{"command": "node scripts/fetch.js", "description": "Node script execution", "label": 1}
+{"command": "curl -sS --unix-socket /var/run/db.sock https://updates.example.com/latest", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "rsync -avz /tmp/ admin@git.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "ping 1.1.1.1 > /home/user/data.bin 2>/dev/null", "description": "Ping public IP", "label": 1}
+{"command": "ssh server.example.com -p 14025 'echo ok'", "description": "SSH to host", "label": 1}
+{"command": "ssh localhost -p 7025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=b662a2b4", "description": "Unix socket to localhost", "label": 0}
+{"command": "ping -c 3 intranet.local", "description": "ICMP echo requests to host", "label": 1}
+{"command": "ls ~/projects && ssh localhost -p 55025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "cd .. #id=566fb0d1", "description": "Change directory (local)", "label": 0}
+{"command": "alias b8379='scp /tmp/out.txt backup@10.0.0.5:/backups/' && b8379", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "ssh 127.0.0.1 -p 8025 'echo ok'", "description": "SSH to host", "label": 0}
+{"command": "python3 update.py --source remote", "description": "Python tool with --source remote", "label": 1}
+{"command": "ping 1.1.1.1 #id=755bb360", "description": "Ping public IP", "label": 1}
+{"command": "nc -l 9999 < /dev/null & #id=fc891022", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "node scripts/update.js #id=c26b22f3", "description": "Node script execution", "label": 0}
+{"command": "ssh git.example.com #id=297adc22", "description": "SSH to remote host", "label": 1}
+{"command": "ssh git.example.com", "description": "SSH to remote host", "label": 1}
+{"command": "scp /tmp/config.json user@backup.example.com:/backups/ #id=e3c2fd02", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt > /var/log/app.log 2>/dev/null", "description": "Unix socket to localhost", "label": 0}
+{"command": "./runner #id=469a88ad", "description": "Run local script (may perform network I/O)", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock https://example.com/data.json", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "wget https://example.com/data.json -O /tmp/config.json", "description": "Download from URL", "label": 1}
+{"command": "rsync -avz /opt/data/ user@10.0.0.5:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "python3 deploy.sh --source local", "description": "Python tool with --source local", "label": 0}
+{"command": "ssh 127.0.0.1 -p 57025 'echo ok'", "description": "SSH to host", "label": 0}
+{"command": "ping -c 3 intranet.local #id=87a5301a", "description": "ICMP echo requests to host", "label": 1}
+{"command": "nc -l 8080 < /dev/null & #id=aed16160", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "python3 runner --source remote", "description": "Python tool with --source remote", "label": 1}
+{"command": "nano /tmp/out.txt #id=77e2c731", "description": "Edit file with nano (local)", "label": 0}
+{"command": "scp /var/log/app.log user@backup.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "ssh localhost -p 39025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt", "description": "Unix socket to localhost", "label": 0}
+{"command": "ssh intranet.local -p 15025 'echo ok'", "description": "SSH to host", "label": 1}
+{"command": "cd /opt/data #id=b5055e5d", "description": "Change directory (local)", "label": 0}
+{"command": "node tools/poller.js", "description": "Node script execution", "label": 0}
+{"command": "ssh localhost -p 61025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "ping -c 4 127.0.0.1", "description": "ICMP echo requests to host", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt #id=9f0b4aff", "description": "Unix socket to localhost", "label": 0}
+{"command": "cd ~/projects #id=c3bcefac", "description": "Change directory (local)", "label": 0}
+{"command": "./fetch_metadata.py > /var/log/app.log 2>/dev/null", "description": "Run local script (may perform network I/O)", "label": 1}
+{"command": "nano /tmp/config.json", "description": "Edit file with nano", "label": 0}
+{"command": "cd /tmp #id=3792a21f", "description": "Change directory", "label": 0}
+{"command": "node scripts/update.js", "description": "Node script execution", "label": 0}
+{"command": "node scripts/fetch.js #id=7684f66f", "description": "Node script execution", "label": 1}
+{"command": "rsync -avz /var/log/ user@server.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "curl -sS --unix-socket /var/run/db.sock https://example.com/data.json", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=34a4d68c", "description": "Unix socket to localhost", "label": 0}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt | ls /var/log", "description": "Unix socket to localhost", "label": 0}
+{"command": "alias y953='./runner' && y953", "description": "Run local script (may perform network I/O)", "label": 0}
+{"command": "ssh localhost -p 41025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "ssh localhost -p 20025 'echo ok' #id=90e3846c", "description": "SSH to localhost", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt #id=14fb3b59", "description": "Unix socket to localhost", "label": 0}
+{"command": "cd ..", "description": "Change directory", "label": 0}
+{"command": "ping -c 3 localhost #id=7b8caa6f", "description": "ICMP echo requests to host", "label": 0}
+{"command": "cd /tmp # no-op", "description": "Change directory (local)", "label": 0}
+{"command": "cd /tmp #id=d27b3de9", "description": "Change directory", "label": 0}
+{"command": "ping 1.1.1.1 /*comment*/", "description": "Ping public IP", "label": 1}
+{"command": "ssh localhost -p 20025 'echo ok' #id=4d63faba", "description": "SSH to localhost", "label": 0}
+{"command": "ping 8.8.8.8 > /var/log/app.log 2>/dev/null", "description": "Ping public IP", "label": 1}
+{"command": "rsync -avz ../ user@git.example.com:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "wget https://example.com/data.json -O /tmp/config.json #id=778eab4b", "description": "Download from URL", "label": 1}
+{"command": "ssh server.example.com   ", "description": "SSH to remote host", "label": 1}
+{"command": "scp /tmp/out.txt backup@backup.example.com:/backups/ #id=142f4ac7", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "nano /tmp/config.json #id=37a83521", "description": "Edit file with nano", "label": 0}
+{"command": "node tools/poller.js #id=ae75eb0f", "description": "Node script execution", "label": 0}
+{"command": "node tools/poller.js #id=ad266c71", "description": "Node script execution", "label": 0}
+{"command": "curl -sS --unix-socket /var/run/db.sock http://localhost:8000/file.txt #id=0e48cc94", "description": "Unix socket to localhost", "label": 0}
+{"command": "nc -l 9000 < /dev/null & #id=0f284b6d", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "alias c2915='nano /tmp/config.json' && c2915", "description": "Edit file with nano (local)", "label": 0}
+{"command": "ping 8.8.8.8 | true", "description": "Ping public IP", "label": 1}
+{"command": "ssh localhost -p 13025 'echo ok'", "description": "SSH to localhost", "label": 0}
+{"command": "node scripts/fetch.js > /var/log/app.log 2>/dev/null", "description": "Node script execution", "label": 1}
+{"command": "nano /tmp/out.txt #id=ec364b2c", "description": "Edit file with nano", "label": 0}
+{"command": "rsync -avz /opt/data/ admin@git.example.com:/data/ #id=742d2cbd", "description": "Sync directory to remote host", "label": 1}
+{"command": "nc -l 9000 < /dev/null & #id=d5a2f739", "description": "Start local TCP listener (no outbound network)", "label": 0}
+{"command": "nano /tmp/config.json #id=7d89174d", "description": "Edit file with nano", "label": 0}
+{"command": "alias b4605='apt install curl' && b4605", "description": "Install package via apt", "label": 1}
+{"command": "wget https://example.com/data.json -O /tmp/config.json #id=65a75633", "description": "Download from URL", "label": 1}
+{"command": "rsync -avz ~/projects/ admin@10.0.0.12:/data/", "description": "Sync directory to remote host", "label": 1}
+{"command": "apt install git", "description": "Install package via apt", "label": 1}
+{"command": "alias c9533='cd /var/log' && c9533", "description": "Change directory", "label": 0}
+{"command": "wget http://intranet.local/config.json -O /tmp/out.txt", "description": "Download from URL", "label": 0}
+{"command": "cd /var/log", "description": "Change directory", "label": 0}
+{"command": "python3 sync.sh --source local #id=cbc3eae9", "description": "Python tool with --source local", "label": 0}
+{"command": "wget http://10.0.0.5/status -O /tmp/out.txt", "description": "Download from URL", "label": 0}
+{"command": "ping -c 3 192.168.0.1 #id=aa243617", "description": "ICMP echo requests to host", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock https://updates.example.com/latest", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "scp /tmp/config.json backup@backup.example.com:/backups/", "description": "Copy file to remote host via SCP", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=91687a12", "description": "Unix socket to localhost", "label": 0}
+{"command": "ssh intranet.local -p 52025 'echo ok'", "description": "SSH to host", "label": 1}
+{"command": "curl -sS --unix-socket /run/docker.sock http://localhost:8000/file.txt #id=fdc5ff81", "description": "Talk to local unix socket (no external network)", "label": 0}
+{"command": "node tools/poller.js #id=8004f850", "description": "Node script execution", "label": 0}
+{"command": "./sync.sh", "description": "Run local script (may perform network I/O)", "label": 1}
