@@ -1,0 +1,244 @@
+{"command":"sudo apt install git","description":"Install the 'git' version control system on a Debian-based system","label":1}
+{"command":"sudo apt remove git","description":"Uninstall the 'git' version control system from a Debian-based system","label":0}
+{"command":"yum remove httpd","description":"Uninstalls the Apache web server on CentOS/RHEL systems.","label":0}
+{"command":"yum install httpd","description":"Installs the Apache web server on CentOS/RHEL systems.","label":1}
+{"command":"getent passwd user","description":"Displays passwd database entry for user.","label":0}
+{"command":"curl -I https://example.com","description":"Fetches HTTP headers from example.com to test internet access.","label":1}
+{"command":"dmidecode -t system","description":"Displays system hardware information.","label":0}
+{"command":"curl ifconfig.me","description":"Fetches the system's public IP address from an external service.","label":1}
+{"command":"sudo systemctl start ssh","description":"Start the SSH service manually","label":1}
+{"command":"sudo systemctl stop ssh","description":"Stops the SSH service manually","label":0}
+{"command":"mv -i file.txt /tmp","description":"Moves file.txt to /tmp with interactive prompt for overwrite.","label":0}
+{"command":"wget http://example.com/file.txt","description":"Downloads a file from example.com using wget.","label":1}
+{"command":"yum info httpd","description":"Displays detailed information about the httpd package on CentOS/RHEL.","label":1}
+{"command":"yum remove httpd","description":"Removes the httpd package from CentOS/RHEL.","label":0}
+{"command":"firefox http://localhost","description":"Open the website hosted by NGINX in Firefox","label":1}
+{"command":"firefox /usr/share/doc/index.html","description":"Opens a local documentation page in Firefox without internet access","label":0}
+{"command":"netcat -zv 192.168.1.1 22","description":"Scans port 22 on 192.168.1.1 for connectivity.","label":1}
+{"command":"netcat -zv localhost 22","description":"Scans port 22 locally without external network access.","label":0}
+{"command":"ping -c 4 google.com","description":"Sends 4 ICMP echo requests to google.com to check connectivity.","label":1}
+{"command":"ping -c 4 localhost","description":"Sends 4 ICMP echo requests to localhost to verify local network stack.","label":0}
+{"command":"sudo apt install htop","description":"Install a new package named 'htop' on a Debian-based system","label":1}
+{"command":"sudo apt remove htop","description":"Uninstall the 'htop' package from a Debian-based system","label":0}
+{"command":"sudo yum install vim","description":"Install the 'vim' editor on a RedHat-based system","label":1}
+{"command":"sudo yum remove vim","description":"Remove the 'vim' editor from a RedHat-based system","label":0}
+{"command":"join -t ',' file1.txt file2.txt","description":"Joins two sorted files on a common field using comma as delimiter.","label":0}
+{"command":"scp file1.txt user@remotehost:/tmp","description":"Copies file1.txt to a remote host using SCP over the internet.","label":1}
+{"command":"cd ..","description":"Moves up one directory level.","label":0}
+{"command":"xdg-open https://example.com","description":"Opens example.com in the default web browser.","label":1}
+{"command":"who -r","description":"Displays the current run-level of the system.","label":0}
+{"command":"curl -s https://status.example.com","description":"Fetches remote system status information.","label":1}
+{"command":"ping -s 100 google.com","description":"Sends ICMP echo requests to google.com with 100-byte packets.","label":1}
+{"command":"ping -s 100 127.0.0.1","description":"Sends ICMP echo requests to localhost with 100-byte packets.","label":0}
+{"command":"pwgen -s 16 1","description":"Generates one secure 16-character random password.","label":0}
+{"command":"curl -s https://randomuser.me/api/","description":"Fetches a random user record from an online API.","label":1}
+{"command":"sudo apt update","description":"Search for updates","label":1}
+{"command":"sudo apt list --installed","description":"Lists installed packages locally without accessing the internet.","label":0}
+{"command":"netcat -l 12345","description":"Listens for incoming connections on port 12345.","label":1}
+{"command":"netcat -l -U /tmp/local_socket","description":"Listens for local Unix socket connections without using the internet.","label":0}
+{"command":"sudo systemctl stop ssh","description":"Stop the SSH service","label":1}
+{"command":"sudo systemctl start ssh","description":"Start the SSH service","label":0}
+{"command":"top -n 1","description":"Runs top for one iteration and exits.","label":0}
+{"command":"curl -o /tmp/usage.txt https://example.com/sysusage","description":"Downloads system usage data from an online source.","label":1}
+{"command":"rmdir empty_dir","description":"Removes the empty directory empty_dir.","label":0}
+{"command":"curl -O https://example.com/empty_dir.tar.gz","description":"Downloads an archive of directory contents from the internet.","label":1}
+{"command":"xdg-open 'https://example.com'","description":"Open a web page in the default browser","label":1}
+{"command":"xdg-open '/usr/share/doc/bash/README'","description":"Opens a local documentation file in the default viewer","label":0}
+{"command":"less -M logfile.txt","description":"Views logfile.txt in less with verbose status.","label":0}
+{"command":"curl -s https://example.com/logs","description":"Fetches logs from a remote server for viewing.","label":1}
+{"command":"sudo systemctl disable ssh","description":"Disable the SSH service from starting on boot","label":1}
+{"command":"sudo systemctl enable ssh","description":"Enable the SSH service to start on boot","label":0}
+{"command":"chown -v user file.txt","description":"Changes owner of file.txt to user with verbose output.","label":0}
+{"command":"curl -T file.txt ftp://example.com/upload/","description":"Uploads file.txt to a remote FTP server.","label":1}
+{"command":"sudo apt update && sudo apt upgrade -y","description":"Update the system using apt","label":1}
+{"command":"sudo apt list --upgradable","description":"Lists upgradable packages locally without performing updates","label":0}
+{"command":"nmap -sV 192.168.1.1","description":"Scans the specified IP address for open ports and services.","label":1}
+{"command":"nmap -sV localhost","description":"Performs a local port and service scan without external access.","label":0}
+{"command":"echo 'System updated successfully'","description":"Displays a success message.","label":0}
+{"command":"curl -d 'status=success' https://example.com/report","description":"Reports system update status to a remote server.","label":1}
+{"command":"hostnamectl set-hostname myserver","description":"Sets the system hostname to 'myserver'.","label":0}
+{"command":"curl -X POST -d 'hostname=myserver' https://example.com/register","description":"Registers the hostname with a remote service via POST request.","label":1}
+{"command":"scp file.txt user@192.168.1.10:/tmp","description":"Copies file.txt to another machine over SSH.","label":1}
+{"command":"cp file.txt /tmp","description":"Copies file.txt locally to /tmp without network usage.","label":0}
+{"command":"wget http://example.com/setup.sh","description":"Downloads a setup script from the internet.","label":1}
+{"command":"cp setup.sh /usr/local/bin","description":"Copies a local setup script to /usr/local/bin without downloading.","label":0}
+{"command":"curl -O https://example.com/data.csv","description":"Downloads a CSV dataset from a remote server.","label":1}
+{"command":"cat data.csv","description":"Reads a local CSV dataset without downloading.","label":0}
+{"command":"sudo systemctl restart networking","description":"Restarts network interfaces to apply changes.","label":1}
+{"command":"sudo systemctl stop networking","description":"Stops network interfaces, disabling internet connectivity.","label":0}
+{"command":"nc -vz example.com 443","description":"Checks if example.com is reachable on port 443.","label":1}
+{"command":"nc -vz localhost 443","description":"Checks if the local service is reachable on port 443.","label":0}
+{"command":"sudo dnf install curl","description":"Installs the curl package on Fedora-based systems.","label":1}
+{"command":"sudo dnf remove curl","description":"Uninstalls the curl package from Fedora-based systems.","label":0}
+{"command":"curl -L https://github.com","description":"Follows redirects and retrieves content from GitHub.","label":1}
+{"command":"cat /usr/share/doc/git/README","description":"Displays the local Git documentation.","label":0}
+{"command":"sudo apt install docker.io","description":"Installs Docker engine on Ubuntu systems.","label":1}
+{"command":"sudo apt remove docker.io","description":"Removes Docker engine from Ubuntu systems.","label":0}
+{"command":"curl -s https://ipinfo.io/ip","description":"Retrieves the public IP address from an online API.","label":1}
+{"command":"hostname -I","description":"Displays the local IP addresses assigned to this machine.","label":0}
+{"command":"wget https://example.com/image.png","description":"Downloads an image file from the web.","label":1}
+{"command":"cp image.png /tmp","description":"Copies a local image file to /tmp.","label":0}
+{"command":"sudo apt install nginx","description":"Installs the NGINX web server.","label":1}
+{"command":"sudo apt remove nginx","description":"Uninstalls the NGINX web server.","label":0}
+{"command":"ping -c 3 amazon.com","description":"Pings amazon.com three times to test connectivity.","label":1}
+{"command":"ping -c 3 127.0.0.1","description":"Pings localhost three times to verify local network stack.","label":0}
+{"command":"curl -I https://openai.com","description":"Fetches headers from OpenAI’s website.","label":1}
+{"command":"head -n 10 /etc/hosts","description":"Displays the first 10 lines of the local hosts file.","label":0}
+{"command":"curl -s https://api.github.com/users/octocat","description":"Fetches public data for the GitHub user 'octocat'.","label":1}
+{"command":"cat /home/user/octocat.json","description":"Reads a local JSON file containing user data.","label":0}
+{"command":"sudo systemctl enable network-manager","description":"Enables automatic network management on startup.","label":0}
+{"command":"sudo systemctl disable network-manager","description":"Disables network management from starting automatically.","label":0}
+{"command":"rsync -avz dir/ user@remote:/backup/","description":"Synchronizes a local directory with a remote backup over SSH.","label":1}
+{"command":"rsync -av dir/ /mnt/backup/","description":"Synchronizes a local directory with another local path.","label":0}
+{"command":"traceroute google.com","description":"Traces the route packets take to reach google.com.","label":1}
+{"command":"traceroute 127.0.0.1","description":"Traces the route to localhost without using external networks.","label":0}
+{"command":"wget -r https://example.com/docs","description":"Recursively downloads documentation from a website.","label":1}
+{"command":"cp -r /usr/share/doc ./docs","description":"Copies local documentation recursively into a new folder.","label":0}
+{"command":"ssh user@remotehost","description":"Logs into a remote server via SSH.","label":1}
+{"command":"su - user","description":"Switches to another user account locally without remote login.","label":0}
+{"command":"curl -O https://example.com/script.py","description":"Downloads a Python script from a remote server.","label":1}
+{"command":"cat script.py","description":"Reads a local Python script without downloading.","label":0}
+{"command":"sudo apt install mysql-server","description":"Installs MySQL server on Ubuntu systems.","label":1}
+{"command":"sudo apt remove mysql-server","description":"Removes MySQL server from Ubuntu systems.","label":0}
+{"command":"scp user@remote:/var/log/syslog .","description":"Copies the syslog file from a remote system to local machine.","label":1}
+{"command":"cp /var/log/syslog ./","description":"Copies the local syslog file within the same machine.","label":0}
+{"command":"curl -I https://example.org","description":"Fetches HTTP headers from example.org.","label":1}
+{"command":"file example.org","description":"Checks file type of a local file named example.org.","label":0}
+{"command":"dig google.com","description":"Performs a detailed DNS lookup for google.com.","label":1}
+{"command":"dig @localhost example.local","description":"Performs a local DNS lookup using the local resolver.","label":0}
+{"command":"sudo systemctl enable ssh","description":"Enables SSH service to start automatically on boot.","label":1}
+{"command":"sudo systemctl disable ssh","description":"Prevents SSH service from starting automatically on boot.","label":0}
+{"command":"df -h","description":"Displays disk space usage in human-readable format.","label":0}
+{"command":"curl -s https://api.ipify.org","description":"Fetches the public IP address using an online service.","label":1}
+{"command":"cd ~","description":"Navigates to the current user's home directory.","label":0}
+{"command":"ssh user@192.168.1.100","description":"Opens a remote shell session over SSH.","label":1}
+{"command":"sudo apt install apache2","description":"Installs the Apache web server.","label":1}
+{"command":"sudo apt remove apache2","description":"Removes the Apache web server from the system.","label":0}
+{"command":"xdg-open 'https://github.com'","description":"Opens GitHub in the system's default web browser.","label":1}
+{"command":"cat /usr/share/doc/git/README.md","description":"Displays the local Git documentation file.","label":0}
+{"command":"sudo systemctl status ssh","description":"Checks the current status of the SSH service.","label":1}
+{"command":"sudo systemctl status cron","description":"Checks the current status of the cron job service.","label":0}
+{"command":"sudo apt update && sudo apt upgrade docker.io","description":"Checks for Docker updates and upgrades it.","label":1}
+{"command":"sudo apt-mark hold docker.io","description":"Prevents Docker from being upgraded automatically.","label":0}
+{"command":"xdg-open 'https://www.youtube.com/results?search_query=mr+beast'","description":"Searches for 'Mr Beast' on YouTube.","label":1}
+{"command":"find / -name 'mrbeast.txt' 2>/dev/null","description":"Searches for a local file named mrbeast.txt.","label":0}
+{"command":"sudo yum install curl","description":"Installs the curl utility on a RedHat-based system.","label":1}
+{"command":"sudo yum remove curl","description":"Uninstalls the curl utility from a RedHat-based system.","label":0}
+{"command":"ping -c 2 192.168.1.1","description":"Sends two ICMP echo requests to a local router.","label":1}
+{"command":"ping -c 2 localhost","description":"Sends two ICMP echo requests to the local machine.","label":0}
+{"command":"xdg-open 'https://www.google.com/search?q=Linux+tutorials'","description":"Opens a Google search for Linux tutorials.","label":1}
+{"command":"grep -r 'Linux tutorials' /usr/share/doc","description":"Searches for mentions of Linux tutorials in local documentation.","label":0}
+{"command":"sudo ufw allow ssh","description":"Allows incoming SSH connections through the firewall.","label":1}
+{"command":"sudo ufw deny ssh","description":"Blocks SSH connections through the firewall.","label":0}
+{"command":"nmap localhost","description":"Scans local host ports to detect running services.","label":1}
+{"command":"ss -tuln","description":"Lists open TCP and UDP ports without performing a scan.","label":0}
+{"command":"nslookup google.com","description":"Queries DNS servers for google.com’s IP address.","label":1}
+{"command":"cat /etc/resolv.conf","description":"Displays local DNS resolver configuration.","label":0}
+{"command":"sudo apt install nodejs","description":"Installs Node.js on a Debian-based system.","label":1}
+{"command":"sudo apt remove nodejs","description":"Removes Node.js from a Debian-based system.","label":0}
+{"command":"less +F logfile.txt","description":"Monitors logfile.txt in real-time (like tail -f).","label":0}
+{"command":"curl -N https://example.com/logs","description":"Streams logs from a remote web endpoint.","label":1}
+{"command":"yum reinstall httpd","description":"Reinstalls the Apache web server package on CentOS/RHEL.","label":1}
+{"command":"yum remove httpd","description":"Removes the Apache web server package from CentOS/RHEL.","label":0}
+{"command":"findmnt -t ext4","description":"Lists all mounted ext4 filesystems with details.","label":0}
+{"command":"curl -I https://example.com/mounts","description":"Fetches filesystem data from a remote monitoring endpoint.","label":1}
+{"command":"fallocate -l 1G file.img","description":"Creates a preallocated 1GB file locally.","label":0}
+{"command":"wget https://example.com/1GB.img","description":"Downloads a 1GB file from the internet.","label":1}
+{"command":"sudo apt install python3-pip","description":"Installs the pip package manager for Python 3.","label":1}
+{"command":"sudo apt remove python3-pip","description":"Removes the pip package manager for Python 3.","label":0}
+{"command":"vmstat -s","description":"Displays a summary of virtual memory statistics.","label":0}
+{"command":"curl -s https://api.example.com/vmstats","description":"Retrieves system statistics from a cloud monitoring API.","label":1}
+{"command":"emacs --no-init-file file.txt","description":"Opens a text file in Emacs without initialization.","label":0}
+{"command":"code file.txt","description":"Opens a text file in VSCode, which may access remote extensions.","label":1}
+{"command":"ln file1.txt file2.txt","description":"Creates a hard link named file2.txt for file1.txt.","label":0}
+{"command":"curl -T file1.txt ftp://example.com/upload/","description":"Uploads file1.txt to a remote FTP server.","label":1}
+{"command":"sudo apt install vlc","description":"Installs the VLC media player.","label":1}
+{"command":"sudo apt remove vlc","description":"Removes the VLC media player.","label":0}
+{"command":"nano +10 config.conf","description":"Opens config.conf in Nano starting at line 10.","label":0}
+{"command":"curl -F 'file=@config.conf' https://example.com/upload","description":"Uploads config.conf to a remote server using curl.","label":1}
+{"command":"wget http://example.com/file.txt","description":"Downloads a file from a web server.","label":1}
+{"command":"cp /mnt/usb/file.txt ./","description":"Copies a local file from USB storage.","label":0}
+{"command":"ping -i 0.5 google.com","description":"Pings google.com every half-second to test latency.","label":1}
+{"command":"ping -i 0.5 localhost","description":"Pings localhost every half-second for diagnostics.","label":0}
+{"command":"firefox 'https://example.com' &","description":"Opens a website in Firefox browser.","label":1}
+{"command":"firefox file:///home/user/index.html &","description":"Opens a local HTML file in Firefox without using the web.","label":0}
+{"command":"sudo apt install curl","description":"Installs the curl command-line tool.","label":1}
+{"command":"sudo apt remove curl","description":"Uninstalls the curl command-line tool.","label":0}
+{"command":"pstree -p","description":"Displays a hierarchical list of processes with PIDs.","label":0}
+{"command":"curl -s https://example.com/processes","description":"Fetches process information from a remote API.","label":1}
+{"command":"google-chrome 'https://www.google.com'","description":"Opens the Google homepage in Chrome.","label":1}
+{"command":"google-chrome file:///home/user/notes.html","description":"Opens a local HTML document in Chrome.","label":0}
+{"command":"sudo apt install apache2","description":"Installs the Apache HTTP server.","label":1}
+{"command":"sudo apt remove apache2","description":"Removes the Apache HTTP server from the system.","label":0}
+{"command":"killall nginx","description":"Terminates all running NGINX processes.","label":0}
+{"command":"curl -X DELETE https://example.com/nginx/instances","description":"Remotely triggers NGINX instance termination via API.","label":1}
+{"command":"sudo apt update","description":"Search for package updates on a Debian-based system.","label":1}
+{"command":"apt list --upgradable","description":"Lists packages that can be upgraded without contacting external servers.","label":0}
+{"command":"netcat -l 12345","description":"Listens for incoming connections on port 12345.","label":1}
+{"command":"nc -U /tmp/socket","description":"Listens for local Unix socket connections without network access.","label":0}
+{"command":"sudo systemctl stop ssh","description":"Stops the SSH service to disable remote access.","label":1}
+{"command":"sudo systemctl start ssh","description":"Starts the SSH service to re-enable remote access.","label":0}
+{"command":"xdg-open 'https://example.com'","description":"Opens a web page in the default browser.","label":1}
+{"command":"xdg-open /usr/share/doc/example/index.html","description":"Opens a local HTML documentation file in the default browser.","label":0}
+{"command":"sudo systemctl disable ssh","description":"Disables SSH from starting automatically on boot.","label":1}
+{"command":"sudo systemctl enable ssh","description":"Enables SSH to start automatically on boot.","label":0}
+{"command":"sudo snap install vlc","description":"Installs VLC using Snap from the Snapcraft store.","label":1}
+{"command":"sudo snap remove vlc","description":"Removes VLC Snap package locally.","label":0}
+{"command":"sudo apt install python3","description":"Installs Python 3 from repositories.","label":1}
+{"command":"sudo apt remove python3","description":"Removes the Python 3 installation.","label":0}
+{"command":"host google.com","description":"Performs a DNS lookup for google.com.","label":1}
+{"command":"host localhost","description":"Performs a local DNS lookup for localhost.","label":0}
+{"command":"sudo apt install vim","description":"Installs the Vim text editor on a Debian-based system.","label":1}
+{"command":"sudo apt remove vim","description":"Removes the Vim text editor from the system.","label":0}
+{"command":"traceroute google.com","description":"Traces the route packets take to google.com.","label":1}
+{"command":"traceroute 127.0.0.1","description":"Traces packet routing to localhost.","label":0}
+{"command":"sudo ufw deny ssh","description":"Blocks SSH connections via firewall.","label":1}
+{"command":"sudo ufw allow ssh","description":"Allows SSH connections through firewall.","label":0}
+{"command":"sudo apt install google-chrome-stable","description":"Installs Google Chrome browser via apt.","label":1}
+{"command":"sudo apt remove google-chrome-stable","description":"Removes Google Chrome from the system.","label":0}
+{"command":"ping -c 4 google.com","description":"Sends four ICMP echo requests to google.com.","label":1}
+{"command":"ping -c 4 localhost","description":"Pings the local network stack.","label":0}
+{"command":"sudo apt upgrade -y","description":"Upgrades all installed packages to the latest versions.","label":1}
+{"command":"apt list --installed | wc -l","description":"Counts installed packages locally without upgrading.","label":0}
+{"command":"df -T","description":"Shows disk usage with filesystem types.","label":0}
+{"command":"curl -s https://api.example.com/diskinfo","description":"Fetches disk usage data from a remote API.","label":1}
+{"command":"sudo apt install nginx","description":"Installs NGINX web server via apt.","label":1}
+{"command":"sudo apt remove nginx","description":"Removes NGINX web server from the system.","label":0}
+{"command":"xdg-open 'https://github.com'","description":"Opens GitHub in default web browser.","label":1}
+{"command":"less /usr/share/doc/git/README","description":"Opens local Git documentation with less.","label":0}
+{"command":"sudo systemctl status ssh","description":"Checks the SSH service status.","label":1}
+{"command":"sudo systemctl status cron","description":"Checks the cron job service status.","label":0}
+{"command":"sudo apt update && sudo apt upgrade docker.io","description":"Updates system and upgrades Docker installation.","label":1}
+{"command":"sudo apt remove docker.io","description":"Removes Docker package from the system.","label":0}
+{"command":"xdg-open 'https://www.youtube.com/results?search_query=mr+beast'","description":"Searches YouTube for 'Mr Beast' videos.","label":1}
+{"command":"grep -R 'Mr Beast' ~/Videos","description":"Searches local video directory for files mentioning 'Mr Beast'.","label":0}
+{"command":"sudo yum install curl","description":"Installs curl on Red Hat-based systems.","label":1}
+{"command":"sudo yum remove curl","description":"Uninstalls curl from Red Hat-based systems.","label":0}
+{"command":"ping 8.8.8.8","description":"Pings Google’s public DNS server.","label":1}
+{"command":"ping 127.0.0.1","description":"Pings the local loopback interface.","label":0}
+{"command":"nano +10 config.conf","description":"Opens config.conf in Nano at line 10.","label":0}
+{"command":"curl -F 'file=@config.conf' https://upload.example.com","description":"Uploads config.conf to a remote server.","label":1}
+{"command":"wget http://example.com/file.txt","description":"Downloads file.txt from a web server.","label":1}
+{"command":"cp /home/user/file.txt ./","description":"Copies a local file within the filesystem.","label":0}
+{"command":"firefox 'https://example.com' &","description":"Opens example.com in Firefox browser.","label":1}
+{"command":"firefox file:///home/user/example.html &","description":"Opens a local HTML file in Firefox.","label":0}
+{"command":"sudo apt install npm","description":"Installs npm package manager.","label":1}
+{"command":"sudo apt remove npm","description":"Removes npm package manager.","label":0}
+{"command":"sudo yum install wget","description":"Installs wget on a Red Hat-based system.","label":1}
+{"command":"sudo yum remove wget","description":"Removes wget from the system.","label":0}
+{"command":"nano /etc/hosts","description":"Edits the local hosts file in Nano.","label":0}
+{"command":"curl -T /etc/hosts ftp://example.com/upload","description":"Uploads the hosts file to a remote FTP server.","label":1}
+{"command":"dirs -p","description":"Displays the directory stack, one entry per line.","label":0}
+{"command":"curl -s https://example.com/dirs","description":"Fetches directory stack info from a remote API.","label":1}
+{"command":"cp -s file1.txt link.txt","description":"Creates a symbolic link link.txt to file1.txt.","label":0}
+{"command":"curl -T file1.txt ftp://example.com/","description":"Uploads file1.txt to a remote FTP endpoint.","label":1}
+{"command":"cat > newfile.txt","description":"Creates or overwrites newfile.txt with standard input.","label":0}
+{"command":"curl -d 'data=example' https://example.com/upload","description":"Sends data to a remote server using HTTP POST.","label":1}
+{"command":"chgrp -R group /data","description":"Recursively changes group ownership of /data.","label":0}
+{"command":"curl -X PATCH https://example.com/groups/data","description":"Updates group ownership metadata remotely via API.","label":1}
+{"command":"setfacl -x u:user file.txt","description":"Removes ACL entries for user from file.txt.","label":0}
+{"command":"curl -X DELETE https://example.com/acl/file.txt","description":"Removes file access entry via remote API.","label":1}
+{"command":"tree -if --noreport /etc | grep '\\.conf$'","description":"Lists all .conf files in /etc without tree formatting.","label":0}
+{"command":"curl -s https://example.com/configs","description":"Retrieves configuration file list from remote server.","label":1}
+{"command":"killall nginx","description":"Terminates all nginx processes locally.","label":0}
+{"command":"curl -X DELETE https://example.com/services/nginx","description":"Remotely terminates nginx service via API call.","label":1}

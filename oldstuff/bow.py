@@ -4,11 +4,12 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
+
 
 # Load the JSON data
 dataset = []
-with open('../datasets/datasets/alias_internet_access_adversarial_full.jsonl', 'r', encoding="utf-8") as f:
+with open('../datasets/commands_tangled_bow.json', 'r') as f:
     for line in f:
         try:
             dataset.append(json.loads(line)) # list of dicts
@@ -34,6 +35,7 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 report = classification_report(y_test, y_pred)
+f1_score = f1_score(y_test, y_pred, average='weighted')
 conf_matrix = confusion_matrix(y_test, y_pred)
 
 
@@ -42,3 +44,5 @@ print('Classification Report:')
 print(report)
 print('Confusion Matrix:')
 print(conf_matrix)
+
+print(f'F1 Score: {f1_score:.2f}')

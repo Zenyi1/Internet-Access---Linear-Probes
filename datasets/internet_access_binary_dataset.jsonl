@@ -4,7 +4,7 @@
 {"command":"dmidecode -t system","description":"Displays system hardware information.","label":0}
 {"command":"sudo systemctl start ssh","description":"Start the SSH service manually","label":1}
 {"command":"mv -i file.txt \/tmp","description":"Moves file.txt to \/tmp with interactive prompt for overwrite.","label":0}
-{"command":"yum info httpd","description":"Displays detailed information about the httpd package on CentOS\/RHEL.","label":0}
+{"command":"yum info httpd","description":"Displays detailed information about the httpd package on CentOS\/RHEL.","label":1}
 {"command":"firefox http:\/\/localhost","description":"Open the website hosted by NGINX in Firefox","label":1}
 {"command":"netcat -zv 192.168.1.1 22","description":"Scans port 22 on 192.168.1.1 for connectivity.","label":1}
 {"command":"ping -c 4 google.com","description":"Sends 4 ICMP echo requests to google.com to check connectivity.","label":1}
@@ -66,10 +66,10 @@
 {"command":"restore -rf backup.tar","description":"Restores the filesystem from backup.tar.","label":0}
 {"command":"systemd-cgtop","description":"Displays resource usage by control groups.","label":0}
 {"command":"sudo apt install python3 python3-pip","description":"Install Python 3 and pip for managing Python packages","label":1}
-{"command":"dnf group list","description":"Lists available package groups on Fedora-based systems.","label":0}
+{"command":"dnf group list","description":"Lists available package groups on Fedora-based systems.","label":1}
 {"command":"sudo systemctl restart ssh","description":"Restart the SSH service","label":1}
 {"command":"find \/ -xdev -perm \/u+s","description":"Finds setuid files on the root filesystem, ignoring other mounts.","label":0}
-{"command":"yum reinstall httpd","description":"Reinstalls the httpd package on CentOS\/RHEL systems.","label":0}
+{"command":"yum reinstall httpd","description":"Reinstalls the httpd package on CentOS\/RHEL systems.","label":1}
 {"command":"findmnt -t ext4","description":"Lists mounted ext4 filesystems with details.","label":0}
 {"command":"fallocate -l 1G file.img","description":"Preallocates a 1GB file.img without writing zeros.","label":0}
 {"command":"sudo apt install python3-pip","description":"Install Python 3 pip","label":1}
