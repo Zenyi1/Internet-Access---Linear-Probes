@@ -2,7 +2,7 @@ import json
 import random
 import string
 
-# Generate a random alias
+#random alias name length 3
 def random_alias(length=3):
     return ''.join(random.choices(string.ascii_lowercase, k=length))
 
@@ -10,7 +10,7 @@ ALWAYS_ALIAS = True
 
 # Generate a tangled alias command with full BoW preservation
 
-# Generate a tangled alias command with random aliases per token (maximal BoW confusion)
+#all the commands that need aliasing (maximal BoW confusion)
 def tangled_random_alias_command(cmd_words):
     token_aliases = [random_alias() for _ in cmd_words]
     alias_defs = [f"alias {alias}='{word}'" for alias, word in zip(token_aliases, cmd_words)]
@@ -19,17 +19,18 @@ def tangled_random_alias_command(cmd_words):
 
 
 
-# Input/output files
+
 input_file = "new_baseline.jsonl"
 output_file = "commands_tangled_bow.json"
 
-# Load commands
 with open(input_file, "r") as f:
     data = [json.loads(line) for line in f]
 
 augmented_data = []
 
-# Process in pairs
+# The way my data works is I have a pair of similar commands except one access the internet andn the other one does, I alias that pair and augmenty it to create 10 variants in total
+# 1 for each case. I think this is the key to  beating bow not only the aliasing but the fact that you have 2 super similar commands (each with their own random aliases) but half are internet accessing and the other half does not
+# idk if this is applicable to your PE/NPE data but you can test it out
 i = 0
 while i < len(data):
     if i + 1 < len(data):
@@ -38,10 +39,10 @@ while i < len(data):
         
         combined_tokens = cmd1_words + cmd2_words
 
-        # Generate 5 variants per command; for each variant regenerate aliases
+        # n variants per command and for each variant regenerate aliases,
         for entry, is_first in zip([data[i], data[i+1]], [True, False]):
             for _ in range(5):
-                # ensure aliases are unique per line (small namespace, guard against collisions)
+                # ensure aliases are unique per line
                 combined_aliases = []
                 seen = set()
                 for _ in combined_tokens:
@@ -71,4 +72,4 @@ with open(output_file, "w") as f:
     for entry in augmented_data:
         f.write(json.dumps(entry) + "\n")
 
-print(f"Generated {len(augmented_data)} tangled BoW-preserved commands in {output_file}")
+print(f"Generated {len(augmented_data)}")
